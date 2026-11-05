@@ -1,0 +1,344 @@
+Site_ID,Site_Name,State,n_features,Area_SqKm,Commodity,Superfund,lead_feature,CMI,log10_HHI,top_critical,top_hazard,priority,confidence,screening_score,n_features_scored,site_rank
+UT000016,Eureka Mills,UT,14,0.43644157,copper (2); gold (2); lead (2); silver (2); zinc (2),Yes,UT000016-001,14.670941,2.9867228,Te 30000x; Pb 9620x; Ag 9434x; In 2125x; Zn 469x,Pb 885x; Cd 56x; Tl 26x; Zn 1.3x; Ag 1.3x,Dual,B,99.546828,14,1
+ID000001,Jack Waite,ID,3,0.067811333,copper (1); gold (1); lead; silver (1); zinc,No,ID000001-002,14.092239,3.1709471,Pb 15679x; Cu 2514x; Ag 1877x; Zn 453x; Sb 273x,Pb 1442x; Cu 14x; Cd 12x; Sb 5.4x; As 5.3x,Dual,C,99.358006,3,2
+MT000005,Berkley Pit,MT,6,1.7785792,copper (1); gold (1); lead (1); manganese (1); silver (1); zinc (1),Yes,MT000005-005,15,2.6422947,Te 23950x; Cu 4503x; W 2500x; As 2304x; Sb 2025x,As 369x; Sb 40x; Cu 25x; V 2.6x; Tl 1.3x,Dual,B,99.188066,6,3
+NV000016,Caselton,NV,19,0.47255044,gold (1); lead; manganese; silver; zinc,No,NV000016-001,14.691846,2.5171613,Ag 3406x; In 1870x; Pb 1049x; Zn 764x; As 644x,Cd 120x; As 103x; Pb 96x; Sb 4.7x; Zn 2.1x,Dual,C,98.678248,19,4
+MT000009,Butte Reduction Works,MT,4,0.086277327,copper (1); gold (1); lead (1); silver (1); zinc (1),Yes,MT000009-004,13.713635,2.5502471,Pb 2848x; Zn 1421x; Ag 1330x; Re 505x; Te 102x,Pb 262x; Cd 73x; Mn 14x; Zn 4.0x; As 1.1x,Dual,B,98.187311,4,5
+NV000033,Tybo,NV,5,0.40810209,gold (1); lead (1); silver (1); zinc (1),No,NV000033-001,13.372616,2.5864957,Ag 1887x; As 1786x; Pb 815x; Sb 246x; Bi 118x,As 286x; Pb 75x; Cd 18x; Sb 4.8x; Mn 1.1x,Dual,B,97.809668,5,6
+MT000013,Continental Mine,MT,2,8.0305144,copper (1); molybdenum (1); silver (1),Yes,MT000013-002,14.648036,2.171521,Cu 7147x; Ag 3755x; Bi 888x; Te 782x; As 640x,As 102x; Cu 39x; Pb 2.6x; Sb 1.1x,Dual,B,96.941088,2,7
+NV000017,Treasure Hill,NV,9,0.077710993,gold (1); lead (1); silver (1); zinc (1),No,NV000017-009,13.48642,2.1881842,Ag 14151x; Sb 2508x; Pb 986x; In 435x; Sn 71x,Pb 91x; Sb 49x; As 11x; Ag 1.9x,Dual,A,96.601208,9,8
+MO000010,Casteel,MO,2,0.02165305,copper (1); lead (1); zinc (1),No,MO000010-002,13.866241,2.121986,In 3150x; Cu 2941x; Ag 679x; As 380x; Pb 285x,As 61x; Pb 26x; Co 24x; Cu 16x; Sb 2.3x,Dual,C,96.336858,2,9
+AK000001,Red Dog,AK,27,5.0566022,lead (1); silver (1); zinc (1),No,AK000001-006,13.166035,2.2445024,Zn 1056x; Ag 774x; Pb 472x; Sb 273x; Bi 147x,Cd 92x; Pb 43x; Tl 26x; Sb 5.4x; Zn 2.9x,Dual,A,96.223565,27,10
+NV000019,Ely Valley,NV,2,0.018068681,copper (1); gold (1); lead (1); silver (1); zinc (1),No,NV000019-001,12.810692,2.3932755,Pb 1902x; Zn 469x; Ag 425x; W 238x; Bi 136x,Pb 175x; Cd 52x; As 18x; Zn 1.3x,Dual,B,96.148036,2,11
+AZ000015,Mission Complex,AZ,17,37.765094,copper; gold (1); molybdenum (1); silver (1),No,AZ000015-013,12.584269,2.4319202,Pb 2717x; Ag 377x; Cu 319x; Bi 304x; Zn 105x,Pb 250x; Cd 14x; Cu 1.8x; Co 1.3x; Mn 1.2x,Dual,B,96.148036,17,11
+UT000015,Burgin,UT,14,0.331951,cadmium (1); lead (1); manganese (1); silver (1); zinc (1),No,UT000015-003,13.071604,2.2682912,In 3450x; Pb 1087x; As 357x; Ag 302x; Zn 109x,Pb 100x; As 57x; Cd 14x; Tl 11x; Mn 2.8x,Dual,B,96.072508,14,13
+NC000002,Ore Knob Mine,NC,1,0.10283288,copper; gold; silver,Yes,NC000002-001,10.473321,2.9765085,Ni 45521x; Co 1119x; Sb 48x; Cr 27x; Cu 23x,Ni 530x; Co 413x; As 2.6x,Dual,C,95.732628,1,14
+AZ000016,Safford,AZ,10,14.356954,copper; sulfuric acid,No,AZ000016-005,12.282655,2.1930909,Bi 2735x; Zn 781x; Ag 189x; In 140x; Mn 93x,Cd 119x; Mn 26x; Co 4.5x; Pb 3.5x; Zn 2.2x,Dual,C,95.241692,6,15
+UT000006,Richardson Flat,UT,1,0.47972654,copper (1); gold (1); lead (1); silver (1); zinc (1),Yes,UT000006-001,12.959914,2.063843,Ag 1525x; Pb 660x; Sb 634x; Zn 270x; As 81x,Pb 61x; Cd 16x; As 13x; Sb 12x; Tl 8.5x,Dual,C,95.203927,1,16
+UT000002,Bingham,UT,9,54.699596,copper (1); gold (1); lead (1); molybdenum (1); palladium (2); platinum (2); rhenium (3); selenium (2); silver (1); tellurium (2); uranium (3); zinc (1),Yes,UT000002-003,12.574027,2.0946587,Cu 976x; As 340x; Bi 321x; Pb 244x; In 144x,As 54x; Pb 22x; Mo 17x; Tl 13x; Cu 5.4x,Dual,A,94.864048,9,17
+MO000009,Magmont,MO,2,1.2604849,copper (1); lead (1); zinc (1),No,MO000009-001,9.8284905,2.5532546,Pb 3804x; Ag 566x; Cu 41x; Co 18x; Ni 16x,Pb 350x; Co 6.5x,Dual,B,94.297583,2,18
+MT000026,Pittsmont Mine,MT,2,0.46514771,copper (1); gold (1); lead (1); manganese (1); silver (1); zinc (1),Yes,MT000026-001,13.921513,1.8240535,Te 2920x; W 2038x; Ag 679x; Sb 416x; Pb 295x,Pb 27x; As 18x; Sb 8.2x; Mn 5.9x; Cd 2.5x,Dual,B,94.222054,2,19
+AZ000007,Resolution Copper,AZ,3,0.68232022,copper (2); gold (2); lead (2); manganese (2); silver (2); zinc (2),No,AZ000007-001,14.034214,1.8024771,Cu 9941x; Ag 6642x; Bi 4035x; Te 2485x; Sb 108x,Cu 55x; As 3.7x; Sb 2.1x,Dual,B,94.18429,3,20
+AZ000021,Ray,AZ,10,17.784657,copper (2); gold (2); silver (2),Yes,AZ000021-002,14.267989,1.7515473,Bi 7191x; Ag 2708x; Cu 2321x; In 502x; Sb 369x,As 15x; Pb 14x; Cu 13x; Sb 7.3x; Cd 2.5x,Dual,A,94.070997,10,21
+UT000018,Dragon,UT,1,0.2406606,clay; iron (1),No,UT000018-001,13.91039,1.7266599,Bi 1065x; Ag 906x; Te 844x; Sb 562x; As 189x,As 30x; Sb 11x; Pb 7.3x; Co 2.0x; Cd 1.4x,Dual,A,93.806647,1,22
+OK000001,Tar Creek,OK,106,10.47775,lead (1); zinc (1),Yes,OK000001-003,9.2851652,2.9481078,Zn 7254x; In 105x; Ge 36x; Te 32x; Ga 16x,Cd 865x; Zn 20x; Hg 1.0x,Dual,C,93.674471,98,23
+NV000018,Pan American,NV,2,0.029249574,lead (1); silver (1); zinc (1),No,NV000018-001,11.08617,2.0447798,Ag 2491x; Pb 1087x; Sb 123x; Zn 78x; As 13x,Pb 100x; Cd 2.8x; Mn 2.8x; Sb 2.4x; As 2.0x,Dual,B,93.655589,2,24
+AZ000037,Keystone,AZ,1,0.0092694422,gold (1); silver (1),No,AZ000037-001,12.827469,1.8451427,Sb 1639x; Cu 1435x; In 362x; Bi 147x; Pb 126x,Sb 32x; As 15x; Pb 12x; Cu 7.9x; Cd 2.5x,Dual,B,93.353474,1,25
+ID000071,Stibnite,ID,12,1.3429344,antimony (1); gold (1); silver (1); tungsten (1),Yes,ID000071-001,11.34897,1.9667466,Sb 2459x; As 268x; Re 177x; W 125x; Ag 38x,Sb 48x; As 43x,Dual,A,93.277946,12,26
+MO000004,Sweetwater,MO,1,3.0395896,copper (1); lead (1); zinc (1),No,MO000004-001,9.7732277,2.375557,Pb 2522x; Ag 170x; Sb 61x; In 38x; Cu 15x,Pb 232x; Cd 2.6x; Sb 1.2x,Dual,B,93.164653,1,27
+AZ000017,Silver Bell,AZ,12,7.847445,copper (1); gold (1); lead (1); molybdenum (1); silver (1); zinc (1),No,AZ000017-010,11.986884,1.7133681,Bi 88245x; Cu 2461x; In 884x; Ag 57x; Sn 19x,Cd 36x; Cu 13x; Pb 1.4x,Dual,B,91.918429,12,28
+AZ000009,United Verde,AZ,3,0.93825813,copper; gold; lead; silver; zinc,No,AZ000009-002,12.232691,1.6510797,Cu 2353x; Ag 623x; Zn 234x; Sb 164x; Sn 71x,Cu 13x; As 11x; Co 9.1x; Cd 4.2x; Pb 3.4x,Dual,C,91.880665,3,29
+NM000003,Chino,NM,21,26.903563,copper (1); gold (1); molybdenum (1); silver (1),No,NM000003-014,12.720738,1.5652966,Ag 1132x; Bi 476x; Pb 292x; Zn 219x; In 172x,Pb 27x; Cd 5.5x; Co 1.6x; Mn 1.3x,Dual,B,91.8429,18,30
+NV000001,Weepah,NV,8,0.30759164,gold (1); silver (1),No,NV000001-003,9.3722174,2.1693774,As 893x; Ag 377x; Cu 59x; Pb 38x,As 143x; Pb 3.5x,Dual,C,91.805136,8,31
+MO000008,Buick,MO,2,3.2863616,copper (1); lead (1); zinc (1),No,MO000008-001,8.2893917,2.9126581,Pb 8859x; Ag 113x; In 18x; Mg 17x; Pd 5.8x,Pb 815x; Mn 1.2x,Dual,B,91.654079,2,32
+MO000003,Indian Creek,MO,2,1.0817496,lead (1); zinc (1),Yes,MO000003-002,11.147768,1.708899,Cu 2456x; In 404x; Ag 113x; Co 76x; Pb 41x,Co 28x; Cu 13x; As 4.0x; Pb 3.7x,Dual,B,91.351964,2,33
+ID000006,Terrible Edith,ID,1,0.0041664887,copper; gold (1); lead; silver; zinc,No,ID000006-001,11.041976,1.6611506,Zn 417x; Ag 321x; Pb 257x; Sb 99x; In 32x,Pb 24x; Cd 15x; As 2.4x; Sb 1.9x; Zn 1.2x,Dual,C,91.087613,1,34
+WY000002,Atlantic City,WY,3,3.8028502,iron,No,WY000002-001,9.4205445,1.9805812,Co 238x; Cu 211x; Zn 177x; As 33x; Ni 9.0x,Co 88x; As 5.3x; Cu 1.2x,Dual,C,90.936556,3,35
+MT000020,Golden Sunlight,MT,7,7.0096895,copper (1); gold; silver (1),No,MT000020-005,10.534394,1.7221844,Ag 708x; Pb 552x; Te 214x; Cu 207x,Pb 51x; Cu 1.1x,Dual,C,90.70997,7,36
+NV000014,Candelaria Mine,NV,11,3.1444045,gold; silver,No,NV000014-005,10.621932,1.685838,Sb 1107x; Ag 188x; Pb 117x; As 89x; Sn 21x,Sb 22x; As 14x; Pb 11x,Dual,A,90.70997,11,36
+CO000006,Lower Beaver Creek,CO,1,0.51294599,gold; silver (1),No,CO000006-001,10.422645,1.7727399,Ag 802x; Pb 410x; Zn 120x; As 29x; Mn 23x,Pb 38x; Cd 9.6x; Mn 6.5x; As 4.7x,Dual,B,90.634441,1,38
+MT000011,Carpenter Creek Tailings,MT,2,0.018940187,gold (1); lead (1); silver (1),Yes,MT000011-001,10.486585,1.7053573,Ag 927x; Zn 183x; Cu 59x; Mn 56x; Pb 55x,Mn 16x; Cd 16x; Co 5.3x; Pb 5.0x; Tl 2.8x,Dual,B,90.521148,2,39
+NV000031,Grantsville,NV,7,0.10270101,copper (1); lead (1); silver (1); tungsten (1); zinc (1),No,NV000031-002,11.23264,1.460303,Te 601x; Ag 189x; Bi 147x; As 125x; Sb 82x,As 20x; Cd 2.8x; Sb 1.6x; Pb 1.2x; Tl 1.0x,Dual,B,90.067976,7,40
+MT000025,Montana Tunnels,MT,2,2.5959214,gold; lead; silver; zinc,No,MT000025-001,10.568271,1.4996169,Ag 330x; Sb 245x; Pb 180x; In 72x; Te 35x,Pb 17x; Sb 4.8x; As 4.4x; Tl 2.5x; Cd 1.8x,Dual,B,89.765861,2,41
+NV000028,Ward,NV,2,0.0517202,cadmium; copper; lead; silver; zinc,No,NV000028-001,10.824864,1.4863647,Ag 474x; Te 400x; Pb 239x; Bi 55x; Zn 27x,Pb 22x; Cd 2.7x; Tl 2.2x; As 1.5x; Mn 1.1x,Dual,B,89.765861,2,41
+MT000014,Elkhorn Mine and Mill,MT,3,0.045553753,copper (1); gold (1); lead (1); silver (1); zinc (1),No,MT000014-003,11.203888,1.3787123,Sb 410x; Ag 377x; Bi 132x; W 106x; Cu 74x,As 8.6x; Sb 8.1x; Pb 6.2x,Dual,B,89.350453,3,43
+AZ000036,Alpha,AZ,1,0.0024969894,copper; gold; lead; silver; zinc,No,AZ000036-001,10.037053,1.522123,Ag 328x; Zn 281x; As 101x; In 46x; Mn 25x,As 16x; Mn 7.2x; Cd 2.5x; U 2.4x; Pb 1.3x,Dual,C,89.010574,1,44
+UT000001,Mercur,UT,3,1.3350629,gold; mercury (1); silver,No,UT000001-003,7.0027898,2.9291569,As 762x; Te 57x; Sb 22x,Tl 726x; As 122x,Dual,B,88.708459,3,45
+NV000032,Inspiration,NV,3,0.5602208,gold (2),No,NV000032-001,7.2402844,2.3855468,Sb 12295x; Ag 75x; Cu 12x; Ba 7.2x,Sb 242x,Dual,B,88.330816,3,46
+AZ000002,Miami-Inspiration,AZ,13,13.342432,copper; gold; lead; molybdenum; silver,No,AZ000002-003,10.356423,1.344107,Cu 882x; Zn 156x; Sn 107x; Ag 57x; Pb 27x,Co 8.7x; Mo 5.1x; Cu 4.8x; Pb 2.5x,Dual,C,88.028701,13,47
+SD000001,Wharf,SD,19,4.1479612,gold; silver,No,SD000001-001,8.1033779,1.8636589,As 320x; Ag 160x; Pb 22x; Sb 12x; Te 9.6x,As 51x; Tl 16x; Mn 2.1x; Pb 2.0x,Dual,C,87.575529,11,48
+UT000021,Apex Standard,UT,2,0.011533657,copper (1); gold (1); lead (1); silver (1),No,UT000021-002,9.634851,1.2948385,In 3450x; Ag 245x; Pb 76x; Zn 47x,Tl 11x; Pb 7.0x; Mn 1.4x,Dual,B,86.706949,2,49
+UT000017,Eureka Standard,UT,2,0.025505989,copper (1); gold (1); lead (1); silver (1); zinc (1),No,UT000017-001,9.634851,1.2948385,In 3450x; Ag 245x; Pb 76x; Zn 47x,Tl 11x; Pb 7.0x; Mn 1.4x,Dual,B,86.706949,2,49
+ID000018,Coeur d'Alene District Waste Consolidation Areas and Repositories,ID,8,4.2053389,antimony (1); cadmium (2); cobalt (2); copper (2); gold (2); lead (2); silver (2); zinc (2),Yes,ID000018-007,8.7924825,1.4844972,Ag 283x; Pb 214x; Zn 33x; As 19x; Mn 16x,Pb 20x; Mn 4.6x; As 3.1x; Cd 2.3x,Dual,B,86.480363,8,51
+SD000002,Homestake,SD,6,2.6948784,gold; silver (1),Yes,SD000002-005,8.1696909,1.6374896,As 246x; Ag 94x; Re 91x; Mn 8.4x; Cu 8.3x,As 39x; Mn 2.4x,Dual,B,86.480363,6,51
+AZ000018,Johnson Camp Mine,AZ,2,0.89576711,copper; gold; lead; silver; zinc,No,AZ000018-002,11.442657,1.1037422,Cu 1176x; In 265x; W 123x; Ag 104x; Sb 82x,Cu 6.5x; Sb 1.6x; Mn 1.4x; Cd 1.4x; Co 1.0x,Dual,B,86.367069,2,53
+AZ000011,Bisbee,AZ,6,7.3970758,copper; gold; lead; manganese; silver; sulfuric acid; zinc,No,AZ000011-005,11.038047,1.120554,Cu 1647x; Bi 492x; Ag 151x; W 76x; Sn 19x,Cu 9.0x; As 1.7x; Pb 1.4x,Dual,B,86.178248,4,54
+KS000003,Galena Subsite,KS,27,2.7061194,lead; zinc,Yes,KS000003-002,8.4508277,1.4932681,Pb 157x; Zn 156x; Sn 51x; Ag 18x; Cu 13x,Pb 14x; Cd 13x,Dual,C,86.102719,27,55
+NV000008,Ketchup Flat,NV,3,0.68088637,gold; silver,No,NV000008-001,10.386272,1.1526735,Bi 647x; Ag 604x; Sb 311x; Te 16x; As 12x,Sb 6.1x; Tl 3.2x; As 2.0x; Hg 1.6x,Dual,A,85.838369,3,56
+NV000007,Paradise Peak,NV,4,1.3597821,gold; mercury (1); silver,No,NV000007-002,10.339127,1.1488023,Ag 604x; Bi 588x; Sb 307x; Te 16x; As 12x,Sb 6.0x; Tl 3.2x; As 2.0x; Hg 1.6x,Dual,A,85.611782,4,57
+CA000001,Mountain Pass,CA,7,1.7001353,gold (1); rare earth elements,No,CA000001-007,12.695274,0.99125966,La 700x; Ce 505x; Pr 377x; Nd 303x; Ba 123x,Ba 4.5x; Pb 2.9x,Dual,A,84.856495,7,58
+KS000001,Treece Subsite,KS,53,2.5431817,lead; zinc,Yes,KS000001-026,7.2567279,1.6755683,Pb 384x; Zn 213x; Cu 15x,Pb 35x; Cd 9.3x,Dual,B,84.705438,52,59
+NV000030,Golden Butte,NV,7,0.33828264,gold (2),No,NV000030-002,5.9428717,2.5223302,Sb 16393x; As 63x,Sb 323x; As 10x,Dual,B,84.176737,7,60
+AZ000014,Mineral Park,AZ,6,5.330881,copper (1); gold (1); lead (1); molybdenum (1); silver (1); zinc (1),No,AZ000014-003,9.4538536,1.1196784,Cu 428x; Bi 81x; Pb 67x; In 48x; Sb 25x,Pb 6.2x; As 3.3x; Cu 2.3x,Dual,B,84.063444,6,61
+AZ000028,Tennessee-Schuylkill,AZ,1,0.081869526,copper (1); gold (1); lead (1); silver (1); zinc (1),No,AZ000028-001,8.3892368,1.264506,In 112x; Pb 75x; As 47x; Bi 44x; Zn 14x,As 7.5x; Pb 6.9x; Tl 1.5x,Dual,C,83.912387,1,62
+MT000023,Iron Rod,MT,1,0.0046436233,gold (1); copper (1); lead (1); silver (1); zinc (1),No,MT000023-001,9.0763477,1.1752472,Ag 189x; Pb 109x; Bi 59x; Cu 41x; Te 24x,Pb 10x; Cd 2.8x; V 1.3x,Dual,B,83.836858,1,63
+UT000010,Bauer,UT,1,1.1301025,antimony (1); arsenic (1); bismuth (1); cadmium (1); copper (1); gold (1); lead; manganese (1); silver; zinc (1),Yes,UT000010-001,7.853802,1.3219205,Pb 86x; Ag 42x; Sb 42x; Te 29x; As 17x,Pb 7.9x; Tl 7.6x; As 2.6x,Dual,C,83.610272,1,64
+MT000017,Forest Rose Mill,MT,1,0.024256364,copper; gold; lead; silver; zinc,No,MT000017-001,8.7324769,1.0583047,Ag 167x; Zn 94x; In 46x; Cu 38x; As 20x,Cd 3.9x; As 3.2x; Pb 1.2x; Tl 1.1x,Dual,A,81.910876,1,65
+CO000001,Henderson,CO,3,6.1254538,molybdenum,Yes,CO000001-002,7.1239731,1.2216351,W 57x; Zn 38x; Mn 23x; Sn 17x; Pb 15x,Mn 6.6x; Tl 5.8x; Pb 1.4x; Cd 1.4x,Dual,B,81.117825,3,66
+MO000005,Fletcher,MO,2,1.9458568,copper (1); lead (1); zinc (1),No,MO000005-002,7.0996979,1.2117258,Pb 105x; Ag 25x; Mg 21x; Zn 20x; Cu 11x,Pb 9.7x; Cd 2.3x; Co 1.7x; Mn 1.5x,Dual,B,80.966767,2,67
+MT000029,Zortman,MT,10,0.91527286,gold; silver (1),Yes,MT000029-007,6.9367154,1.2912623,As 57x; Te 55x; Bi 29x; Re 10x; Pb 9.3x,As 9.1x; Tl 6.9x; Mn 1.1x,Dual,C,80.891239,10,68
+MT000016,Flat Creek IMM,MT,1,0.02173411,copper (1); gold (1); lead (1); silver (1); zinc (1),Yes,MT000016-001,7.7927871,1.1180159,Sb 300x; Bi 29x; Pb 29x; Zn 22x; As 11x,Sb 5.9x; Pb 2.7x; As 1.8x,Dual,B,80.81571,1,69
+MT000022,Hidden Lake Mill,MT,1,0.024678927,gold (1),No,MT000022-001,6.6732883,1.3280472,As 125x; Bi 88x; Ag 13x; B 6.5x; Cu 5.0x,As 20x,Dual,B,80.173716,1,70
+WA000001,Pend Oreille,WA,4,0.47210193,lead; zinc,No,WA000001-001,6.4007749,1.333743,Zn 156x; Ge 22x; Pb 18x; Mg 12x,Cd 17x; Tl 1.7x; Pb 1.7x,Dual,B,79.380665,4,71
+NY000002,MacIntyre,NY,11,2.75744,iron (1); titanium (1); vanadium (1),No,NY000002-005,7.2618198,1.0606499,Ti 53x; W 46x; V 27x; Cr 18x; Co 16x,Co 5.9x; V 4.4x; Mn 1.1x,Dual,B,79.305136,11,72
+MT000021,Granite-Bimetallic Mine,MT,2,0.081363447,copper; gold; lead; manganese; silver; zinc,Yes,MT000021-001,6.4563093,1.2722817,As 89x; Sb 82x; Ag 47x,As 14x; Sb 1.6x; Tl 1.6x,Dual,B,79.003021,2,73
+NM000004,Questa,NM,10,7.2141576,molybdenum (1),Yes,NM000004-003,8.0013389,0.88475015,Re 1471x; Te 26x; Bi 23x; Ag 19x; W 9.0x,Mo 2.4x; Tl 2.2x,Dual,A,76.548338,10,74
+NV000026,Atlanta,NV,4,0.25905423,gold (1); silver (1),No,NV000026-002,6.5517341,1.0642039,Ag 189x; Sb 164x; U 8.3x; Pd 7.7x,Tl 6.4x; Sb 3.2x; U 1.1x,Dual,A,76.510574,4,75
+AZ000006,San Manuel,AZ,7,15.878221,copper; gold; molybdenum; silver,No,AZ000006-001,9.6994348,0.66618129,Re 904x; Cu 394x; Ag 38x; Te 25x; W 15x,Cu 2.2x,Resource,B,75.490937,7,76
+AZ000019,Pinto Valley,AZ,5,7.7574656,copper; gold; molybdenum; silver,No,AZ000019-005,9.1004618,0.73053112,Re 1778x; Cu 568x; Te 23x; In 15x; Sn 6.4x,Cu 3.1x,Resource,B,75.26435,5,77
+VA000014,Round Hill Mine,VA,3,1.90305,titanium; zirconium,No,VA000014-001,8.974072,0.71915658,Zr 295x; Hf 171x; Ta 32x; Ti 27x; Nb 21x,Mn 2.2x; U 1.7x,Resource,C,74.622356,2,78
+AZ000030,Emerald Isle,AZ,2,0.40166727,copper; gold (1); silver (1),No,AZ000030-001,7.0033157,0.80663234,Cu 217x; Zn 111x; Ni 15x; As 5.9x,Cu 1.2x; Tl 1.2x,Resource,B,72.620846,2,79
+ID000053,Bear Top/Orofino,ID,3,0.0085169844,copper (1); gold (1); lead (1); silver (1); zinc (1),No,ID000053-001,5.3584258,1.1741585,Pb 113x; Zn 15x; In 6.2x; Cu 5.5x,Pb 10x; Co 1.3x,Hazard,B,72.432024,3,80
+AZ000005,Sierrita-Esperanza,AZ,7,26.130938,copper; molybdenum; rhenium,No,AZ000005-001,8.3481166,0.63342055,Re 790x; Cu 62x; Bi 29x; Ag 14x; U 11x,U 1.5x,Resource,B,72.243202,7,81
+AZ000024,Moss,AZ,5,1.2977581,gold (1); silver (1),No,AZ000024-001,6.2954778,0.9045292,Ag 132x; Sb 82x; As 18x,As 2.9x; Tl 2.7x; Sb 1.6x,Dual,B,71.978852,5,82
+NY000006,Mineville,NY,8,0.69701538,apatite (2); iron (2),No,NY000006-002,6.955696,0.78282554,Gd 26x; As 25x; Tm 25x; La 24x; Er 24x,As 4.0x,Resource,A,71.865559,8,83
+NV000027,Northumberland,NV,11,0.96499732,gold (1); silver (1),No,NV000027-004,4.9592545,1.230709,As 89x; Ag 13x; Te 6.0x,As 14x; Tl 2.3x,Hazard,B,71.52568,10,84
+AZ000038,Tungstona,AZ,1,0.029405698,tungsten,No,AZ000038-001,7.0456287,0.7272239,Bi 53x; Be 39x; W 29x; U 21x; Pt 9.0x,U 2.8x; Tl 1.1x,Resource,B,71.487915,1,85
+NM000002,Continental Mine,NM,2,1.8722883,copper (2); iron (2),No,NM000002-001,7.9806527,0.627175,Cu 118x; In 81x; Re 35x; Te 20x; Ag 14x,Mn 1.4x; Co 1.3x,Resource,B,71.412387,2,86
+ID000017,Golden Chest,ID,1,0.023660692,copper (1); gold; lead (1); silver; tungsten; zinc (1),No,ID000017-001,6.6011718,0.81775332,Ag 47x; Sb 39x; Pb 30x; Bi 15x; Te 5.0x,Pb 2.7x; Co 1.1x,Dual,B,71.261329,1,87
+MO000006,West Fork,MO,1,0.56941539,copper (1); lead (1); zinc (1),No,MO000006-001,6.3037966,0.87265594,Ge 32x; Pb 29x; In 22x; Zn 17x; Pd 5.8x,Pb 2.6x; Co 2.1x; Cd 1.4x,Dual,B,71.261329,1,88
+UT000012,Desert Mound,UT,3,1.138083,iron (1),No,UT000012-001,6.0124915,0.90965741,Pd 31x; Sb 24x; As 23x; W 13x,As 3.6x; Tl 1.9x; Co 1.2x,Dual,C,71.072508,3,89
+CO000013,Cripple Creek and Victor,CO,1,1.976954,gold (1); silver (1),No,CO000013-001,5.9632651,0.94895514,Te 43x; W 21x; Sb 11x; As 11x; Nb 8.1x,Tl 4.6x; As 1.8x,Dual,A,71.034743,1,90
+ID000002,Monarch,ID,3,0.010034508,copper (1); gold (1); lead; silver (1); zinc,No,ID000002-002,5.6356608,1.0279229,Pb 77x; Zn 23x; In 7.6x; Sb 6.8x,Pb 7.1x,Dual,C,70.996979,3,91
+NM000001,Tyrone,NM,13,16.299967,copper (2); gold (3); silver (3),No,NM000001-008,8.5154307,0.55131087,Bi 141x; Ag 94x; Te 32x; Cu 29x; Sb 26x,,Resource,C,70.883686,11,92
+ID000007,Silver Scott,ID,1,0.0025899491,silver,No,ID000007-001,5.2416389,1.105072,Pb 82x; As 14x; Zn 8.1x,Pb 7.5x; As 2.2x; Cd 1.4x,Hazard,B,70.808157,1,93
+UT000008,Goldstrike,UT,1,0.255402,gold; silver,No,UT000008-001,5.1951449,1.110161,As 45x; Te 27x; Ag 19x,As 7.2x; Tl 3.8x,Hazard,B,70.6571,1,94
+AZ000012,Bagdad,AZ,9,19.890476,copper (1); gold (1); lead (1); molybdenum (1); rhenium (1); silver (1); zinc (1),No,AZ000012-003,6.8548411,0.72856028,Sb 43x; Cu 41x; Bi 29x; As 14x; Re 10x,As 2.2x,Resource,B,70.392749,9,95
+SD000003,Gilt Edge,SD,11,0.57144312,gold; silver,Yes,SD000003-001,5.7029271,0.88979582,Cu 55x; Zn 15x; As 11x; Mn 9.0x; Co 6.7x,Mn 2.5x; Co 2.5x; As 1.7x,Dual,C,68.91994,11,96
+NV000020,Delamar,NV,11,0.12526229,gold (1); silver (1),No,NV000020-011,5.2845961,0.97347253,Ag 85x; Te 19x; Pb 6.4x; In 5.6x,Tl 5.4x; Cd 1.4x,Hazard,B,68.31571,11,97
+AZ000035,Summit,AZ,2,0.00690054,copper; gold; lead; silver; zinc,No,AZ000035-001,5.8120496,0.81047163,Zn 82x; Sn 36x; Pb 8.9x; As 7.7x,Cd 2.9x; As 1.2x,Dual,C,68.240181,2,98
+SD000004,Richmond Hill,SD,5,0.64440789,gold; silver,No,SD000004-005,5.0476201,1.0096718,As 45x; Mg 7.7x; Ni 7.2x; Cu 7.0x; Cr 6.5x,As 7.1x; Co 1.6x,Hazard,C,68.164653,5,99
+IL000001,Bautsch-Gray,IL,2,0.25948998,lead; zinc,Yes,IL000001-001,5.6467759,0.86793077,Zn 50x; Pb 30x; Mg 17x; As 6.1x,Pb 2.8x; Cd 1.7x,Dual,A,68.05136,2,100
+MT000024,Landusky,MT,12,2.0981221,gold; silver (1),Yes,MT000024-003,5.107868,0.98249471,Te 66x; As 19x; Zn 6.2x,Tl 3.8x; As 3.1x; Mn 1.1x,Hazard,C,67.975831,9,101
+ID000038,Crescent,ID,3,0.037451261,copper (1); gold (1); lead; silver; zinc (1),Yes,ID000038-003,4.6542676,1.1662457,Ag 19x; In 8.6x; Pb 8.2x; Re 7.6x,Tl 12x; Mn 1.1x,Hazard,B,67.862538,3,102
+KS000002,Baxter Subsite,KS,49,2.1432472,lead; zinc,Yes,KS000002-015,4.8571239,1.0326855,Zn 118x; Pb 13x,Cd 6.4x; Pb 1.2x; Co 1.1x,Hazard,C,67.484894,44,103
+NV000013,Nivloc Mine,NV,3,0.070753325,gold; silver,No,NV000013-002,6.3036891,0.65814663,Ag 2879x; Pb 18x; Be 14x,Pb 1.7x; Tl 1.5x,Resource,B,67.069486,3,104
+KY000003,Hutson Mine,KY,3,0.057283048,zinc,No,KY000003-002,6.3605961,0.64208977,Cr 34x; Ni 34x; Ag 19x; Nb 12x; Mg 8.7x,Co 2.8x,Resource,B,67.050604,3,105
+MI000001,Humboldt Mine,MI,8,2.2783914,iron (1),No,MI000001-007,6.9692548,0.54033564,Sn 82x; Ta 70x; Rb 15x; Nb 15x; W 7.5x,Tl 3.1x,Resource,C,66.993958,8,106
+AZ000008,Morenci,AZ,19,39.602622,copper (1); molybdenum (1),No,AZ000008-015,5.9867074,0.71331662,Cu 744x; W 22x; Sn 7.1x,Cu 4.1x,Resource,B,66.729607,12,107
+NV000022,Hall-Tonopah,NV,9,6.5029939,copper (1); molybdenum (1),No,NV000022-003,10.087828,0.37760614,W 625x; Ag 132x; Bi 118x; Cu 59x; Sn 21x,,Resource,C,66.654079,9,108
+AZ000001,Copper Cities,AZ,3,2.2063649,copper; gold; molybdenum; silver,No,AZ000001-002,6.9382264,0.53356868,Re 146x; Cu 35x; Te 14x; Bi 12x; Sn 10x,Tl 1.9x,Resource,B,66.465257,3,109
+ID000041,Page,ID,3,0.28044839,copper (1); gold (1); lead (1); silver (1); zinc (1),Yes,ID000041-002,5.2422803,0.82493963,Ag 42x; Pb 38x; In 5.9x,Pb 3.5x,Hazard,B,65.558912,3,110
+NV000010,Argentum Mill,NV,2,0.096078459,borates; gold; silver,No,NV000010-001,5.8811842,0.64503249,Sb 164x; Ag 57x; Cu 12x,Sb 3.2x,Resource,C,65.143505,2,111
+MT000001,Anaconda Smelter,MT,6,18.152874,copper (1); gold (1); lead (1); manganese (1); silver (1); zinc (1),Yes,MT000001-006,7.4762223,0.44250904,Cu 118x; Bi 88x; Ag 57x; Pb 11x,Pb 1.0x,Resource,C,65.067976,6,112
+MI000016,White Pine,MI,4,20.552213,copper (1); silver (1),No,MI000016-002,5.9040807,0.60483985,Cu 182x; Zn 14x; As 8.8x; Cr 6.6x; B 5.3x,As 1.4x; Cu 1.0x,Resource,C,64.274924,4,113
+AZ000003,Twin Buttes,AZ,7,18.313995,copper; molybdenum (2); uranium,No,AZ000003-001,7.5377094,0.42196924,Cu 92x; Bi 35x; Re 30x; W 24x; In 15x,,Resource,C,64.199396,7,114
+CO000002,Climax,CO,3,7.5136046,molybdenum (1); pyrite (2); tin (1); tungsten (1),No,CO000002-003,5.3365253,0.73327361,Bi 30x; Zn 22x; Pb 9.8x; In 6.8x,Tl 1.3x; Cd 1.0x,Lower,B,63.632931,3,115
+NV000002,Fondaway Canyon,NV,1,0.091484653,antimony; gold; mercury; tungsten,No,NV000002-001,5.0883589,0.76941448,Sb 77x; As 15x,As 2.5x; Sb 1.5x,Lower,C,63.406344,1,116
+ID000016,Giant Ledge,ID,1,0.0024588578,copper; lead,No,ID000016-001,4.8293915,0.82276771,Pb 21x; As 20x; Cu 7.6x; Zn 5.9x,As 3.1x; Pb 1.9x,Hazard,B,63.028701,1,117
+MI000002,Gardner-Mackinaw Mines,MI,2,0.016827389,iron,No,MI000002-001,4.6539799,0.90379738,U 41x; V 12x; Y 5.9x,U 5.3x; V 1.9x,Hazard,C,62.915408,2,118
+CO000008,Alma,CO,1,0.52205514,gold; silver (1),No,CO000008-001,5.2862692,0.70056045,Bi 84x; Zn 14x; Pb 13x,Tl 1.5x; Pb 1.2x,Lower,B,62.915408,1,119
+NC000020,Conrad Hill Mine,NC,1,0.012801691,gold,No,NC000020-001,5.7336154,0.55816499,Te 149x; Cu 45x; Co 5.2x,Co 1.9x; Mn 1.2x,Resource,A,62.651057,1,120
+NV000011,Big Mike Mine,NV,6,0.25437232,copper,No,NV000011-003,5.4773922,0.62294389,In 40x; Sb 30x; As 11x; Cu 8.2x,As 1.7x; Co 1.1x,Lower,A,62.160121,6,121
+MT000008,Butte Highlands Mine,MT,1,0.016303812,gold; silver (1),No,MT000008-001,5.6887279,0.535445,Cu 59x; Ag 21x; Re 15x; Te 6.4x,Co 1.1x,Resource,B,61.404834,1,122
+OK000002,Creta,OK,4,0.39622187,copper (1); silver (1),No,OK000002-001,4.9569837,0.67573081,Cu 590x; B 7.4x,Cu 3.2x,Lower,C,61.064955,4,123
+ID000004,Silver Strike,ID,2,0.0072757945,copper; gold; lead; silver; zinc (1),No,ID000004-001,4.4789377,0.79055488,As 18x; Pb 12x; Re 6.1x,As 2.9x; Pb 1.1x,Lower,B,59.082326,2,124
+ID000060,Gold Back,ID,1,0.0034921811,gold (1); lead (2); silver (2); zinc (2),No,ID000060-001,4.5701097,0.74503709,Pb 19x; W 16x; As 8.2x,Pb 1.7x; As 1.3x,Lower,B,58.610272,1,125
+ID000003,Paragon/Black Horse,ID,1,0.0086167846,copper (1); gold (1); lead; silver; zinc,No,ID000003-001,4.5137626,0.75221561,Pb 35x; Zn 23x,Pb 3.2x,Lower,B,58.572508,1,126
+ID000012,Lower Paragon,ID,1,0.0021529128,lead (1); zinc (1),No,ID000012-001,4.5137626,0.75221561,Pb 35x; Zn 23x,Pb 3.2x,Lower,B,58.572508,1,126
+MO000002,Pea Ridge,MO,2,0.88977099,iron; phosphate,Yes,MO000002-002,5.7407693,0.41056765,P 16x; La 15x; Y 14x; Ce 13x; Te 12x,Co 1.2x,Resource,A,57.137462,2,128
+NV000023,Johnston Mill,NV,1,0.0085127344,gold,No,NV000023-001,7.3577606,0.26336592,In 822x; Ag 132x; Te 7.5x; Cu 7.4x,,Resource,B,56.41994,1,129
+NC000005,Kings Mountain H1 Mine,NC,3,0.083089177,mica,No,NC000005-001,4.6959759,0.54283603,Sn 64x; B 10x; Mn 6.9x,Mn 1.9x,Lower,C,56.117825,3,130
+VA000015,Old Hickory Mine,VA,19,4.6052693,aluminum; titanium; zirconium,No,VA000015-002,6.6661263,0.29660336,Zr 90x; Hf 51x; Ti 15x; Nb 10x; Ta 6.7x,,Resource,B,55.287009,16,131
+KS000004,Badger Subsite,KS,4,0.19851903,lead (1); zinc (1),Yes,KS000004-001,3.8029536,0.75401818,Zn 41x; Pb 9.8x; Ag 7.0x,Cd 2.7x,Lower,C,54.682779,4,132
+AZ000020,Iron King,AZ,1,0.28854484,cadmium (1); copper; gold; lead; silver; zinc,Yes,AZ000020-001,4.5497498,0.53103483,Sb 51x; Cu 8.8x; As 5.7x,Sb 1.0x,Lower,A,54.040785,1,133
+NV000009,Minnesota Mine,NV,9,0.58759381,copper (1); iron,No,NV000009-004,4.03973,0.59832942,Cu 59x; Co 8.2x,Co 3.0x,Lower,A,53.134441,9,134
+KS000006,Lawton Subsite,KS,8,0.22887594,lead (1); zinc (1),Yes,KS000006-001,3.6440508,0.74559418,Ag 7.9x; Mn 6.6x; Zn 5.2x,Mn 1.9x; Co 1.6x,Lower,C,52.832326,6,135
+NV000015,Monte Cristo,NV,3,0.08619987,gold; silver,No,NV000015-001,3.664804,0.69722984,Ag 13x; Te 12x,Tl 2.8x,Lower,B,52.379154,3,136
+NC000022,Silver Valley Mine,NC,1,0.0057413585,gold; lead; silver; zinc,No,NC000022-001,4.5296864,0.49412798,Ag 34x; Pb 20x; Mg 7.8x,Pb 1.8x,Lower,B,52.228097,1,137
+CO000009,Twin Lakes,CO,1,1.1462891,gold; silver,No,CO000009-001,3.8876117,0.56648116,Hf 8.8x; Yb 7.2x; Sm 5.7x,Tl 1.2x,Lower,B,51.699396,1,138
+NC000007,Kings Mountain Mine - West,NC,1,0.36394671,feldspar (2); lithium (2); mica (2),No,NC000007-001,6.0993188,0.24465732,Li 184x; Ta 24x; Rb 8.9x; Cs 6.0x; B 5.3x,,Resource,B,51.359517,1,139
+NY000004,Balmat,NY,5,2.0786837,zinc,No,NY000004-002,3.8674852,0.54646428,Zn 35x; Pb 15x,Pb 1.4x; Cd 1.1x,Lower,C,51.132931,5,140
+MT000010,Calvert Mine,MT,1,0.024831599,tungsten,No,MT000010-001,4.1389606,0.50988019,Te 11x; Re 10x; Pt 8.0x; U 5.1x,,Lower,C,51.057402,1,141
+ID000068,Silver Dollar,ID,1,0.0095699608,copper (1); gold (1); lead (1); silver (1); zinc (1),Yes,ID000068-001,4.856672,0.3699401,In 22x; Pt 16x; Ag 9.4x; Pd 5.8x,,Lower,B,50.226586,1,142
+ID000070,Bunker Hill,ID,6,0.050725048,antimony (1); cadmium (2); cobalt (3); copper (4); gold (2); lead (2); silver (2); zinc (2),Yes,ID000070-005,2.8893889,0.81688894,Rb 5.8x,Tl 4.5x; Mn 1.1x,Hazard,B,49.811178,6,143
+ID000067,Silver Summit,ID,2,0.059631189,copper (1); gold (1); lead (1); silver (1); zinc (1),Yes,ID000067-001,4.9776946,0.32981785,In 22x; Pt 16x; Ag 9.4x; Pd 5.8x; F 5.0x,,Lower,B,49.73565,2,144
+CO000005,Idarado,CO,1,0.27359447,copper (2); gold (2); lead (2); silver (2); zinc (2),No,CO000005-001,3.7049257,0.53469287,Zn 11x; Pb 9.8x,,Lower,C,49.584592,1,145
+CO000011,Swan River,CO,1,0.53181728,gold; silver (1),No,CO000011-001,3.5450054,0.62586555,Te 14x; U 9.2x,U 1.2x; Tl 1.2x,Lower,B,49.546828,1,146
+NC000015,Coggins Mine,NC,1,0.0024438125,gold,No,NC000015-001,3.3879705,0.65766109,As 20x,As 3.1x,Lower,C,49.509063,1,147
+MT000012,Charter Oak Mine,MT,1,0.0061742847,copper (1); gold (1); lead (1); silver (1); zinc (1),No,MT000012-001,3.3077243,0.66810932,As 7.8x; Bi 5.2x,As 1.2x; Tl 1.2x,Lower,B,49.39577,1,148
+NV000004,Hobble Creek Mine and Mill,NV,1,0.006266587,gold,No,NV000004-001,3.5786015,0.58547905,Sb 15x; W 5.3x,,Lower,C,49.093656,1,149
+MI000010,Redridge,MI,1,0.19855451,copper (1),No,MI000010-001,3.6378571,0.54435041,Ag 10x; Cu 9.4x; Te 6.0x,Co 1.0x,Lower,C,48.753776,1,150
+MI000017,Baltic Mine Mill,MI,1,0.11284571,copper (1),No,MI000017-001,3.6378571,0.54435041,Ag 10x; Cu 9.4x; Te 6.0x,Co 1.0x,Lower,C,48.753776,1,150
+UT000004,Iron Mountain,UT,4,1.1371396,iron (1),No,UT000004-003,3.4154893,0.60985191,Ni 5.6x; V 5.4x,Co 1.8x,Lower,A,48.640483,4,152
+ID000048,Sidney,ID,4,0.026127275,copper (1); gold (1); lead (1); silver (1); zinc (1),Yes,ID000048-001,3.9303766,0.44572743,In 54x,Mn 1.1x,Lower,B,48.074018,4,153
+NC000004,Hallman-Beam Mine,NC,6,1.3144594,lithium (2),No,NC000004-001,5.6314123,0.23221108,Li 52x; Sn 41x; Be 17x,,Resource,B,48.036254,6,154
+NC000024,Bessemer City Quarry,NC,1,0.034573149,lithium (1),No,NC000024-001,5.6314123,0.23221108,Li 52x; Sn 41x; Be 17x,,Resource,B,48.036254,1,154
+AZ000010,Christmas,AZ,4,1.5136957,copper; gold; silver,No,AZ000010-002,3.8319176,0.46708813,Mg 9.1x; Cu 7.6x; Sc 6.1x,Co 1.3x,Lower,B,47.998489,4,156
+AZ000022,Cactus,AZ,5,5.2499308,copper; gold; silver,No,AZ000022-002,3.8297443,0.46549128,Cu 41x,Co 1.7x,Lower,B,47.847432,5,157
+NC000010,Chalk Mountain Mine,NC,4,0.057352662,feldspar; mica; quartz,No,NC000010-003,4.4197936,0.37931985,Sn 11x; Ag 9.4x; Ti 8.5x; Hf 6.8x,Mn 1.0x,Lower,C,47.507553,2,158
+ID000065,Monitor-Richmond,ID,3,0.013888567,copper; gold; silver,No,ID000065-002,3.1873545,0.63259334,As 12x,As 2.0x,Lower,B,47.469789,3,159
+MT000004,Beal Mountain Mine,MT,3,0.63495242,gold,Yes,MT000004-001,4.6311242,0.32801337,Cu 29x; Ag 28x; Pb 5.4x,,Lower,B,46.261329,3,160
+VA000017,Stony Creek,VA,12,1.1353491,gravel; sand; titanium; zirconium,No,VA000017-001,5.4780362,0.1970006,Hf 41x; La 21x; Yb 7.5x; Ti 7.0x; U 6.7x,,Lower,C,46.223565,6,161
+CO000007,Fairplay,CO,1,1.947461,gold; silver,No,CO000007-001,4.4975664,0.34187929,Bi 38x; Zn 8.5x; Pb 8.3x,,Lower,C,46.223565,1,161
+CO000012,French Gulch,CO,1,0.32117508,gold,No,CO000012-001,3.1838632,0.55114272,Be 5.0x; Sn 5.0x,Co 1.6x,Lower,C,45.883686,1,163
+ID000054,Crystal Lead,ID,1,0.0023276376,copper (1); gold (1); lead (1); silver (1); zinc (1),No,ID000054-001,3.0216815,0.59450979,Pb 11x,Pb 1.0x,Lower,B,45.770393,1,164
+ID000033,Idora,ID,1,0.0035704035,copper (1); gold (1); lead (1); silver (1); zinc (1),Yes,ID000033-001,4.0063252,0.38735161,In 38x; Ge 8.6x,Tl 1.0x,Lower,B,45.732628,1,165
+ID000013,Carbonate Hill,ID,1,0.0038480001,copper (1); gold (1); lead; silver (1); zinc (1),Yes,ID000013-001,3.501484,0.48747524,Ag 9.4x; Re 7.1x,Mn 1.1x,Lower,B,45.468278,1,166
+NV000025,Phelps Stokes,NV,12,0.073337075,iron (1),No,NV000025-001,3.2948185,0.51275213,Cu 12x; Co 7.0x,Co 2.6x,Lower,B,45.203927,12,167
+ID000020,Galena Complex,ID,2,0.37669801,copper; gold (1); lead; silver; zinc (1),Yes,ID000020-001,4.1764229,0.34596242,In 23x; F 6.6x; Eu 6.0x,Mn 1.1x,Lower,B,45.015106,2,168
+WY000001,Leefe,WY,3,1.7616988,phosphate rock,No,WY000001-001,7.699131,-0.19446236,P 179x; Ag 38x; Y 32x; Cr 21x; La 11x,,Resource,B,44.750755,3,169
+AZ000023,Cactus-Carlota,AZ,3,1.5604454,copper (2); silver (2),No,AZ000023-001,3.8752327,0.37626608,Bi 8.9x; Ag 7.8x; Cu 5.3x,,Lower,C,44.44864,3,170
+AZ000004,Tohono,AZ,4,2.642968,copper,Yes,AZ000004-003,3.783825,0.39839639,Cu 238x,Cu 1.3x,Lower,B,44.44864,4,170
+NV000029,Green Springs,NV,4,0.21776895,gold (1),No,NV000029-001,3.0489567,0.52907071,,,Lower,C,44.070997,4,172
+UT000013,Rex Peak Mines,UT,1,0.47928365,phosphate rock,No,UT000013-001,8.5027375,-0.46928305,Ag 132x; P 94x; Y 45x; La 26x; Er 22x,,Resource,C,43.91994,1,173
+NC000019,Iola Mine,NC,2,0.0061838549,gold,No,NC000019-001,3.6282744,0.41309138,Sc 14x; Mg 5.4x,,Lower,C,43.693353,2,174
+AZ000039,Bruce,AZ,1,0.13973331,copper (1); gold (1); lead (1); silver (1); zinc (1),No,AZ000039-001,3.2181301,0.48220383,Sb 82x,Sb 1.6x,Lower,B,43.542296,1,175
+MT000007,Block P Tailings,MT,2,0.060812263,copper (1); gold (1); lead (1); silver (1); zinc (1),Yes,MT000007-001,2.7792341,0.58540193,,Tl 1.1x,Lower,C,43.504532,2,176
+ID000029,Coeur d'Alene/Mineral Point,ID,2,0.031960128,antimony; copper; gold (1); lead; silver,Yes,ID000029-002,3.1016381,0.49929779,B 5.9x; F 5.0x,Mn 1.1x,Lower,A,43.202417,2,177
+ID000058,Independence,ID,1,0.0047863837,lead (1); silver (1),Yes,ID000058-001,3.3881497,0.42597473,B 12x,Mn 1.1x,Lower,B,42.749245,1,178
+ID000032,Amazon,ID,1,0.010633695,copper (1); gold (1); lead (1); silver (1); zinc (1),Yes,ID000032-001,3.6472859,0.38449894,In 38x; Ge 8.6x,Tl 1.0x,Lower,B,42.692598,1,179
+NM000006,Cunningham Hill Mine,NM,1,0.28212591,gold,No,NM000006-001,2.6570961,0.61596559,Cu 5.9x,Tl 1.7x,Lower,B,42.635952,1,180
+NV000005,Pine Grove,NV,6,0.053442867,gold,No,NV000005-001,4.0992954,0.30877203,Cu 29x; Ag 28x,,Lower,A,42.409366,6,181
+ID000064,Weber,ID,3,0.014403629,copper; gold; lead; silver; zinc,No,ID000064-001,3.1404027,0.44531484,Ag 23x,Co 1.3x,Lower,C,42.031722,3,182
+ID000034,Interstate-Callahan,ID,2,0.0097771666,copper (1); gold (1); lead (1); silver (1); zinc (1),Yes,ID000034-001,3.6684752,0.35946901,In 38x; Ge 8.6x,Tl 1.0x,Lower,B,41.993958,2,183
+KS000005,Crestline Subsite,KS,15,0.21136209,lead (1); zinc (1),Yes,KS000005-006,2.747165,0.53447185,Ag 6.3x,Co 1.1x,Lower,C,41.8429,12,184
+ID000039,Dayrock,ID,1,0.022439464,copper (1); gold (1); lead (1); silver (1); zinc (1),Yes,ID000039-001,2.957946,0.46744777,,,Lower,B,41.767372,1,185
+ID000037,Golconda,ID,4,0.02111868,copper (1); gold (1); lead (1); silver (1); zinc (1),Yes,ID000037-001,3.4531779,0.39550283,Ag 13x,,Lower,B,41.691843,4,186
+MO000007,Brushy Creek,MO,2,1.5387752,copper (1); lead (1); zinc (1),No,MO000007-001,2.8565849,0.49481088,Pb 15x,Pb 1.4x,Lower,C,41.540785,2,187
+ID000069,New Jersey Mill,ID,1,0.031265373,copper (1); gold; lead (1); silver; tungsten; zinc (1),Yes,ID000069-001,3.2394598,0.41586948,In 10x; F 6.5x,,Lower,B,41.163142,1,188
+ID000040,California,ID,1,0.0030583158,copper (1); gold (1); lead (1); silver (1); zinc (1),Yes,ID000040-001,2.7870895,0.50247116,,Mn 1.1x,Lower,B,40.97432,1,189
+AZ000025,Gold Road,AZ,5,0.30189246,gold (1),No,AZ000025-002,3.1360824,0.42433518,Ag 19x,Tl 1.9x,Lower,B,40.785498,5,190
+ID000019,Sunshine,ID,3,0.18440945,antimony; copper; gold (1); lead; silver; zinc (1),Yes,ID000019-001,2.7650444,0.48713199,In 5.8x; Pb 5.4x,Tl 1.1x,Lower,B,40.219033,3,191
+ID000066,Morning,ID,4,0.072087603,copper (1); gold (1); lead (1); silver (1); zinc (1),Yes,ID000066-003,2.8927192,0.43487028,B 8.8x,Mn 1.1x,Lower,B,40.181269,4,192
+UT000020,Trixie,UT,1,0.037332752,copper (1); gold (1); lead (1); silver (1); zinc (1),No,UT000020-001,3.4842957,0.3505052,Pb 11x; Ba 5.4x,Pb 1.0x,Lower,B,40.067976,1,193
+ID000011,National Copper,ID,1,0.0069028423,copper; gold; silver,Yes,ID000011-001,3.0353399,0.41603128,F 6.5x; Pb 5.4x,,Lower,B,39.84139,1,194
+VA000010,"Lineberry, J., Mine",VA,3,0.006229752,copper; iron; lead; zinc,No,VA000010-001,3.8603357,0.29411739,Hf 31x; Ti 7.2x,,Lower,C,39.765861,3,195
+MT000006,Blacktail (Linton),MT,1,0.014779208,copper (1); lead (1); silver (1); zinc (1),No,MT000006-001,2.7777345,0.43631525,Pb 27x; Mg 12x,Pb 2.5x,Lower,B,38.746224,1,196
+ID000049,Little Pittsburg,ID,2,0.0070796161,copper (1); gold (1); lead (1); silver (1); zinc (1),Yes,ID000049-002,3.5069853,0.32481827,In 54x,,Lower,B,38.595166,2,197
+NC000012,Ray Mica Mine,NC,2,0.020015195,feldspar (1); mica (1); quartz (1),No,NC000012-001,3.2073192,0.35038355,Ag 5.7x,,Lower,B,38.255287,2,198
+MI000003,Republic Mine,MI,5,5.3299569,iron,No,MI000003-004,2.7738384,0.42395889,U 7.6x,,Lower,C,38.028701,5,199
+NY000007,Chateaugay,NY,4,1.380634,iron (1),No,NY000007-002,3.2782209,0.32903785,Hf 6.2x; Ag 5.7x,,Lower,C,37.23565,4,200
+ID000035,Rex-Red Monarch,ID,4,0.055094084,copper (1); gold (1); lead (1); silver (1); zinc (1),Yes,ID000035-004,2.858293,0.35996742,In 6.2x,,Lower,B,36.480363,4,201
+ID000056,Trail Creek,ID,3,0.16816721,gold (1),No,ID000056-002,2.6282158,0.42372721,F 6.8x,,Lower,B,36.216012,3,202
+ID000015,Lucky Friday,ID,6,0.44285304,copper (1); gold (1); lead; silver; zinc,Yes,ID000015-005,2.8488171,0.35202904,B 5.9x,Mn 1.3x,Lower,B,36.140483,6,203
+CA000002,Pine Creek,CA,4,0.35818608,copper (1); gold (1); molybdenum (1); tungsten (1),No,CA000002-001,2.6836102,0.39594917,,,Lower,B,35.76284,4,204
+ID000052,Liberal King,ID,2,0.018044885,copper (1); gold (1); lead (1); silver (1); zinc (1),Yes,ID000052-001,2.751444,0.36872237,In 5.7x,,Lower,B,35.422961,2,205
+ID000042,Metropolitan,ID,1,0.0033884744,copper (1); gold (1); lead (1); silver (1); zinc (1),Yes,ID000042-001,3.3793489,0.27797818,B 5.9x; F 5.7x; P 5.3x,,Lower,B,35.347432,1,206
+ID000057,Butte and Coeur d'Alene,ID,1,0.003051102,lead (1); silver (1); zinc (1),Yes,ID000057-001,2.6246777,0.40297103,,,Lower,B,35.271903,1,207
+ID000008,Carlisle,ID,4,0.08198677,lead; silver; zinc,Yes,ID000008-003,2.4933826,0.42792091,,,Lower,B,35.026435,4,208
+NV000024,Gold Bar,NV,9,1.3754253,gold,No,NV000024-001,2.6360477,0.3901106,Sb 7.0x,,Lower,B,34.969789,9,209
+VA000002,Alberene Quarry,VA,2,0.019068106,talc,No,VA000002-001,4.0666637,0.11942412,Hf 16x; Ag 7.5x; Ti 5.2x,,Lower,C,34.932024,2,210
+ID000063,Vindicator,ID,1,0.0047188721,copper (1); lead (1); silver (1),Yes,ID000063-001,2.6997566,0.37463458,B 5.9x,,Lower,B,34.780967,1,211
+CO000004,Eagle Mine,CO,1,0.35792401,copper; gold; iron (1); lead; manganese (1); silver; zinc,Yes,CO000004-001,2.4136188,0.43159056,,,Lower,B,34.252266,1,212
+KY000002,Lafayette Fluorspar Co.,KY,2,0.037095884,barite (1); fluorite (1); lead (1); zinc (1),No,KY000002-001,2.8387588,0.31982523,Zn 14x; Pb 12x,Pb 1.1x,Lower,C,33.950151,2,213
+KY000001,Mexico Kentucky Mill Property,KY,3,0.1327206,barite (1); fluorite (1); lead (1); zinc (1),No,KY000001-001,2.8387588,0.31982523,Zn 14x; Pb 12x,Pb 1.1x,Lower,C,33.950151,3,213
+ID000045,Constitution,ID,3,0.024475368,copper (1); gold (1); lead (1); silver (1); zinc (1),Yes,ID000045-001,2.4580151,0.42145986,Pb 5.4x,,Lower,B,33.799094,3,215
+AZ000013,New Cornelia Mine,AZ,7,13.304768,copper (1); gold (1); molybdenum (1); silver (1),No,AZ000013-004,3.6928608,0.14545971,Cu 59x; Te 10x,,Lower,B,33.308157,6,216
+ID000050,Nabob,ID,4,0.037272552,copper (1); gold (1); lead (1); silver (1); zinc (1),Yes,ID000050-003,3.9351864,0.064839116,In 217x,,Lower,B,32.326284,4,217
+ID000046,Douglas,ID,3,0.030618919,copper (1); gold (1); lead (1); silver (1); zinc (1),Yes,ID000046-003,2.3884276,0.38582106,F 5.0x,,Lower,B,31.68429,3,218
+ID000030,Hecla-Star,ID,5,0.12833243,copper (1); gold (1); lead (1); silver (1); zinc (1),Yes,ID000030-003,2.3091426,0.3935521,,Mn 1.1x,Lower,B,31.306647,5,219
+NC000001,Nutrien Aurora,NC,16,35.807497,phosphate rock (1),No,NC000001-008,3.8857243,0.043160679,Hf 22x; Ti 9.6x,,Lower,C,31.231118,8,220
+ID000059,Prichard Creek,ID,1,0.42081154,gold (1); silver (1),No,ID000059-001,2.289675,0.39719863,,,Lower,B,31.193353,1,221
+ID000051,Lookout Mountain,ID,2,0.0071676429,copper (1); gold (1); lead (1); silver (1); zinc (1),Yes,ID000051-001,2.5529838,0.33321446,B 5.9x,,Lower,B,31.155589,2,222
+ID000023,Standard-Mammoth,ID,6,0.033734965,copper (1); gold (1); lead (1); silver (1); zinc (1),Yes,ID000023-003,3.1597978,0.19373209,In 15x; Eu 6.1x,,Lower,B,30.64577,6,223
+MT000003,B and H Mill Tailings,MT,1,0.0081909992,gold,No,MT000003-001,2.7593669,0.26438956,Pb 5.4x,,Lower,B,30.626888,1,224
+NV000003,Buena Vista Mine and Mill Site,NV,11,0.088535101,iron,No,NV000003-001,2.4915462,0.33898494,,,Lower,A,30.589124,11,225
+NC000006,Cranberry Mine,NC,6,0.043059069,iron,No,NC000006-001,3.6045121,0.097716901,Sn 11x; Tb 10x; Nb 5.6x,,Lower,C,30.438066,6,226
+ID000028,Sherman,ID,2,0.008357178,copper (1); gold (1); lead (1); silver (1); zinc (1),Yes,ID000028-002,3.1362133,0.19373209,In 15x; Eu 6.1x,,Lower,B,30.419184,2,227
+MT000002,Atlantic and Pacific Mine,MT,1,0.017917493,gold,No,MT000002-001,2.8362205,0.23440431,Ni 6.1x; Zr 5.4x,,Lower,C,30.173716,1,228
+VA000006,Betty Baker Mine,VA,3,0.0074847407,copper (1); iron,No,VA000006-001,3.4433771,0.11733768,Sn 11x; La 5.7x,,Lower,C,30.098187,3,229
+ID000055,Butte Creek,ID,1,0.045993594,gold (1),No,ID000055-001,2.3589599,0.34262552,,,Lower,C,29.645015,1,230
+VA000019,Brink Mine,VA,4,1.1020064,titanium; zirconium,No,VA000019-004,3.9292936,-0.063354169,Hf 35x; Ti 6.7x,,Lower,C,29.607251,2,231
+NM000012,Copper Flat,NM,1,0.20674984,copper; gold; silver,No,NM000012-001,2.5393369,0.30472909,Cu 5.9x,,Lower,B,29.569486,1,232
+KS000008,Scammon Smelter,KS,1,0.0059859566,zinc,No,KS000008-001,1.8839116,0.42334604,,Co 1.2x,Lower,C,29.493958,1,233
+VA000007,Stanley Mine,VA,3,0.027445217,copper (1); iron (1); lead (1); manganese; zinc (1),No,VA000007-002,3.5549023,0.068792194,Hf 18x; Ti 7.2x,,Lower,C,29.191843,2,234
+ID000043,Polaris,ID,1,0.0063484208,copper (1); gold (1); lead (1); silver (1); zinc (1),Yes,ID000043-001,2.5079009,0.29358425,F 6.1x,Mn 1.1x,Lower,B,28.323263,1,235
+AZ000032,Leland,AZ,4,0.022077809,gold (1),No,AZ000032-001,2.4663159,0.29723668,,,Lower,B,28.20997,4,236
+ID000021,Tamarack,ID,3,0.038577423,copper (1); gold (1); lead (1); silver (1); zinc (1),Yes,ID000021-001,2.9620616,0.12532415,In 15x; Eu 6.1x,,Lower,B,27.567976,3,237
+UT000009,International Smelting and Refining,UT,1,1.3054501,antimony (1); arsenic (1); bismuth (1); cadmium (1); copper (2); gold (2); lead (2); manganese (1); molybdenum (2); palladium (3); platinum (3); rhenium (4); selenium (3); silver (2); tellurium (3); uranium (4); zinc (1),Yes,UT000009-001,2.1174812,0.33828124,Pb 13x,Pb 1.2x,Lower,B,27.190332,1,238
+SD000005,Volney,SD,1,0.21286703,gold; lithium; tantalum; tin,No,SD000005-001,3.6910066,-0.085919246,Li 824x,,Lower,B,27.190332,1,238
+CO000010,Wilson,CO,1,0.28461013,gold,No,CO000010-001,2.5809564,0.21007726,,,Lower,B,26.397281,1,240
+NC000008,Hillsborough Mine,NC,2,0.034056213,andalusite; pyrophyllite,No,NC000008-001,2.1747676,0.29962908,Sn 6.9x,,Lower,B,25.717523,2,241
+VA000022,Stange and Arms Mine,VA,2,0.041820883,cobalt; manganese (1),No,VA000022-001,3.397918,-0.070908071,B 7.6x,,Lower,C,25.226586,2,242
+VA000003,Austinville Zinc and Lead Mines,VA,5,0.30478336,iron; lead; zinc,No,VA000003-002,2.3719035,0.24981875,Mn 5.2x,Mn 1.5x,Lower,C,25.151057,3,243
+ID000025,Hercules,ID,5,0.023000213,copper (1); gold (1); lead (1); silver (1); zinc (1),Yes,ID000025-005,2.1099859,0.29581149,,,Lower,B,24.867825,5,244
+VA000005,Montpelier Mine,VA,8,0.42377328,feldspar; kaolin; titanium; zirconium,No,VA000005-001,3.1455957,-0.0095700647,Hf 19x,,Lower,C,24.773414,8,245
+MT000019,Garnet Gold Mine,MT,1,0.020927109,copper; gold; lead; silver,No,MT000019-001,2.0246479,0.31419534,,,Lower,B,24.773414,1,246
+AZ000034,Telluride,AZ,2,0.024871989,gold (1); silver (1),No,AZ000034-001,2.8294775,0.083249952,Sn 11x,,Lower,C,24.584592,2,247
+ID000062,Alice,ID,1,0.002424703,copper (1); lead (1); silver (1); zinc (1),Yes,ID000062-001,2.2381683,0.25701182,,Mn 1.1x,Lower,B,24.358006,1,248
+MI000011,Blueberry Mine,MI,1,0.010619601,iron (1),No,MI000011-001,2.3610906,0.22582104,V 5.0x,,Lower,C,24.169184,1,249
+MI000004,Chase Mine,MI,1,0.0021668153,iron,No,MI000004-001,2.3610906,0.22582104,V 5.0x,,Lower,C,24.169184,1,249
+VA000009,Mine of the American Rutile Company,VA,5,0.056586784,phosphorus; titanium (1),No,VA000009-001,3.7027162,-0.30396579,Hf 17x; Ag 7.5x; Nb 5.6x,,Lower,C,24.13142,5,251
+MT000027,Regal Mine,MT,1,0.16425357,talc,No,MT000027-001,2.1282537,0.27048731,,,Lower,B,24.093656,1,252
+ID000047,Highland-Surprise,ID,3,0.014363471,copper (1); gold (1); lead (1); silver (1); zinc (1),Yes,ID000047-003,2.0882124,0.28303575,,,Lower,B,23.942598,3,253
+ID000027,Marsh,ID,1,0.0054518309,copper (1); gold (1); lead (1); silver (1); zinc (1),Yes,ID000027-001,2.1099859,0.25371378,,,Lower,B,23.395015,1,254
+NM000005,Bluewater,NM,2,1.5099757,uranium (1); vanadium (1),Yes,NM000005-001,2.7005232,0.084018167,Zr 5.8x,,Lower,B,23.074018,1,255
+NM000013,UNC Church Rock,NM,4,0.54271767,uranium,Yes,NM000013-001,2.8854742,-0.066498676,W 25x,,Lower,C,22.092145,4,256
+NC000003,Tungsten Queen Mine,NC,1,0.21328875,copper (2); silver (2); tungsten (2),No,NC000003-001,2.8136088,-0.025721374,Te 28x,,Lower,B,21.978852,1,257
+NC000011,Peachbottom Mine,NC,1,0.0025094561,copper; lead; silver,No,NC000011-001,2.8243185,-0.05882666,Hf 12x; Ag 5.7x,,Lower,B,21.450151,1,258
+NV000012,Wind Mountain Mine,NV,2,0.59742356,gold; silver,No,NV000012-002,2.099332,0.21401051,,,Lower,B,21.450151,2,259
+NC000009,Brushy Creek Mine,NC,4,0.44285268,feldspar (1); mica (1); quartz (1),No,NC000009-001,2.8363118,-0.075577324,Sn 7.8x,,Lower,C,21.261329,4,260
+MI000007,Mitchell Mine,MI,1,0.0030111715,iron,No,MI000007-001,2.7365299,-0.030898724,Mg 5.4x,,Lower,C,20.883686,1,261
+NY000008,Phillips,NY,1,0.019962853,copper (1); iron; sulfuric acid,No,NY000008-001,1.6064638,0.2641219,,Co 1.2x,Lower,B,20.128399,1,262
+AZ000033,Pioneer,AZ,1,0.00269528,gold (1),No,AZ000033-001,2.6026008,-0.016166512,Ag 11x,,Lower,B,19.78852,1,263
+AZ000040,Black Pearl,AZ,1,0.013379298,tungsten (1),No,AZ000040-001,2.7394186,-0.10608482,,,Lower,C,19.524169,1,264
+UT000019,North Lily,UT,1,0.030805615,gold (1); lead (1); silver (1); zinc (1),No,UT000019-001,2.3237242,0.097730842,Ba 5.4x,,Lower,B,19.335347,1,265
+AZ000026,United Eastern,AZ,1,0.067838159,gold,No,AZ000026-001,2.2904359,0.10290869,,,Lower,B,19.297583,1,266
+MI000009,Tilden/Empire,MI,3,23.88493,iron (1),No,MI000009-002,1.6423577,0.23164493,,,Lower,C,18.957704,3,267
+ID000024,Ajax,ID,2,0.014111841,copper (1); gold (1); lead (1); silver (1); zinc (1),Yes,ID000024-002,2.113282,0.12326186,,,Lower,B,18.806647,2,268
+VA000021,The Suiter Mines,VA,7,0.1020488,manganese,No,VA000021-003,2.302714,0.076422,Sm 6.4x,,Lower,C,18.31571,1,269
+OR000005,Porter Brothers,OR,4,1.6411171,gold (1); silver (1),No,OR000005-002,1.0473584,0.25137598,,,Lower,C,17.107251,3,270
+MI000014,Francis Mine,MI,1,0.0074594134,iron,No,MI000014-001,2.4160383,-0.0346931,,,Lower,C,17.069486,1,271
+MI000015,Austin Mine,MI,1,0.0039815125,iron,No,MI000015-001,1.8308645,0.13242459,,,Lower,C,17.069486,1,271
+MI000013,Stephenson Mine,MI,1,0.012852688,iron,No,MI000013-001,1.8308645,0.13242459,,,Lower,C,17.069486,1,271
+NC000025,Silver Hill Mine,NC,1,0.02722404,gold (1); lead; silver; zinc,No,NC000025-001,2.2575617,0.050408216,,,Lower,B,17.069486,1,271
+MO000011,Viburnum,MO,2,3.1466419,copper (2); lead (2); zinc (2),No,MO000011-001,2.5654311,-0.15852917,In 25x; Mg 12x,,Lower,A,16.163142,2,275
+NM000014,Old Church Rock,NM,5,0.045440183,uranium (1),Yes,NM000014-001,2.4045795,-0.08033881,Bi 29x,,Lower,C,15.936556,5,276
+ID000036,Sisters,ID,1,0.003398017,lead (1); silver (1); zinc (1),Yes,ID000036-001,1.5972076,0.15212604,,,Lower,B,15.823263,1,277
+UT000011,Midvale,UT,1,0.70024766,antimony (1); arsenic (1); bismuth (1); cadmium (1); copper; gold (2); lead; manganese (1); molybdenum (2); palladium (3); platinum (3); rhenium (4); selenium (3); silver (2); tellurium (3); uranium (4); zinc,Yes,UT000011-001,1.9582644,0.073746187,,,Lower,B,15.634441,1,278
+ID000022,Helena-Frisco,ID,6,0.023395166,copper (1); gold (1); lead (1); silver (1); zinc (1),Yes,ID000022-005,1.4576352,0.16902143,,,Lower,B,15.54003,6,279
+ID000014,West Star,ID,1,0.0029820056,lead (1); zinc (1),Yes,ID000014-001,1.4323816,0.16846232,,,Lower,B,15.351208,1,280
+NC000013,Union Copper Mine,NC,1,0.011153071,copper; gold,No,NC000013-001,2.0031263,0.062943685,,,Lower,B,15.219033,1,281
+ID000005,St. Joe,ID,1,0.0020791808,copper (1); lead (1); zinc (1),Yes,ID000005-001,1.2689226,0.187585,,,Lower,B,15.219033,1,281
+KY000006,Mico (Cook-Springs) Mine,KY,8,0.12022925,barite,No,KY000006-004,1.7964222,0.10281679,Sm 10x,,Lower,C,15.181269,8,283
+ID000010,Snowstorm,ID,3,0.011983343,copper; gold; silver,Yes,ID000010-003,1.6207565,0.12252358,,,Lower,B,15.067976,3,284
+ID000009,Tiger-Poorman,ID,1,0.0029005668,lead; silver,Yes,ID000009-001,1.6324741,0.11760785,,,Lower,B,14.992447,1,285
+ID000061,Four Square,ID,1,0.0045986567,gold; tungsten,No,ID000061-001,1.705204,0.10206737,,,Lower,B,14.690332,1,286
+NV000006,B and B Mercury Mine,NV,4,0.094665043,mercury,No,NV000006-001,1.4611688,0.13196583,,,Lower,B,14.614804,4,287
+KS000007,Waco Subsite,KS,22,0.98898374,lead (1); zinc,Yes,KS000007-015,1.8681503,0.053658407,Zn 48x,,Lower,C,14.388218,2,288
+MO000001,MO Waco Subsite,MO,8,0.024766908,lead (1); zinc,Yes,MO000001-001,1.8681503,0.053658407,Zn 48x,,Lower,C,14.388218,8,288
+MT000015,Ermont Mine and Mill,MT,1,0.027994019,copper; gold; silver,No,MT000015-001,1.5233245,0.10900768,,,Lower,B,14.161631,1,290
+MI000008,Lake Superior Group Holmes Mine,MI,1,0.012432251,iron,No,MI000008-001,2.1808076,-0.10776443,,,Lower,C,13.632931,1,291
+AZ000031,Golconda,AZ,2,0.015154204,copper (1); gold (1); lead (1); silver (1); zinc (1),No,AZ000031-001,2.4957754,-0.31045316,,,Lower,B,13.481873,2,292
+AZ000027,Tom Reed,AZ,1,0.080047909,gold,No,AZ000027-001,1.6412021,0.044421139,,,Lower,B,12.386707,1,293
+NC000014,Honeycutt Shaft/Old Field Diggings,NC,1,0.015723125,gold,No,NC000014-001,1.6817697,-0.023980431,,,Lower,B,11.442598,1,294
+CO000003,San Luis Mine,CO,1,0.6968124,gold (1); lead (1); silver (1),No,CO000003-001,1.5239119,0.019362738,,,Lower,C,11.216012,1,295
+ID000031,Canyon Silver/Formosa,ID,1,0.0095160686,copper (1); gold (1); lead (1); silver (1); zinc (1),Yes,ID000031-001,1.1747813,0.065886172,,,Lower,B,10.800604,1,296
+UT000007,Delta Mill,UT,1,0.92879706,beryllium (1),No,UT000007-001,1.2361704,0.059441134,Ag 5.7x,,Lower,C,10.800604,1,296
+VA000001,Cold Spring Kaolin Mine,VA,1,0.11114093,clay,No,VA000001-001,2.2071117,-0.38412635,Hf 10x,,Lower,C,9.8942598,1,298
+UT000003,Lisbon Valley,UT,4,2.2896681,copper,No,UT000003-004,1.4350319,-0.05953552,,,Lower,C,9.3655589,2,299
+WY000003,Riverton,WY,1,0.32893277,uranium; vanadium,No,WY000003-001,0.79252522,0.04274446,,,Lower,B,8.9879154,1,300
+MT000018,Frances Copper Mine,MT,2,0.017297689,copper,No,MT000018-001,1.7761392,-0.14312992,,,Lower,C,8.9123867,2,301
+ID000044,Silver Tip,ID,1,0.011732058,copper (1); gold (1); lead (1); silver (1); zinc (1),No,ID000044-001,0.99001798,-0.01920457,,,Lower,B,8.4969789,1,302
+NY000005,Shawangunk,NY,4,0.010988136,copper (1); lead (1); zinc (1),No,NY000005-001,1.6020649,-0.14007922,,,Lower,C,8.2703927,4,303
+ID000026,Sunset,ID,2,0.013364092,copper (1); gold (1); lead (1); silver (1); zinc (1),Yes,ID000026-002,0.89743216,-0.031432628,,,Lower,B,8.1193353,2,304
+NM000010,Amax Mine,NM,1,1.8698971,potash,No,NM000010-001,0.65175016,-0.077590047,,,Lower,C,6.3444109,1,305
+VA000012,Kennedy Mine,VA,1,0.0138295,manganese,No,VA000012-001,1.6595469,-0.36056247,Hf 5.3x,,Lower,C,6.1555891,1,306
+NM000008,Intrepid Potash,NM,3,5.9944662,magnesium; magnesium chloride; potash; potassium; salt; sulfur,No,NM000008-001,0.37260916,-0.085928109,,,Lower,B,5.9667674,3,307
+MI000005,Salisbury Mine,MI,1,0.0041958759,iron,No,MI000005-001,0.15011703,-0.16239244,,,Lower,C,4.0407855,1,308
+MI000006,Lake Angeline Mine,MI,1,0.004401956,iron,No,MI000006-001,0.15011703,-0.16239244,,,Lower,C,4.0407855,1,308
+NC000021,Glendon Mine,NC,6,0.24319746,talc,No,NC000021-001,0.86118775,-0.30968769,,,Lower,B,3.2477341,6,310
+NM000009,HB Mine,NM,2,3.3909135,potash; salt,No,NM000009-002,0.3264792,-0.31322641,,,Lower,C,2.3413897,2,311
+AZ000029,Arizona Magma,AZ,1,0.036867007,gold (1); silver (1),No,AZ000029-001,0.72968394,-0.41017447,,,Lower,C,2.152568,1,312
+VA000018,Mineral Ridge Mine,VA,1,0.047540382,manganese,No,VA000018-001,0.16684556,-0.3223002,,,Lower,B,2.1148036,1,313
+NC000018,Dry Creek Mine,NC,2,0.0075360817,talc,No,NC000018-002,0.73173358,-0.47901887,,,Lower,B,2.0015106,2,314
+NC000017,Robbins Mine,NC,3,0.080167252,talc,No,NC000017-003,0.88141102,-0.97655549,,,Lower,B,1.5483384,3,315
+NM000007,Saunders Mine,NM,1,0.90195329,potash,No,NM000007-001,0,-0.47900672,,,Lower,C,1.2651057,1,316
+NC000016,Cagle Mine,NC,1,0.014352808,gold (1); silver (1),No,NC000016-001,0.64624523,-1.1648267,,,Lower,B,0.71752266,1,317
+NM000011,Mosaic Potash Carlsbad,NM,1,4.0386325,potash,No,NM000011-001,0.28119575,-1.1082747,,,Lower,B,0.52870091,1,318
+UT000014,Mexican Hat,UT,1,0.32138255,copper; uranium; vanadium (1),No,UT000014-001,0.16749109,-1.2633547,,,Lower,C,0.3021148,1,319
+AZ000041,Copper World,AZ,2,0.094312039,copper (1),No,,,,,,Unsampled,U,,0,
+KY000004,Pygmy Property,KY,1,0.0090681014,barite (1); fluorite (1),No,,,,,,Unsampled,U,,0,
+KY000005,Babb-Barnes Property,KY,3,0.078271982,fluorite; zinc,No,,,,,,Unsampled,U,,0,
+KY000007,Lucile Mine,KY,5,0.0083379875,fluorite; lead; zinc,No,,,,,,Unsampled,U,,0,
+MI000012,Princeton Mine,MI,2,0.0095045745,iron,No,,,,,,Unsampled,U,,0,
+MT000028,Snowbird Mine,MT,1,0.030298345,fluorite,No,,,,,,Unsampled,U,,0,
+NC000023,Hawkins Mine,NC,1,0.13734839,feldspar (1); mica (1); quartz (1),No,,,,,,Unsampled,U,,0,
+NY000001,Benson,NY,10,5.6816476,iron,No,,,,,,Unsampled,U,,0,
+NY000003,Edwards,NY,1,0.68227801,zinc (1),No,,,,,,Unsampled,U,,0,
+NY000009,Clifton,NY,3,0.098893335,iron,No,,,,,,Unsampled,U,,0,
+OR000001,Imperial-Eagle Group,OR,6,0.0107256,gold (1); silver (1),No,,,,,,Unsampled,U,,0,
+OR000002,Buffalo,OR,2,0.0089122415,copper (1); gold (1); lead (1); silver (1); zinc (1),No,,,,,,Unsampled,U,,0,
+OR000003,Red Boy Group,OR,2,0.0092871479,gold (1); silver (1),No,,,,,,Unsampled,U,,0,
+OR000004,Oro Plata,OR,5,0.11159953,gold (1); silver (1),No,,,,,,Unsampled,U,,0,
+UT000005,Pioche Mines,UT,1,0.25090502,iron (1),No,,,,,,Unsampled,U,,0,
+VA000004,Crimora Mine,VA,4,0.23404786,manganese,No,,,,,,Unsampled,U,,0,
+VA000008,Wright Bank,VA,3,0.056507567,iron; manganese (1),No,,,,,,Unsampled,U,,0,
+VA000011,Vesuvius Mine,VA,3,0.17720557,manganese (1),No,,,,,,Unsampled,U,,0,
+VA000013,Black Rock Mine,VA,1,0.013268576,iron; manganese,No,,,,,,Unsampled,U,,0,
+VA000016,Puddledock Sand and Gravel,VA,8,2.1320466,gravel; hafnium; sand; titanium; zirconium,No,,,,,,Unsampled,U,,0,
+VA000020,Round Mountain Mine,VA,1,0.036157048,manganese,No,,,,,,Unsampled,U,,0,
+VA000023,Mine Bank Mine,VA,1,0.015220088,aluminum; iron; manganese,No,,,,,,Unsampled,U,,0,
+VA000024,Kimball,VA,2,0.02105187,gold (1); lead (1); silver (1); tungsten (1); zinc (1),No,,,,,,Unsampled,U,,0,
+WI000001,Little Giant,WI,1,0.010118195,lead; zinc,No,,,,,,Unsampled,U,,0,

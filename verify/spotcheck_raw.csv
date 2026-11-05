@@ -1,0 +1,320 @@
+check,lab_id,species,parameter,units,qualifier,qualified_value,bestvalue_rank,primary_class,sample_source,date_collect,latitude,longitude
+1,C368541,Cd,Cd_ppm_MS_ST,ppm,,6080.0,A08,rock,,,36.96587,-94.85694
+1,C447207,Cd,Cd_ppm_MS_HF,ppm,,6210.0,A07,rock,,2012-08-03,36.96587,-94.85694
+1,C447207,Cd,Cd_ppm_MS_ST,ppm,,6250.0,A08,rock,,2012-08-03,36.96587,-94.85694
+2,C368541,Ge,Ge_ppm_MS_ST,ppm,,51.0,A04,rock,,,36.96587,-94.85694
+2,C447207,Ge,Ge_ppm_MS_ST,ppm,,50.0,A04,rock,,2012-08-03,36.96587,-94.85694
+3,BEQ255,Sb,Sb_ppm_ES_SQ,ppm,,700.0,A26,soil,surface,,44.893765,-115.346235
+3,BEQ255,Sb,Sb_ppm_CM_Fuse_P,ppm,,800.0,P11,soil,surface,,44.893765,-115.346235
+3,BEQ256,Sb,Sb_ppm_ES_SQ,ppm,,300.0,A26,soil,surface,,44.893488,-115.34568
+3,BEQ256,Sb,Sb_ppm_CM_Fuse_P,ppm,,200.0,P11,soil,surface,,44.893488,-115.34568
+3,BEQ257,Sb,Sb_ppm_ES_SQ,ppm,,1500.0,A26,soil,surface,,44.892932,-115.345402
+3,BEQ257,Sb,Sb_ppm_CM_Fuse_P,ppm,,700.0,P11,soil,surface,,44.892932,-115.345402
+3,BEQ308,Sb,Sb_ppm_ES_SQ,ppm,N,-100.0,A26,rock,float/colluvium/talus,,44.887932,-115.339846
+3,BEQ308,Sb,Sb_ppm_CM_Fuse_P,ppm,,0.5,P11,rock,float/colluvium/talus,,44.887932,-115.339846
+3,BEQ552,Sb,Sb_ppm_ES_SQ,ppm,,2000.0,A26,rock,mine/mill tailings,,44.894043,-115.344291
+3,BEQ552,Sb,Sb_ppm_CM_Fuse_P,ppm,,1000.0,P11,rock,mine/mill tailings,,44.894043,-115.344291
+3,BEQ553,Sb,Sb_ppm_ES_SQ,ppm,,7000.0,A26,rock,mine/mill tailings,,44.893488,-115.344013
+3,BEQ553,Sb,Sb_ppm_CM_Fuse_P,ppm,,3000.0,P11,rock,mine/mill tailings,,44.893488,-115.344013
+3,BEQ554,Sb,Sb_ppm_ES_SQ,ppm,,7000.0,A26,rock,mine/mill tailings,,44.892932,-115.343458
+3,BEQ554,Sb,Sb_ppm_CM_Fuse_P,ppm,,3000.0,P11,rock,mine/mill tailings,,44.892932,-115.343458
+3,BEQ555,Sb,Sb_ppm_ES_SQ,ppm,,1500.0,A26,rock,mine/mill tailings,,44.892654,-115.342902
+3,BEQ555,Sb,Sb_ppm_CM_Fuse_P,ppm,,500.0,P11,rock,mine/mill tailings,,44.892654,-115.342902
+3,BEQ556,Sb,Sb_ppm_ES_SQ,ppm,,1500.0,A26,rock,mine/mill tailings,,44.891543,-115.344013
+3,BEQ556,Sb,Sb_ppm_CM_Fuse_P,ppm,,700.0,P11,rock,mine/mill tailings,,44.891543,-115.344013
+3,BEQ557,Sb,Sb_ppm_ES_SQ,ppm,,2000.0,A26,rock,mine/mill tailings,,44.892099,-115.344569
+3,BEQ557,Sb,Sb_ppm_CM_Fuse_P,ppm,,900.0,P11,rock,mine/mill tailings,,44.892099,-115.344569
+3,BEQ558,Sb,Sb_ppm_ES_SQ,ppm,,3000.0,A26,rock,mine/mill tailings,,44.892654,-115.345124
+3,BEQ558,Sb,Sb_ppm_CM_Fuse_P,ppm,,1000.0,P11,rock,mine/mill tailings,,44.892654,-115.345124
+3,BEQ559,Sb,Sb_ppm_ES_SQ,ppm,,1500.0,A26,rock,mine/mill tailings,,44.890988,-115.34568
+3,BEQ559,Sb,Sb_ppm_CM_Fuse_P,ppm,,900.0,P11,rock,mine/mill tailings,,44.890988,-115.34568
+3,BEQ560,Sb,Sb_ppm_ES_SQ,ppm,,5000.0,A26,rock,mine/mill tailings,,44.891543,-115.346235
+3,BEQ560,Sb,Sb_ppm_CM_Fuse_P,ppm,,2000.0,P11,rock,mine/mill tailings,,44.891543,-115.346235
+3,BEQ561,Sb,Sb_ppm_ES_SQ,ppm,,1500.0,A26,rock,mine/mill tailings,,44.891821,-115.346513
+3,BEQ561,Sb,Sb_ppm_CM_Fuse_P,ppm,,500.0,P11,rock,mine/mill tailings,,44.891821,-115.346513
+3,BEQ562,Sb,Sb_ppm_ES_SQ,ppm,,1500.0,A26,rock,mine/mill tailings,,44.892377,-115.347069
+3,BEQ562,Sb,Sb_ppm_CM_Fuse_P,ppm,,600.0,P11,rock,mine/mill tailings,,44.892377,-115.347069
+3,BEQ563,Sb,Sb_ppm_ES_SQ,ppm,,2000.0,A26,rock,mine/mill tailings,,44.892654,-115.347346
+3,BEQ563,Sb,Sb_ppm_CM_Fuse_P,ppm,,900.0,P11,rock,mine/mill tailings,,44.892654,-115.347346
+3,BEQ564,Sb,Sb_ppm_ES_SQ,ppm,,1500.0,A26,rock,mine/mill tailings,,44.89321,-115.347902
+3,BEQ564,Sb,Sb_ppm_CM_Fuse_P,ppm,,400.0,P11,rock,mine/mill tailings,,44.89321,-115.347902
+3,BEQ566,Sb,Sb_ppm_ES_SQ,ppm,,3000.0,A26,rock,mine/mill tailings,,44.891265,-115.348458
+3,BEQ566,Sb,Sb_ppm_CM_Fuse_P,ppm,,1500.0,P11,rock,mine/mill tailings,,44.891265,-115.348458
+3,BEQ567,Sb,Sb_ppm_ES_SQ,ppm,,2000.0,A26,rock,mine/mill tailings,,44.891821,-115.349013
+3,BEQ567,Sb,Sb_ppm_CM_Fuse_P,ppm,,600.0,P11,rock,mine/mill tailings,,44.891821,-115.349013
+3,BEQ568,Sb,Sb_ppm_ES_SQ,ppm,,2000.0,A26,rock,mine/mill tailings,,44.892377,-115.349569
+3,BEQ568,Sb,Sb_ppm_CM_Fuse_P,ppm,,700.0,P11,rock,mine/mill tailings,,44.892377,-115.349569
+3,BFQ779,Sb,Sb_ppm_ES_SQ,ppm,,3000.0,A26,rock,mine/mill tailings,,44.893765,-115.346235
+3,BFQ780,Sb,Sb_ppm_ES_SQ,ppm,,1500.0,A26,rock,mine/mill tailings,,44.893765,-115.346235
+3,BFQ781,Sb,Sb_ppm_ES_SQ,ppm,,700.0,A26,rock,mine/mill tailings,,44.893765,-115.346235
+3,BFQ782,Sb,Sb_ppm_ES_SQ,ppm,,500.0,A26,rock,mine/mill tailings,,44.893765,-115.346235
+3,BFQ783,Sb,Sb_ppm_ES_SQ,ppm,,1000.0,A26,rock,mine/mill tailings,,44.893765,-115.346235
+3,BFQ784,Sb,Sb_ppm_ES_SQ,ppm,,1000.0,A26,rock,mine/mill tailings,,44.893488,-115.34568
+3,BFQ785,Sb,Sb_ppm_ES_SQ,ppm,,700.0,A26,rock,mine/mill tailings,,44.893488,-115.34568
+3,BFQ786,Sb,Sb_ppm_ES_SQ,ppm,,500.0,A26,rock,mine/mill tailings,,44.893488,-115.34568
+3,BFQ787,Sb,Sb_ppm_ES_SQ,ppm,,200.0,A26,rock,mine/mill tailings,,44.893488,-115.34568
+3,BFQ788,Sb,Sb_ppm_ES_SQ,ppm,,200.0,A26,rock,mine/mill tailings,,44.893488,-115.34568
+3,BFQ789,Sb,Sb_ppm_ES_SQ,ppm,,3000.0,A26,rock,mine/mill tailings,,44.892932,-115.345402
+3,BFQ790,Sb,Sb_ppm_ES_SQ,ppm,,2000.0,A26,rock,mine/mill tailings,,44.892932,-115.345402
+3,BFQ791,Sb,Sb_ppm_ES_SQ,ppm,,700.0,A26,rock,mine/mill tailings,,44.892932,-115.345402
+3,BFQ792,Sb,Sb_ppm_ES_SQ,ppm,,700.0,A26,rock,mine/mill tailings,,44.892932,-115.345402
+3,BFQ793,Sb,Sb_ppm_ES_SQ,ppm,,500.0,A26,rock,mine/mill tailings,,44.892932,-115.345402
+3,BFQ794,Sb,Sb_ppm_ES_SQ,ppm,,5000.0,A26,rock,mine/mill tailings,,44.894043,-115.344291
+3,BFQ795,Sb,Sb_ppm_ES_SQ,ppm,,3000.0,A26,rock,mine/mill tailings,,44.894043,-115.344291
+3,BFQ796,Sb,Sb_ppm_ES_SQ,ppm,,1500.0,A26,rock,mine/mill tailings,,44.894043,-115.344291
+3,BFQ797,Sb,Sb_ppm_ES_SQ,ppm,,1500.0,A26,rock,mine/mill tailings,,44.894043,-115.344291
+3,BFQ798,Sb,Sb_ppm_ES_SQ,ppm,,700.0,A26,rock,mine/mill tailings,,44.894043,-115.344291
+3,BFQ799,Sb,Sb_ppm_ES_SQ,ppm,G,10000.11111,A26,rock,mine/mill tailings,,44.893488,-115.344013
+3,BFQ800,Sb,Sb_ppm_ES_SQ,ppm,G,10000.11111,A26,rock,mine/mill tailings,,44.893488,-115.344013
+3,BFQ801,Sb,Sb_ppm_ES_SQ,ppm,,10000.0,A26,rock,mine/mill tailings,,44.893488,-115.344013
+3,BFQ802,Sb,Sb_ppm_ES_SQ,ppm,,10000.0,A26,rock,mine/mill tailings,,44.893488,-115.344013
+3,BFQ803,Sb,Sb_ppm_ES_SQ,ppm,,5000.0,A26,rock,mine/mill tailings,,44.893488,-115.344013
+3,BFQ804,Sb,Sb_ppm_ES_SQ,ppm,G,10000.11111,A26,rock,mine/mill tailings,,44.892932,-115.343458
+3,BFQ805,Sb,Sb_ppm_ES_SQ,ppm,G,10000.11111,A26,rock,mine/mill tailings,,44.892932,-115.343458
+3,BFQ806,Sb,Sb_ppm_ES_SQ,ppm,,7000.0,A26,rock,mine/mill tailings,,44.892932,-115.343458
+3,BFQ807,Sb,Sb_ppm_ES_SQ,ppm,,5000.0,A26,rock,mine/mill tailings,,44.892932,-115.343458
+3,BFQ808,Sb,Sb_ppm_ES_SQ,ppm,,5000.0,A26,rock,mine/mill tailings,,44.892932,-115.343458
+3,BFQ809,Sb,Sb_ppm_ES_SQ,ppm,,1500.0,A26,rock,mine/mill tailings,,44.892654,-115.342902
+3,BFQ810,Sb,Sb_ppm_ES_SQ,ppm,,1500.0,A26,rock,mine/mill tailings,,44.892654,-115.342902
+3,BFQ811,Sb,Sb_ppm_ES_SQ,ppm,,700.0,A26,rock,mine/mill tailings,,44.892654,-115.342902
+3,BFQ812,Sb,Sb_ppm_ES_SQ,ppm,,1000.0,A26,rock,mine/mill tailings,,44.892654,-115.342902
+3,BFQ813,Sb,Sb_ppm_ES_SQ,ppm,,700.0,A26,rock,mine/mill tailings,,44.892654,-115.342902
+3,BFQ814,Sb,Sb_ppm_ES_SQ,ppm,,1500.0,A26,rock,mine/mill tailings,,44.891543,-115.344013
+3,BFQ815,Sb,Sb_ppm_ES_SQ,ppm,,1500.0,A26,rock,mine/mill tailings,,44.891543,-115.344013
+3,BFQ816,Sb,Sb_ppm_ES_SQ,ppm,,700.0,A26,rock,mine/mill tailings,,44.891543,-115.344013
+3,BFQ817,Sb,Sb_ppm_ES_SQ,ppm,,2000.0,A26,rock,mine/mill tailings,,44.891543,-115.344013
+3,BFQ818,Sb,Sb_ppm_ES_SQ,ppm,,3000.0,A26,rock,mine/mill tailings,,44.891543,-115.344013
+3,BFQ819,Sb,Sb_ppm_ES_SQ,ppm,,3000.0,A26,rock,mine/mill tailings,,44.892099,-115.344569
+3,BFQ820,Sb,Sb_ppm_ES_SQ,ppm,,2000.0,A26,rock,mine/mill tailings,,44.892099,-115.344569
+3,BFQ821,Sb,Sb_ppm_ES_SQ,ppm,,1000.0,A26,rock,mine/mill tailings,,44.892099,-115.344569
+3,BFQ822,Sb,Sb_ppm_ES_SQ,ppm,,700.0,A26,rock,mine/mill tailings,,44.892099,-115.344569
+3,BFQ823,Sb,Sb_ppm_ES_SQ,ppm,,700.0,A26,rock,mine/mill tailings,,44.892099,-115.344569
+3,BFQ824,Sb,Sb_ppm_ES_SQ,ppm,,5000.0,A26,rock,mine/mill tailings,,44.893488,-115.345124
+3,BFQ825,Sb,Sb_ppm_ES_SQ,ppm,,2000.0,A26,rock,mine/mill tailings,,44.892654,-115.345124
+3,BFQ826,Sb,Sb_ppm_ES_SQ,ppm,,2000.0,A26,rock,mine/mill tailings,,44.892654,-115.345124
+3,BFQ827,Sb,Sb_ppm_ES_SQ,ppm,,2000.0,A26,rock,mine/mill tailings,,44.892654,-115.345124
+3,BFQ828,Sb,Sb_ppm_ES_SQ,ppm,,1500.0,A26,rock,mine/mill tailings,,44.892654,-115.345124
+3,BFQ829,Sb,Sb_ppm_ES_SQ,ppm,,2000.0,A26,rock,mine/mill tailings,,44.890988,-115.34568
+3,BFQ830,Sb,Sb_ppm_ES_SQ,ppm,,1500.0,A26,rock,mine/mill tailings,,44.890988,-115.34568
+3,BFQ831,Sb,Sb_ppm_ES_SQ,ppm,,1000.0,A26,rock,mine/mill tailings,,44.890988,-115.34568
+3,BFQ832,Sb,Sb_ppm_ES_SQ,ppm,,700.0,A26,rock,mine/mill tailings,,44.890988,-115.34568
+3,BFQ833,Sb,Sb_ppm_ES_SQ,ppm,,3000.0,A26,rock,mine/mill tailings,,44.891543,-115.346235
+3,BFQ834,Sb,Sb_ppm_ES_SQ,ppm,,2000.0,A26,rock,mine/mill tailings,,44.891543,-115.346235
+3,BFQ835,Sb,Sb_ppm_ES_SQ,ppm,,2000.0,A26,rock,mine/mill tailings,,44.891543,-115.346235
+3,BFQ836,Sb,Sb_ppm_ES_SQ,ppm,,2000.0,A26,rock,mine/mill tailings,,44.891543,-115.346235
+3,BFQ837,Sb,Sb_ppm_ES_SQ,ppm,,1000.0,A26,rock,mine/mill tailings,,44.891821,-115.346513
+3,BFQ838,Sb,Sb_ppm_ES_SQ,ppm,,700.0,A26,rock,mine/mill tailings,,44.891821,-115.346513
+3,BFQ839,Sb,Sb_ppm_ES_SQ,ppm,,500.0,A26,rock,mine/mill tailings,,44.891821,-115.346513
+3,BFQ840,Sb,Sb_ppm_ES_SQ,ppm,,500.0,A26,rock,mine/mill tailings,,44.891821,-115.346513
+3,BFQ841,Sb,Sb_ppm_ES_SQ,ppm,,700.0,A26,rock,mine/mill tailings,,44.891821,-115.346513
+3,BFQ842,Sb,Sb_ppm_ES_SQ,ppm,,2000.0,A26,rock,mine/mill tailings,,44.892377,-115.347069
+3,BFQ843,Sb,Sb_ppm_ES_SQ,ppm,,1000.0,A26,rock,mine/mill tailings,,44.892377,-115.347069
+3,BFQ844,Sb,Sb_ppm_ES_SQ,ppm,,1000.0,A26,rock,mine/mill tailings,,44.892377,-115.347069
+3,BFQ845,Sb,Sb_ppm_ES_SQ,ppm,,700.0,A26,rock,mine/mill tailings,,44.892377,-115.347069
+3,BFQ846,Sb,Sb_ppm_ES_SQ,ppm,,700.0,A26,rock,mine/mill tailings,,44.892377,-115.347069
+3,BFQ847,Sb,Sb_ppm_ES_SQ,ppm,,3000.0,A26,rock,mine/mill tailings,,44.892654,-115.347346
+3,BFQ848,Sb,Sb_ppm_ES_SQ,ppm,,3000.0,A26,rock,mine/mill tailings,,44.892654,-115.347346
+3,BFQ849,Sb,Sb_ppm_ES_SQ,ppm,,1500.0,A26,rock,mine/mill tailings,,44.892654,-115.347346
+3,BFQ850,Sb,Sb_ppm_ES_SQ,ppm,,1000.0,A26,rock,mine/mill tailings,,44.892654,-115.347346
+3,BFQ851,Sb,Sb_ppm_ES_SQ,ppm,,700.0,A26,rock,mine/mill tailings,,44.892654,-115.347346
+3,BFQ852,Sb,Sb_ppm_ES_SQ,ppm,,1000.0,A26,rock,mine/mill tailings,,44.89321,-115.347902
+3,BFQ853,Sb,Sb_ppm_ES_SQ,ppm,,700.0,A26,rock,mine/mill tailings,,44.89321,-115.347902
+3,BFQ854,Sb,Sb_ppm_ES_SQ,ppm,,500.0,A26,rock,mine/mill tailings,,44.89321,-115.347902
+3,BFQ855,Sb,Sb_ppm_ES_SQ,ppm,,500.0,A26,rock,mine/mill tailings,,44.89321,-115.347902
+3,BFQ856,Sb,Sb_ppm_ES_SQ,ppm,,500.0,A26,rock,mine/mill tailings,,44.89321,-115.347902
+3,BFQ862,Sb,Sb_ppm_ES_SQ,ppm,,5000.0,A26,rock,mine/mill tailings,,44.891265,-115.348458
+3,BFQ863,Sb,Sb_ppm_ES_SQ,ppm,,3000.0,A26,rock,mine/mill tailings,,44.891265,-115.348458
+3,BFQ864,Sb,Sb_ppm_ES_SQ,ppm,,2000.0,A26,rock,mine/mill tailings,,44.891265,-115.348458
+3,BFQ865,Sb,Sb_ppm_ES_SQ,ppm,,7000.0,A26,rock,mine/mill tailings,,44.891265,-115.348458
+3,BFQ866,Sb,Sb_ppm_ES_SQ,ppm,,3000.0,A26,rock,mine/mill tailings,,44.891821,-115.349013
+3,BFQ867,Sb,Sb_ppm_ES_SQ,ppm,,2000.0,A26,rock,mine/mill tailings,,44.891821,-115.349013
+3,BFQ868,Sb,Sb_ppm_ES_SQ,ppm,,2000.0,A26,rock,mine/mill tailings,,44.891821,-115.349013
+3,BFQ869,Sb,Sb_ppm_ES_SQ,ppm,,1500.0,A26,rock,mine/mill tailings,,44.891821,-115.349013
+3,BFQ870,Sb,Sb_ppm_ES_SQ,ppm,,700.0,A26,rock,mine/mill tailings,,44.891821,-115.349013
+3,BFQ871,Sb,Sb_ppm_ES_SQ,ppm,,3000.0,A26,rock,mine/mill tailings,,44.892377,-115.349569
+3,BFQ872,Sb,Sb_ppm_ES_SQ,ppm,,2000.0,A26,rock,mine/mill tailings,,44.892377,-115.349569
+3,BFQ873,Sb,Sb_ppm_ES_SQ,ppm,,1000.0,A26,rock,mine/mill tailings,,44.892377,-115.349569
+3,BFQ874,Sb,Sb_ppm_ES_SQ,ppm,,700.0,A26,rock,mine/mill tailings,,44.892377,-115.349569
+3,C398675,Sb,Sb_ppm_MS_ST,ppm,,0.6,A13,rock,drill core,2015-06-24,44.899757,-115.335894
+3,C400376,Sb,Sb_ppm_MS_ST,ppm,,11.8,A13,rock,natural exposure/outcrop,2015-08-19,44.903057,-115.337673
+3,C400377,Sb,Sb_ppm_MS_ST,ppm,,0.6,A13,rock,natural exposure/outcrop,2015-08-19,44.901672,-115.339565
+3,C400378,Sb,Sb_ppm_MS_ST,ppm,,1.2,A13,rock,natural exposure/outcrop,2015-08-19,44.901935,-115.339078
+3,C400385,Sb,Sb_ppm_MS_ST,ppm,,0.7,A13,rock,natural exposure/outcrop,2015-08-21,44.905486,-115.331436
+3,C400440,Sb,Sb_ppm_MS_HF,ppm,,6.7,A17,sediment,stream/river,2015-06-27,44.90227,-115.32561
+3,C400441,Sb,Sb_ppm_MS_HF,ppm,,60.2,A17,sediment,stream/river,2015-06-27,44.90567,-115.3291
+3,C458899,Sb,Sb_ppm_MS_HF_UT,ppm,,4530.0,A16,sediment,stream/river,1979-10-09,44.899477,-115.334958
+3,D512175,Sb,Sb_ppm_ES_SQ,ppm,N,-100.0,A26,sediment,surface,,44.888488,-115.339013
+3,D512175,Sb,Sb_ppm_AES_AZ_P,ppm,,1.5,P04,sediment,surface,,44.888488,-115.339013
+3,EKE142,Sb,Sb_ppm_ES_SQ,ppm,N,-100.0,A26,sediment,stream/river,,44.893488,-115.339291
+3,ENJ796,Sb,Sb_ppm_ES_SQ,ppm,G,10000.11111,A26,rock,mine,,44.907746,-115.334799
+3,ENJ796,Sb,Sb_ppm_AA_F_AZ_H2O2_P,ppm,,960.0,P08,rock,mine,,44.907746,-115.334799
+3,ENJ797,Sb,Sb_ppm_ES_SQ,ppm,,100.0,A26,rock,mine,,44.907746,-115.334799
+3,ENJ797,Sb,Sb_ppm_AA_F_AZ_H2O2_P,ppm,,60.0,P08,rock,mine,,44.907746,-115.334799
+3,ENJ798,Sb,Sb_ppm_ES_SQ,ppm,L,-100.0,A26,rock,outcrop,,44.900272,-115.340675
+3,ENJ798,Sb,Sb_ppm_AA_F_AZ_H2O2_P,ppm,,8.0,P08,rock,outcrop,,44.900272,-115.340675
+4,7055988,Zn,Zn_ppm_NA_LC,ppm,,645.0,A01,sediment,stream,1979-07-26,68.0555,-162.8242
+4,7055989,Zn,Zn_ppm_NA_LC,ppm,,2912.0,A01,sediment,stream,1979-07-26,68.0663,-162.815
+4,AGO929,Zn,Zn_ppm_ES_SQ,ppm,,2000.0,A32,sediment,stream,,68.066,-162.8265
+4,C166207,Zn,Zn_ppm_AES_HF,ppm,,12600.0,A12,rock,mine dump/prospect pit,,68.0702,-162.8365
+4,C166208,Zn,Zn_ppm_AES_HF,ppm,,16000.0,A12,rock,drill core,,68.0702,-162.8365
+4,C166209,Zn,Zn_ppm_AES_HF,ppm,,99000.0,A12,rock,mine dump/prospect pit,,68.0702,-162.8365
+4,C166210,Zn,Zn_ppm_AES_HF,ppm,,220000.0,A12,rock,drill core,,68.0702,-162.8365
+4,C166211,Zn,Zn_ppm_AES_HF,ppm,,6120.0,A12,rock,drill core,,68.0702,-162.8365
+4,C166212,Zn,Zn_ppm_AES_HF,ppm,,69500.0,A12,rock,drill core,,68.0702,-162.8365
+4,C166213,Zn,Zn_ppm_AES_HF,ppm,,5020.0,A12,rock,drill core,,68.0702,-162.8365
+4,C166214,Zn,Zn_ppm_AES_HF,ppm,,164000.0,A12,rock,drill core,,68.0702,-162.8365
+4,C166215,Zn,Zn_ppm_AES_HF,ppm,,65700.0,A12,rock,drill core,,68.0702,-162.8365
+4,C166217,Zn,Zn_ppm_AES_HF,ppm,,559000.0,A12,rock,drill core,,68.0702,-162.8365
+4,C166218,Zn,Zn_ppm_AES_HF,ppm,,84900.0,A12,rock,drill core,,68.0702,-162.8365
+4,C166224,Zn,Zn_ppm_AES_HF,ppm,,235000.0,A12,rock,drill core,,68.0702,-162.8365
+4,C166225,Zn,Zn_ppm_AES_HF,ppm,,188000.0,A12,rock,drill core,,68.0702,-162.8365
+4,C166226,Zn,Zn_ppm_AES_HF,ppm,,374000.0,A12,rock,mine dump/prospect pit,,68.0702,-162.8365
+4,C166227,Zn,Zn_ppm_AES_HF,ppm,,410000.0,A12,rock,mine dump/prospect pit,,68.0702,-162.8365
+4,C166228,Zn,Zn_ppm_AES_HF,ppm,,509000.0,A12,rock,mine dump/prospect pit,,68.0702,-162.8365
+4,C166229,Zn,Zn_ppm_AES_HF,ppm,,410000.0,A12,rock,mine dump/prospect pit,,68.0702,-162.8365
+4,C166230,Zn,Zn_ppm_AES_HF,ppm,,154000.0,A12,rock,drill core,,68.0702,-162.8365
+4,C166231,Zn,Zn_ppm_AES_HF,ppm,,664000.0,A12,rock,drill core,,68.0702,-162.8365
+4,C166232,Zn,Zn_ppm_AES_HF,ppm,,408000.0,A12,rock,drill core,,68.0702,-162.8365
+4,C166233,Zn,Zn_ppm_AES_HF,ppm,,503000.0,A12,rock,drill core,,68.0702,-162.8365
+4,C166234,Zn,Zn_ppm_AES_HF,ppm,,455000.0,A12,rock,drill core,,68.0702,-162.8365
+4,C166235,Zn,Zn_ppm_AES_HF,ppm,,328000.0,A12,rock,drill core,,68.0702,-162.8365
+4,C166236,Zn,Zn_ppm_AES_HF,ppm,,325000.0,A12,rock,drill core,,68.0702,-162.8365
+4,C166237,Zn,Zn_ppm_AES_HF,ppm,,357000.0,A12,rock,drill core,,68.0702,-162.8365
+4,C166240,Zn,Zn_ppm_AES_HF,ppm,,131000.0,A12,rock,drill core,,68.0702,-162.8365
+4,C166241,Zn,Zn_ppm_AES_HF,ppm,,320000.0,A12,rock,drill core,,68.0702,-162.8365
+4,C166242,Zn,Zn_ppm_AES_HF,ppm,,117000.0,A12,rock,outcrop,,68.0702,-162.8365
+4,C166244,Zn,Zn_ppm_AES_HF,ppm,,422000.0,A12,rock,outcrop,,68.0702,-162.8365
+4,C166245,Zn,Zn_ppm_AES_HF,ppm,,565000.0,A12,rock,outcrop,,68.0702,-162.8365
+4,C166246,Zn,Zn_ppm_AES_HF,ppm,,6760.0,A12,rock,outcrop,,68.0702,-162.8365
+4,C166247,Zn,Zn_ppm_AES_HF,ppm,,842000.0,A12,rock,outcrop,,68.0702,-162.8365
+4,C166248,Zn,Zn_ppm_AES_HF,ppm,,396000.0,A12,rock,drill core,,68.0702,-162.8365
+4,C166250,Zn,Zn_ppm_AES_HF,ppm,,50000.0,A12,rock,outcrop,,68.0702,-162.8365
+4,C166251,Zn,Zn_ppm_AES_HF,ppm,,15500.0,A12,rock,outcrop,,68.0702,-162.8365
+4,C166253,Zn,Zn_ppm_AES_HF,ppm,,86000.0,A12,rock,drill core,,68.0702,-162.8365
+4,C166254,Zn,Zn_ppm_AES_HF,ppm,,202000.0,A12,rock,drill core,,68.0702,-162.8365
+4,C166258,Zn,Zn_ppm_AES_HF,ppm,,184000.0,A12,rock,drill core,,68.0702,-162.8365
+4,C166259,Zn,Zn_ppm_AES_HF,ppm,,86600.0,A12,rock,drill core,,68.0702,-162.8365
+4,C166260,Zn,Zn_ppm_AES_HF,ppm,,427000.0,A12,rock,drill core,,68.0702,-162.8365
+4,C166261,Zn,Zn_ppm_AES_HF,ppm,,327000.0,A12,rock,drill core,,68.0702,-162.8365
+4,C166262,Zn,Zn_ppm_AES_HF,ppm,,529000.0,A12,rock,drill core,,68.0702,-162.8365
+4,C166263,Zn,Zn_ppm_AES_HF,ppm,,664000.0,A12,rock,mine dump/prospect pit,,68.0702,-162.8365
+4,C200622,Zn,Zn_ppm_MS_HF,ppm,,781000.0,A16,rock,grassland/grazing land/cultivated land,2001-10-05,68.0688,-162.8287
+4,C252824,Zn,Zn_ppm_AES_HF,ppm,,552.0,A12,sediment,stream,1976-06-28,68.0536,-162.8267
+4,C252867,Zn,Zn_ppm_AES_HF,ppm,,3650.0,A12,sediment,stream,1979-08-03,68.0683,-162.8265
+4,CBT015,Zn,Zn_ppm_ES_SQ,ppm,,300.0,A32,soil,float,,68.0522,-162.8365
+4,CBT015,Zn,Zn_ppm_AA_F_HNO3_P,ppm,,200.0,P11,soil,float,,68.0522,-162.8365
+4,CBT016,Zn,Zn_ppm_ES_SQ,ppm,,300.0,A32,soil,float,,68.0536,-162.8281
+4,CBT016,Zn,Zn_ppm_AA_F_HNO3_P,ppm,,230.0,P11,soil,float,,68.0536,-162.8281
+4,CBT017,Zn,Zn_ppm_ES_SQ,ppm,,1000.0,A32,sediment,stream,,68.0536,-162.8267
+4,CBT017,Zn,Zn_ppm_AA_F_HNO3_P,ppm,,370.0,P11,sediment,stream,,68.0536,-162.8267
+4,CBT018,Zn,Zn_ppm_ES_SQ,ppm,,1000.0,A32,soil,float,,68.0563,-162.8281
+4,CBT018,Zn,Zn_ppm_AA_F_HNO3_P,ppm,,540.0,P11,soil,float,,68.0563,-162.8281
+4,CBT019,Zn,Zn_ppm_ES_SQ,ppm,,500.0,A32,soil,float,,68.0563,-162.8309
+4,CBT019,Zn,Zn_ppm_AA_F_HNO3_P,ppm,,360.0,P11,soil,float,,68.0563,-162.8309
+4,CDY826,Zn,Zn_ppm_ES_SQ,ppm,,3000.0,A32,sediment,stream,,68.0683,-162.8265
+4,CDY826,Zn,Zn_ppm_AA_F_HNO3_P,ppm,,4380.0,P11,sediment,stream,,68.0683,-162.8265
+4,W204614,Zn,Zn_ppm_ES_SQ,ppm,G,10000.11111,A32,rock,float,,68.0613,-162.8251
+4,W204616,Zn,Zn_ppm_ES_SQ,ppm,G,10000.11111,A32,rock,outcrop,,68.0641,-162.8262
+4,YL08309,Zn,Zn_ppm_MS_Fuse,ppm,,416.0,A21,rock,drill core,,68.0658,-162.8236
+4,YL08310,Zn,Zn_ppm_MS_Fuse,ppm,,294.0,A21,rock,drill core,,68.0658,-162.8236
+4,YL08311,Zn,Zn_ppm_MS_Fuse,ppm,,2170.0,A21,rock,drill core,,68.0658,-162.8236
+4,YL08312,Zn,Zn_ppm_MS_Fuse,ppm,,2980.0,A21,rock,drill core,,68.0658,-162.8236
+4,YL08313,Zn,Zn_ppm_MS_Fuse,ppm,,446.0,A21,rock,drill core,,68.0658,-162.8236
+4,YL08314,Zn,Zn_ppm_MS_Fuse,ppm,,974.0,A21,rock,drill core,,68.0658,-162.8236
+4,YL08315,Zn,Zn_ppm_MS_Fuse,ppm,,889.0,A21,rock,drill core,,68.0658,-162.8236
+4,YL08316,Zn,Zn_ppm_MS_Fuse,ppm,,9000.0,A21,rock,drill core,,68.0658,-162.8236
+4,YL08490,Zn,Zn_ppm_MS_Fuse,ppm,,280.0,A21,rock,drill core,,68.0711,-162.8321
+4,YL08491,Zn,Zn_ppm_MS_Fuse,ppm,,871.0,A21,rock,drill core,,68.0711,-162.8321
+4,YL08492,Zn,Zn_ppm_MS_Fuse,ppm,,371000.0,A21,rock,open pit mine,,68.0658,-162.8236
+4,YL08503,Zn,Zn_ppm_MS_Fuse,ppm,,3240.0,A21,rock,open pit mine,,68.0658,-162.8236
+4,YL08518,Zn,Zn_ppm_MS_Fuse,ppm,,256.0,A21,rock,drill core,,68.0651,-162.8217
+4,YL08519,Zn,Zn_ppm_MS_Fuse,ppm,,5100.0,A21,rock,open pit mine,,68.0658,-162.8236
+4,YL08523,Zn,Zn_ppm_MS_Fuse,ppm,,1590.0,A21,rock,open pit mine,,68.0658,-162.8236
+4,YL08524,Zn,Zn_ppm_MS_Fuse,ppm,,120.0,A21,rock,outcrop,,68.0651,-162.8217
+4,YL08525,Zn,Zn_ppm_MS_Fuse,ppm,,776.0,A21,rock,open pit mine,,68.0658,-162.8236
+5,C486346,Cu,Cu_ppm_AES_HF,ppm,,3720.0,A08,rock,mine/mill tailings,2019-06-25,40.72156,-112.19812
+5,C486346,Cu,Cu_ppm_AES_ST,ppm,,4090.0,A18,rock,mine/mill tailings,2019-06-25,40.72156,-112.19812
+5,C486346,Cu,Cu_ppm_WDX_Fuse_BM,ppm,,3500.0,A21,rock,mine/mill tailings,2019-06-25,40.72156,-112.19812
+5,C486352,Cu,Cu_ppm_AES_HF,ppm,,13700.0,A08,rock,mine/mill tailings,2019-06-25,40.72156,-112.19812
+5,C486352,Cu,Cu_ppm_AES_ST,ppm,,14800.0,A18,rock,mine/mill tailings,2019-06-25,40.72156,-112.19812
+5,C486352,Cu,Cu_ppm_WDX_Fuse_BM,ppm,,13400.0,A21,rock,mine/mill tailings,2019-06-25,40.72156,-112.19812
+5,C486353,Cu,Cu_ppm_AES_HF,ppm,,18400.0,A08,rock,mine/mill tailings,2019-06-25,40.72156,-112.19812
+5,C486353,Cu,Cu_ppm_AES_ST,ppm,,18900.0,A18,rock,mine/mill tailings,2019-06-25,40.72156,-112.19812
+5,C486353,Cu,Cu_ppm_WDX_Fuse_BM,ppm,,20600.0,A21,rock,mine/mill tailings,2019-06-25,40.72156,-112.19812
+5,C486354,Cu,Cu_ppm_AES_HF,ppm,,19700.0,A08,rock,mine/mill tailings,2019-06-25,40.72156,-112.19812
+5,C486354,Cu,Cu_ppm_AES_ST,ppm,,20900.0,A18,rock,mine/mill tailings,2019-06-25,40.72156,-112.19812
+5,C486354,Cu,Cu_ppm_WDX_Fuse_BM,ppm,,20300.0,A21,rock,mine/mill tailings,2019-06-25,40.72156,-112.19812
+5,C486355,Cu,Cu_ppm_AES_HF,ppm,,13500.0,A08,rock,mine/mill tailings,2019-06-25,40.72156,-112.19812
+5,C486355,Cu,Cu_ppm_AES_ST,ppm,,14100.0,A18,rock,mine/mill tailings,2019-06-25,40.72156,-112.19812
+5,C486355,Cu,Cu_ppm_WDX_Fuse_BM,ppm,,13200.0,A21,rock,mine/mill tailings,2019-06-25,40.72156,-112.19812
+5,C486356,Cu,Cu_ppm_AES_HF,ppm,,14800.0,A08,rock,mine/mill tailings,2019-06-25,40.72156,-112.19812
+5,C486356,Cu,Cu_ppm_AES_ST,ppm,,15800.0,A18,rock,mine/mill tailings,2019-06-25,40.72156,-112.19812
+5,C486357,Cu,Cu_ppm_AES_HF,ppm,,40700.0,A08,rock,mine/mill tailings,2019-06-25,40.72156,-112.19812
+5,C486357,Cu,Cu_ppm_AES_ST,ppm,,38300.0,A18,rock,mine/mill tailings,2019-06-25,40.72156,-112.19812
+5,C486357,Cu,Cu_ppm_WDX_Fuse_BM,ppm,,40600.0,A21,rock,mine/mill tailings,2019-06-25,40.72156,-112.19812
+5,C486358,Cu,Cu_ppm_AES_HF,ppm,,8980.0,A08,rock,mine/mill tailings,2019-06-25,40.72156,-112.19812
+5,C486358,Cu,Cu_ppm_AES_ST,ppm,,8800.0,A18,rock,mine/mill tailings,2019-06-25,40.72156,-112.19812
+5,C486358,Cu,Cu_ppm_WDX_Fuse_BM,ppm,,6900.0,A21,rock,mine/mill tailings,2019-06-25,40.72156,-112.19812
+5,C486359,Cu,Cu_ppm_AES_HF,ppm,,19300.0,A08,rock,mine/mill tailings,2019-06-25,40.72156,-112.19812
+5,C486359,Cu,Cu_ppm_AES_ST,ppm,,20000.0,A18,rock,mine/mill tailings,2019-06-25,40.72156,-112.19812
+5,C486359,Cu,Cu_ppm_WDX_Fuse_BM,ppm,,18200.0,A21,rock,mine/mill tailings,2019-06-25,40.72156,-112.19812
+5,C486360,Cu,Cu_ppm_AES_HF,ppm,,566000.0,A08,rock,mine/mill tailings,2019-06-25,40.72156,-112.19812
+5,C486360,Cu,Cu_ppm_AES_ST,ppm,,559000.0,A18,rock,mine/mill tailings,2019-06-25,40.72156,-112.19812
+5,C486360,Cu,Cu_ppm_WDX_Fuse_BM,ppm,,597000.0,A21,rock,mine/mill tailings,2019-06-25,40.72156,-112.19812
+6,C447122,Te,Te_ppm_MS_HF,ppm,,2230.0,A03,rock,,2012-08-03,46.0149,-112.48509
+6,C447122,Te,Te_ppm_MS_ST,ppm,,2290.0,A11,rock,,2012-08-03,46.0149,-112.48509
+6,C447142,Te,Te_ppm_MS_HF,ppm,,165.0,A03,rock,,2012-08-03,46.0149,-112.48509
+6,C447142,Te,Te_ppm_MS_ST,ppm,,160.0,A11,rock,,2012-08-03,46.0149,-112.48509
+7,C368476,As,As_ppm_MS_ST,ppm,,9420.0,A22,rock,,,46.0149,-112.48509
+7,C368491,As,As_ppm_MS_ST,ppm,,14600.0,A22,rock,,,46.0149,-112.48509
+7,C447122,As,As_ppm_MS_HF,ppm,,11200.0,A20,rock,,2012-08-03,46.0149,-112.48509
+7,C447122,As,As_ppm_MS_ST,ppm,,11900.0,A22,rock,,2012-08-03,46.0149,-112.48509
+7,C447142,As,As_ppm_MS_HF,ppm,,23000.0,A20,rock,,2012-08-03,46.0149,-112.48509
+7,C447142,As,As_ppm_MS_ST,ppm,,25300.0,A22,rock,,2012-08-03,46.0149,-112.48509
+8,5223757,Pb,Pb_ppm_AES_HF,ppm,<,-10.0,A12,sediment,"pond, natural",1976-10-29,32.604837,-103.971894
+9,C412208,Bi,Bi_ppm_MS_HF_UT,ppm,,3.21,A04,sediment,stream/river,1980-02-25,32.401506,-111.542703
+9,W177433,Bi,Bi_ppm_ES_SQ,ppm,,30000.0,A22,rock,,,32.416772,-111.542369
+10,5033141,Ag,Ag_ppm_EDX,ppm,<,-5.0,A10,sediment,stream,1978-07-12,47.614869,-115.824622
+10,5033142,Ag,Ag_ppm_EDX,ppm,<,-5.0,A10,sediment,stream,1978-07-12,47.613769,-115.832923
+10,C183171,Ag,Ag_ppm_AES_HF,ppm,,-2.0,A18,sediment,stream/river,,47.612924,-115.826855
+10,C494764,Ag,Ag_ppm_MS_HF_UT,ppm,,0.368,A16,sediment,stream/river,1978-07-12,47.614869,-115.824622
+10,C494765,Ag,Ag_ppm_MS_HF_UT,ppm,,0.712,A16,sediment,stream/river,1978-07-12,47.613769,-115.832923
+10,C513352,Ag,Ag_ppm_MS_ST,ppm,,459.0,A13,rock,mine/quarry/prospect pit,,47.617,-115.834
+10,C513353,Ag,Ag_ppm_MS_ST,ppm,,17.0,A13,rock,mine/quarry/prospect pit,,47.617,-115.834
+10,C513354,Ag,Ag_ppm_MS_ST,ppm,,60.0,A13,rock,mine/quarry/prospect pit,,47.617,-115.834
+10,EIN746,Ag,Ag_ppm_ES_SQ,ppm,,1.0,A31,sediment,natural exposure/outcrop,,47.621813,-115.817133
+10,EIN746,Ag,Ag_ppm_AA_F_AZ_H2O2_P,ppm,,0.89,P05,sediment,natural exposure/outcrop,,47.621813,-115.817133
+10,EIN746,Ag,Ag_ppm_AA_F_HNO3_P,ppm,,0.45,P10,sediment,natural exposure/outcrop,,47.621813,-115.817133
+11,C360795,Cu,Cu_ppm_AES_ST,ppm,,1310.0,A18,rock,,,39.068,-119.33489
+11,D332993,Cu,Cu_ppm_ES_SQ,ppm,,500.0,A32,rock,mine dump/waste rock,,39.068792,-119.335152
+11,D332993,Cu,Cu_ppm_AES_AZ_P,ppm,,460.0,P01,rock,mine dump/waste rock,,39.068792,-119.335152
+11,D334921,Cu,Cu_ppm_ES_SQ,ppm,,30.0,A32,rock,natural exposure/outcrop,,39.062681,-119.345152
+11,D334921,Cu,Cu_ppm_AES_AZ_P,ppm,,20.0,P01,rock,natural exposure/outcrop,,39.062681,-119.345152
+11,D355565,Cu,Cu_ppm_ES_SQ,ppm,,500.0,A32,rock,artificial exposure,,39.066848,-119.335152
+11,D355565,Cu,Cu_ppm_AES_AZ_P,ppm,,340.0,P01,rock,artificial exposure,,39.066848,-119.335152
+11,D355566,Cu,Cu_ppm_ES_SQ,ppm,,1000.0,A32,rock,artificial exposure,,39.067959,-119.33543
+11,D355566,Cu,Cu_ppm_AES_AZ_P,ppm,,1100.0,P01,rock,artificial exposure,,39.067959,-119.33543
+11,D355567,Cu,Cu_ppm_ES_SQ,ppm,,7000.0,A32,rock,artificial exposure,,39.067681,-119.335986
+11,D355567,Cu,Cu_ppm_AES_AZ_P,ppm,,61000.0,P01,rock,artificial exposure,,39.067681,-119.335986
+11,EHP171,Cu,Cu_ppm_ES_SQ,ppm,,70.0,A32,rock,,,39.061571,-119.333208
+12,5159116,Ag,Ag_ppm_NA_LC,ppm,<,-500.0,A23,sediment,stream,1977-04-22,35.09432,-114.443705
+12,5159138,Ag,Ag_ppm_NA_LC,ppm,<,-500.0,A23,sediment,stream,1977-03-28,35.09432,-114.443705
+12,5159141,Ag,Ag_ppm_NA_LC,ppm,<,-500.0,A23,sediment,stream,1977-03-28,35.09032,-114.424105
+12,C419207,Ag,Ag_ppm_MS_HF_UT,ppm,,0.071,A16,sediment,stream/river,1977-03-28,35.09032,-114.424105
+12,C447630,Ag,Ag_ppm_MS_ST,ppm,,1.0,A13,rock,,,35.1,-114.447
+12,C447630,Ag,Ag_ppm_MS_HF,ppm,,0.96,A17,rock,,,35.1,-114.447
+12,D281404,Ag,Ag_ppm_ES_SQ,ppm,N,-0.5,A31,rock,natural exposure/outcrop,,35.098631,-114.426916
+12,D281405,Ag,Ag_ppm_ES_SQ,ppm,,2.0,A31,rock,natural exposure/outcrop,,35.098631,-114.426916
+12,ERW037,Ag,Ag_ppm_ES_SQ,ppm,,10.0,A31,rock,natural exposure/outcrop,,35.099742,-114.447472
+12,ERW038,Ag,Ag_ppm_ES_SQ,ppm,,7.0,A31,rock,natural exposure/outcrop,,35.099742,-114.447472
+12,ERW039,Ag,Ag_ppm_ES_SQ,ppm,N,-0.5,A31,rock,natural exposure/outcrop,,35.099742,-114.447472
+12,ERW076,Ag,Ag_ppm_ES_SQ,ppm,,7.0,A31,sediment,stream/river,,35.098908,-114.446639
+13,C410696,Re,Re_ppm_MS_HF,ppm,,0.01,A06,soil,unknown,1980-02-03,31.870123,-111.053886
+13,C410700,Re,Re_ppm_MS_HF,ppm,,0.303,A06,soil,unknown,1980-02-03,31.869823,-111.083687
+14,C389755,In,In_ppm_MS_ST,ppm,,5.9,A02,rock,,,32.85011,-108.08391
+14,C400658,In,In_ppm_MS_ST,ppm,,3.3,A02,rock,,,32.85011,-108.08391
+14,C409316,In,In_ppm_MS_HF,ppm,,0.898,A08,sediment,stream/river,1976-04-12,32.824013,-108.081211
+14,C447347,In,In_ppm_MS_ST,ppm,<,-0.2,A02,rock,,,32.85011,-108.08391
+14,C447347,In,In_ppm_MS_HF,ppm,,0.225,A08,rock,,,32.85011,-108.08391
+14,C447379,In,In_ppm_MS_ST,ppm,,3.2,A02,rock,,2015-09-02,32.85011,-108.08391
+14,C447379,In,In_ppm_MS_HF,ppm,,2.95,A08,rock,,2015-09-02,32.85011,-108.08391

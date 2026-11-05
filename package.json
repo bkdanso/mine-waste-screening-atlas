@@ -1,0 +1,3 @@
+{ "name": "mine-waste-screening-atlas", "private": true, "version": "0.1.0",
+  "description": "Layout builder for the manuscript (code/13_final_styled.js)",
+  "dependencies": { "docx": "^9.8.1" } }

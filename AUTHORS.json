@@ -1,0 +1,30 @@
+{
+  "_comment": "Author block for this project. README, CITATION.cff, manuscript, Zenodo creators, and commits all read from here.",
+  "authors": [
+    {
+      "name": "Bezali Kwame Danso",
+      "family": "Danso",
+      "given": "Bezali Kwame",
+      "orcid": "0009-0006-1201-4129",
+      "email": "dansobez@msu.edu",
+      "affiliation": "Independent Researcher, East Lansing, Michigan, USA",
+      "github": "bkdanso",
+      "roles": [
+        "Conceptualization",
+        "Methodology",
+        "Software",
+        "Validation",
+        "Formal analysis",
+        "Data curation",
+        "Writing - original draft",
+        "Writing - review and editing",
+        "Visualization"
+      ],
+      "corresponding": true,
+      "orcid_url": "https://orcid.org/0009-0006-1201-4129",
+      "github_url": "https://github.com/bkdanso",
+      "zenodo": "Account linked to ORCID and GitHub"
+    }
+  ],
+  "collaborators": []
+}

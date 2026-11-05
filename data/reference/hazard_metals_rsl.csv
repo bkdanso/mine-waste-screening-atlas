@@ -1,0 +1,19 @@
+species,rsl_analyte,rsl_resident_mgkg,basis,alt_noncancer_mgkg,note
+As,"Arsenic, Inorganic",0.68,cancer TR=1E-6,35,alt = noncancer child THQ=1 from Resident Soil table HQ/405274
+Pb,~Lead and Compounds,200,IEUBK guidance,,
+Cd,Cadmium (Diet),7.1,noncancer,,
+Hg,~Mercuric Chloride (and other Mercury salts),23,noncancer,,total Hg compared to inorganic salts value
+Sb,Antimony (metallic),31,noncancer,,
+Tl,Thallium (Soluble Salts),0.78,noncancer,,
+Cu,Copper,3100,noncancer,,
+Zn,Zinc and Compounds,23000,noncancer,,
+Ni,Nickel Soluble Salts,1400,noncancer,,
+Se,Selenium,390,noncancer,,
+Ba,Barium,15000,noncancer,,
+Be,Beryllium and compounds,160,noncancer,,
+Co,Cobalt,23,noncancer,,
+Mn,Manganese (Non-diet),1800,noncancer,,
+Ag,Silver,390,noncancer,,
+V,Vanadium and Compounds,390,noncancer,,
+Mo,Molybdenum,390,noncancer,,
+U,Uranium,16,noncancer,,soluble salts

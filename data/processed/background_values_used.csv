@@ -1,0 +1,73 @@
+species,background_ppm,source
+Ag,0.053,Upper continental crust (Rudnick and Gao 2014)
+Al,53800.0,USGS soil (Geochemical Landscapes) median
+As,5.6,USGS soil (Geochemical Landscapes) median
+B,17.0,Upper continental crust (Rudnick and Gao 2014)
+Ba,555.0,USGS soil (Geochemical Landscapes) median
+Be,1.4,USGS soil (Geochemical Landscapes) median
+Bi,0.17,USGS soil (Geochemical Landscapes) median
+C,12300.0,USGS soil (Geochemical Landscapes) median
+CCO3,200.0,USGS soil (Geochemical Landscapes) median
+CO2,600.0,USGS soil (Geochemical Landscapes) median
+Ca,9500.0,USGS soil (Geochemical Landscapes) median
+Cd,0.2,USGS soil (Geochemical Landscapes) median
+Ce,52.9,USGS soil (Geochemical Landscapes) median
+Co,8.5,USGS soil (Geochemical Landscapes) median
+Corg,9000.0,USGS soil (Geochemical Landscapes) median
+Cr,34.0,USGS soil (Geochemical Landscapes) median
+Cs,4.9,Upper continental crust (Rudnick and Gao 2014)
+Cu,17.0,USGS soil (Geochemical Landscapes) median
+Dy,3.9,Upper continental crust (Rudnick and Gao 2014)
+Er,2.3,Upper continental crust (Rudnick and Gao 2014)
+Eu,1.0,Upper continental crust (Rudnick and Gao 2014)
+F,557.0,Upper continental crust (Rudnick and Gao 2014)
+Fe,23100.0,USGS soil (Geochemical Landscapes) median
+Ga,12.6,USGS soil (Geochemical Landscapes) median
+Gd,4.0,Upper continental crust (Rudnick and Gao 2014)
+Ge,1.4,Upper continental crust (Rudnick and Gao 2014)
+Hf,5.3,Upper continental crust (Rudnick and Gao 2014)
+Hg,0.02,USGS soil (Geochemical Landscapes) median
+Ho,0.83,Upper continental crust (Rudnick and Gao 2014)
+In,0.04,USGS soil (Geochemical Landscapes) median
+Ir,2.2e-05,Upper continental crust (Rudnick and Gao 2014)
+K,15600.0,USGS soil (Geochemical Landscapes) median
+La,26.5,USGS soil (Geochemical Landscapes) median
+Li,21.0,USGS soil (Geochemical Landscapes) median
+Lu,0.31,Upper continental crust (Rudnick and Gao 2014)
+Mg,5600.000000000001,USGS soil (Geochemical Landscapes) median
+Mn,507.0,USGS soil (Geochemical Landscapes) median
+Mo,0.85,USGS soil (Geochemical Landscapes) median
+Na,8100.000000000001,USGS soil (Geochemical Landscapes) median
+Nb,8.9,USGS soil (Geochemical Landscapes) median
+Nd,27.0,Upper continental crust (Rudnick and Gao 2014)
+Ni,16.3,USGS soil (Geochemical Landscapes) median
+P,560.0,USGS soil (Geochemical Landscapes) median
+Pb,18.4,USGS soil (Geochemical Landscapes) median
+Pd,0.00052,Upper continental crust (Rudnick and Gao 2014)
+Pr,7.1,Upper continental crust (Rudnick and Gao 2014)
+Pt,0.0005,Upper continental crust (Rudnick and Gao 2014)
+Rb,68.3,USGS soil (Geochemical Landscapes) median
+Re,0.000198,Upper continental crust (Rudnick and Gao 2014)
+Ru,0.00034,Upper continental crust (Rudnick and Gao 2014)
+S,250.0,USGS soil (Geochemical Landscapes) median
+Sb,0.61,USGS soil (Geochemical Landscapes) median
+Sc,7.2,USGS soil (Geochemical Landscapes) median
+Se,0.2,USGS soil (Geochemical Landscapes) median
+Si,271600.0,USGS soil (Geochemical Landscapes) median
+Sm,4.7,Upper continental crust (Rudnick and Gao 2014)
+Sn,1.4,USGS soil (Geochemical Landscapes) median
+Sr,149.4,USGS soil (Geochemical Landscapes) median
+Ta,0.9,Upper continental crust (Rudnick and Gao 2014)
+Tb,0.7,Upper continental crust (Rudnick and Gao 2014)
+Te,0.05,"USGS soil median, mostly nondetect (upper bound; EF conservative)"
+Th,8.2,USGS soil (Geochemical Landscapes) median
+Ti,2500.0,USGS soil (Geochemical Landscapes) median
+Tl,0.4,USGS soil (Geochemical Landscapes) median
+Tm,0.3,Upper continental crust (Rudnick and Gao 2014)
+U,2.1,USGS soil (Geochemical Landscapes) median
+V,64.0,USGS soil (Geochemical Landscapes) median
+W,0.8,USGS soil (Geochemical Landscapes) median
+Y,15.7,USGS soil (Geochemical Landscapes) median
+Yb,1.96,Upper continental crust (Rudnick and Gao 2014)
+Zn,64.0,USGS soil (Geochemical Landscapes) median
+Zr,130.0,USGS soil (Geochemical Landscapes) median

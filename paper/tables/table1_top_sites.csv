@@ -1,0 +1,16 @@
+rank,site,state,conf,cmi,hhi,crit,haz
+1,Eureka Mills,UT,B,14.7,970,Te 30000x; Pb 9620x; Ag 9434x; In 2125x; Zn 469x,Pb 885x; Cd 56x; Tl 26x; Zn 1.3x; Ag 1.3x
+3,Berkley Pit,MT,B,15.0,439,Te 23950x; Cu 4503x; W 2500x; As 2304x; Sb 2025x,As 369x; Sb 40x; Cu 25x; V 2.6x; Tl 1.3x
+5,Butte Reduction Works,MT,B,13.7,355,Pb 2848x; Zn 1421x; Ag 1330x; Re 505x; Te 102x,Pb 262x; Cd 73x; Mn 14x; Zn 4.0x; As 1.1x
+6,Tybo,NV,B,13.4,386,Ag 1887x; As 1786x; Pb 815x; Sb 246x; Bi 118x,As 286x; Pb 75x; Cd 18x; Sb 4.8x; Mn 1.1x
+7,Continental Mine,MT,B,14.6,148,Cu 7147x; Ag 3755x; Bi 888x; Te 782x; As 640x,As 102x; Cu 39x; Pb 2.6x; Sb 1.1x
+8,Treasure Hill,NV,A,13.5,154,Ag 14151x; Sb 2508x; Pb 986x; In 435x; Sn 71x,Pb 91x; Sb 49x; As 11x; Ag 1.9x
+10,Red Dog,AK,A,13.2,176,Zn 1056x; Ag 774x; Pb 472x; Sb 273x; Bi 147x,Cd 92x; Pb 43x; Tl 26x; Sb 5.4x; Zn 2.9x
+11,Ely Valley,NV,B,12.8,247,Pb 1902x; Zn 469x; Ag 425x; W 238x; Bi 136x,Pb 175x; Cd 52x; As 18x; Zn 1.3x
+11,Mission Complex,AZ,B,12.6,270,Pb 2717x; Ag 377x; Cu 319x; Bi 304x; Zn 105x,Pb 250x; Cd 14x; Cu 1.8x; Co 1.3x; Mn 1.2x
+13,Burgin,UT,B,13.1,185,In 3450x; Pb 1087x; As 357x; Ag 302x; Zn 109x,Pb 100x; As 57x; Cd 14x; Tl 11x; Mn 2.8x
+17,Bingham,UT,A,12.6,124,Cu 976x; As 340x; Bi 321x; Pb 244x; In 144x,As 54x; Pb 22x; Mo 17x; Tl 13x; Cu 5.4x
+18,Magmont,MO,B,9.8,357,Pb 3804x; Ag 566x; Cu 41x; Co 18x; Ni 16x,Pb 350x; Co 6.5x
+19,Pittsmont Mine,MT,B,13.9,66.7,Te 2920x; W 2038x; Ag 679x; Sb 416x; Pb 295x,Pb 27x; As 18x; Sb 8.2x; Mn 5.9x; Cd 2.5x
+20,Resolution Copper,AZ,B,14.0,63.5,Cu 9941x; Ag 6642x; Bi 4035x; Te 2485x; Sb 108x,Cu 55x; As 3.7x; Sb 2.1x
+21,Ray,AZ,A,14.3,56.4,Bi 7191x; Ag 2708x; Cu 2321x; In 502x; Sb 369x,As 15x; Pb 14x; Cu 13x; Sb 7.3x; Cd 2.5x

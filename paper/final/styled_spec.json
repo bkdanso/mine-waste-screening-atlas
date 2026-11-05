@@ -1,0 +1,2291 @@
+{
+ "blocks": [
+  {
+   "type": "p",
+   "runs": [
+    {
+     "t": "A National Screening Framework for Critical Mineral Potential and Heavy-Metal Hazard in U.S. Mine Waste ",
+     "b": true,
+     "i": false
+    }
+   ],
+   "text": "A National Screening Framework for Critical Mineral Potential and Heavy-Metal Hazard in U.S. Mine Waste",
+   "list": false
+  },
+  {
+   "type": "p",
+   "runs": [
+    {
+     "t": "Bezali Kwame Danso",
+     "b": true,
+     "i": false
+    }
+   ],
+   "text": "Bezali Kwame Danso",
+   "list": false
+  },
+  {
+   "type": "p",
+   "runs": [
+    {
+     "t": "Independent Researcher, East Lansing, Michigan, USA. ORCID: 0009-0006-1201-4129",
+     "b": false,
+     "i": false
+    }
+   ],
+   "text": "Independent Researcher, East Lansing, Michigan, USA. ORCID: 0009-0006-1201-4129",
+   "list": false
+  },
+  {
+   "type": "p",
+   "runs": [
+    {
+     "t": "Corresponding author: dansobez@msu.edu",
+     "b": false,
+     "i": false
+    }
+   ],
+   "text": "Corresponding author: dansobez@msu.edu",
+   "list": false
+  },
+  {
+   "type": "p",
+   "runs": [
+    {
+     "t": "Preprint. This manuscript has not been peer reviewed.",
+     "b": false,
+     "i": true
+    }
+   ],
+   "text": "Preprint. This manuscript has not been peer reviewed.",
+   "list": false
+  },
+  {
+   "type": "h0",
+   "text": "ABSTRACT"
+  },
+  {
+   "type": "p",
+   "runs": [
+    {
+     "t": "The U.S. Geological Survey (USGS) National Mine Waste Inventory (NMWI) Version 2.0 provides the first comprehensive national database of mine-waste features across the United States, but it does not directly evaluate their critical-mineral potential or environmental hazard. We linked 1,498 tailings, waste-rock, leach, and slag features at 343 sites to nearby public geochemical observations from over 1.5 million USGS samples and developed two screening metrics: a Critical Mineral Index based on enrichment relative to U.S. soil background concentrations and a Heavy-Metal Hazard Index based on U.S. Environmental Protection Agency residential soil screening levels. Geochemical samples were identified within 2 km of 1,324 features (88.4%) and within 1 km of 1,046 features (69.8%). Validation using known mine commodities showed that at least one produced metal was enriched fivefold or greater above background at 79.8% of evaluated features, indicating that the spatial linkage successfully captures mining-related geochemical signatures. Eighty-four sites ranked in the upper third of both indices, with prominent clusters in porphyry, polymetallic vein, and replacement districts of Montana, Utah, Nevada, and Arizona. Lead, Silver, Copper, Zinc, Antimony, Indium, Tellurium, Tungsten, and Bismuth were among the most frequently enriched critical or strategic elements. One hundred seventy-four features, including several large copper tailings facilities in Arizona and New Mexico, lacked public geochemical samples within 2 km, highlighting important data gaps. The resulting ranked database, geochemical indicators, and interactive national atlas provide a transparent and reproducible framework for prioritizing mine-waste sites for future sampling, critical-mineral evaluation, and environmental investigation under the Earth Mapping Resources Initiative (Earth MRI). The proposed indices are intended as screening tools and should not be interpreted as resource estimates or formal risk assessments.",
+     "b": false,
+     "i": false
+    }
+   ],
+   "text": "The U.S. Geological Survey (USGS) National Mine Waste Inventory (NMWI) Version 2.0 provides the first comprehensive national database of mine-waste features across the United States, but it does not directly evaluate their critical-mineral potential or environmental hazard. We linked 1,498 tailings, waste-rock, leach, and slag features at 343 sites to nearby public geochemical observations from over 1.5 million USGS samples and developed two screening metrics: a Critical Mineral Index based on enrichment relative to U.S. soil background concentrations and a Heavy-Metal Hazard Index based on U.S. Environmental Protection Agency residential soil screening levels. Geochemical samples were identified within 2 km of 1,324 features (88.4%) and within 1 km of 1,046 features (69.8%). Validation using known mine commodities showed that at least one produced metal was enriched fivefold or greater above background at 79.8% of evaluated features, indicating that the spatial linkage successfully captures mining-related geochemical signatures. Eighty-four sites ranked in the upper third of both indices, with prominent clusters in porphyry, polymetallic vein, and replacement districts of Montana, Utah, Nevada, and Arizona. Lead, Silver, Copper, Zinc, Antimony, Indium, Tellurium, Tungsten, and Bismuth were among the most frequently enriched critical or strategic elements. One hundred seventy-four features, including several large copper tailings facilities in Arizona and New Mexico, lacked public geochemical samples within 2 km, highlighting important data gaps. The resulting ranked database, geochemical indicators, and interactive national atlas provide a transparent and reproducible framework for prioritizing mine-waste sites for future sampling, critical-mineral evaluation, and environmental investigation under the Earth Mapping Resources Initiative (Earth MRI). The proposed indices are intended as screening tools and should not be interpreted as resource estimates or formal risk assessments.",
+   "list": false
+  },
+  {
+   "type": "p",
+   "runs": [
+    {
+     "t": "Keywords:",
+     "b": true,
+     "i": false
+    },
+    {
+     "t": " mine waste; critical minerals; geochemistry; mine tailings; Earth MRI; environmental hazard; heavy metals; National Mine Waste Inventory; contamination; pollution.",
+     "b": false,
+     "i": false
+    }
+   ],
+   "text": "Keywords: mine waste; critical minerals; geochemistry; mine tailings; Earth MRI; environmental hazard; heavy metals; National Mine Waste Inventory; contamination; pollution.",
+   "list": false
+  },
+  {
+   "type": "h1",
+   "num": "1.",
+   "text": "Introduction"
+  },
+  {
+   "type": "p",
+   "runs": [
+    {
+     "t": "The United States is seeking new domestic sources of critical minerals needed for energy technologies, advanced manufacturing, transportation, national defense, and economic security. Recent federal initiatives, including the Earth Mapping Resources Initiative (Earth MRI), have emphasized identifying unconventional and secondary mineral resources that can supplement traditional mining and strengthen supply-chain resilience. Mine waste, including tailings, waste-rock piles, slag deposits, leach residues, and related processing wastes, is increasingly recognized as one such resource because many facilities were developed before modern recovery technologies and may still contain significant concentrations of critical minerals and valuable metals. These materials can represent long-term environmental liabilities through the release of potentially toxic elements to surrounding soils, watersheds, and ecosystems [1].",
+     "b": false,
+     "i": false
+    }
+   ],
+   "text": "The United States is seeking new domestic sources of critical minerals needed for energy technologies, advanced manufacturing, transportation, national defense, and economic security. Recent federal initiatives, including the Earth Mapping Resources Initiative (Earth MRI), have emphasized identifying unconventional and secondary mineral resources that can supplement traditional mining and strengthen supply-chain resilience. Mine waste, including tailings, waste-rock piles, slag deposits, leach residues, and related processing wastes, is increasingly recognized as one such resource because many facilities were developed before modern recovery technologies and may still contain significant concentrations of critical minerals and valuable metals. These materials can represent long-term environmental liabilities through the release of potentially toxic elements to surrounding soils, watersheds, and ecosystems [1].",
+   "list": false
+  },
+  {
+   "type": "p",
+   "runs": [
+    {
+     "t": "Historically, mining operations were designed to recover a limited number of primary commodities, often leaving potentially valuable byproduct elements in waste streams. Elements such as Tellurium, Indium, Gallium, Germanium, Antimony, and other minerals now considered strategically important were commonly discarded because they lacked economic value at the time of mining. Advances in mineral processing, rising demand for critical minerals, and increasing interest in circular-economy approaches have renewed attention on mine waste as a potential above-ground resource. Reprocessing mine wastes may offer a dual benefit by recovering critical minerals while reducing environmental hazards associated with legacy mining activities [2, 3].",
+     "b": false,
+     "i": false
+    }
+   ],
+   "text": "Historically, mining operations were designed to recover a limited number of primary commodities, often leaving potentially valuable byproduct elements in waste streams. Elements such as Tellurium, Indium, Gallium, Germanium, Antimony, and other minerals now considered strategically important were commonly discarded because they lacked economic value at the time of mining. Advances in mineral processing, rising demand for critical minerals, and increasing interest in circular-economy approaches have renewed attention on mine waste as a potential above-ground resource. Reprocessing mine wastes may offer a dual benefit by recovering critical minerals while reducing environmental hazards associated with legacy mining activities [2, 3].",
+   "list": false
+  },
+  {
+   "type": "p",
+   "runs": [
+    {
+     "t": "To support critical-mineral research and resource assessments, the U.S. Geological Survey (USGS), in partnership with state geological surveys, recently released Version 2.0 of the National Mine Waste Inventory (NMWI) [4]. The NMWI is the most comprehensive publicly available geospatial inventory of mine-waste features in the United States and includes tailings, waste-rock piles, mine dumps, slag deposits, stockpiles, settling ponds, and related features represented as points and polygons. The database provides information on feature location, extent, commodity, deposit type, mineralogy, and other site characteristics and was developed to support resource recovery, environmental assessment, land management, and Earth MRI objectives.",
+     "b": false,
+     "i": false
+    }
+   ],
+   "text": "To support critical-mineral research and resource assessments, the U.S. Geological Survey (USGS), in partnership with state geological surveys, recently released Version 2.0 of the National Mine Waste Inventory (NMWI) [4]. The NMWI is the most comprehensive publicly available geospatial inventory of mine-waste features in the United States and includes tailings, waste-rock piles, mine dumps, slag deposits, stockpiles, settling ponds, and related features represented as points and polygons. The database provides information on feature location, extent, commodity, deposit type, mineralogy, and other site characteristics and was developed to support resource recovery, environmental assessment, land management, and Earth MRI objectives.",
+   "list": false
+  },
+  {
+   "type": "p",
+   "runs": [
+    {
+     "t": "Despite this important advance, a major gap remains. The NMWI identifies where mine-waste features occur but does not systematically evaluate what they contain or which sites are most likely to host elevated concentrations of critical minerals or environmentally hazardous elements. Characterizing every feature through field sampling would require substantial time and resources. Meanwhile, decades of publicly available geochemical data collected by the USGS and other organizations provide a largely untapped opportunity to screen mine-waste sites using existing information. However, these datasets remain fragmented and have not been integrated into a consistent, national-scale framework for prioritizing mine-waste features.",
+     "b": false,
+     "i": false
+    }
+   ],
+   "text": "Despite this important advance, a major gap remains. The NMWI identifies where mine-waste features occur but does not systematically evaluate what they contain or which sites are most likely to host elevated concentrations of critical minerals or environmentally hazardous elements. Characterizing every feature through field sampling would require substantial time and resources. Meanwhile, decades of publicly available geochemical data collected by the USGS and other organizations provide a largely untapped opportunity to screen mine-waste sites using existing information. However, these datasets remain fragmented and have not been integrated into a consistent, national-scale framework for prioritizing mine-waste features.",
+   "list": false
+  },
+  {
+   "type": "p",
+   "runs": [
+    {
+     "t": "This gap is particularly important because resource opportunity and environmental hazard are often closely linked. Mine waste enriched in critical minerals may represent attractive targets for future recovery, whereas elevated concentrations of Arsenic, Cadmium, Lead, Mercury, Chromium, and other potentially harmful elements can increase environmental and human-health risks [2, 5]. A screening framework that evaluates both dimensions simultaneously could help focus future sampling efforts, support Earth MRI priorities, and improve the allocation of limited characterization and remediation resources. This study develops the first national-scale, fully reproducible framework that links mine-waste features in the NMWI with nearby public geochemical observations. The objective is to provide a transparent prioritization system that identifies sites warranting further investigation rather than estimating resources or economic value. This study addresses three questions:",
+     "b": false,
+     "i": false
+    }
+   ],
+   "text": "This gap is particularly important because resource opportunity and environmental hazard are often closely linked. Mine waste enriched in critical minerals may represent attractive targets for future recovery, whereas elevated concentrations of Arsenic, Cadmium, Lead, Mercury, Chromium, and other potentially harmful elements can increase environmental and human-health risks [2, 5]. A screening framework that evaluates both dimensions simultaneously could help focus future sampling efforts, support Earth MRI priorities, and improve the allocation of limited characterization and remediation resources. This study develops the first national-scale, fully reproducible framework that links mine-waste features in the NMWI with nearby public geochemical observations. The objective is to provide a transparent prioritization system that identifies sites warranting further investigation rather than estimating resources or economic value. This study addresses three questions:",
+   "list": false
+  },
+  {
+   "type": "p",
+   "runs": [
+    {
+     "t": "Which mine-waste features are associated with elevated concentrations of critical minerals based on nearby public geochemical data?",
+     "b": false,
+     "i": false
+    }
+   ],
+   "text": "Which mine-waste features are associated with elevated concentrations of critical minerals based on nearby public geochemical data?",
+   "list": true
+  },
+  {
+   "type": "p",
+   "runs": [
+    {
+     "t": "Which mine-waste features exhibit geochemical signatures indicative of elevated environmental or heavy metal hazard?",
+     "b": false,
+     "i": false
+    }
+   ],
+   "text": "Which mine-waste features exhibit geochemical signatures indicative of elevated environmental or heavy metal hazard?",
+   "list": true
+  },
+  {
+   "type": "p",
+   "runs": [
+    {
+     "t": "Can publicly available datasets be integrated into a transparent national screening atlas that helps prioritize mine-waste sites for future sampling, resource evaluation, and remediation efforts?",
+     "b": false,
+     "i": false
+    }
+   ],
+   "text": "Can publicly available datasets be integrated into a transparent national screening atlas that helps prioritize mine-waste sites for future sampling, resource evaluation, and remediation efforts?",
+   "list": true
+  },
+  {
+   "type": "p",
+   "runs": [
+    {
+     "t": "To answer these questions, we developed a reproducible geospatial workflow that links NMWI features with nearby geochemical observations, calculates critical-mineral and hazard indicators, and ranks mine-waste sites across the United States. The resulting products include an openly available screening dataset, an interactive national atlas, and a reproducible analytical framework that can support future Earth MRI activities, state geological surveys, environmental assessments, and critical-mineral resource evaluations.",
+     "b": false,
+     "i": false
+    }
+   ],
+   "text": "To answer these questions, we developed a reproducible geospatial workflow that links NMWI features with nearby geochemical observations, calculates critical-mineral and hazard indicators, and ranks mine-waste sites across the United States. The resulting products include an openly available screening dataset, an interactive national atlas, and a reproducible analytical framework that can support future Earth MRI activities, state geological surveys, environmental assessments, and critical-mineral resource evaluations.",
+   "list": false
+  },
+  {
+   "type": "h1",
+   "num": "2.",
+   "text": "Data"
+  },
+  {
+   "type": "h2",
+   "num": "2.1.",
+   "text": "Mine-waste features"
+  },
+  {
+   "type": "p",
+   "runs": [
+    {
+     "t": "Mine-waste features were obtained from Version 2.0 of the National Mine Waste Inventory [4], a nationwide geospatial database developed through the Earth Mapping Resources Initiative (Earth MRI). The inventory contains 1,498 mine-waste features represented by paired point and polygon geometries and grouped into 343 sites distributed across 23 states. Included features comprise tailings impoundments, waste-rock piles, mine dumps, slag deposits, leach residues, stockpiles, settling ponds, and related mining and processing wastes. Features in the inventory are generally larger than approximately 2,000 m² and include associated metadata such as commodity, deposit type, and site characteristics.",
+     "b": false,
+     "i": false
+    }
+   ],
+   "text": "Mine-waste features were obtained from Version 2.0 of the National Mine Waste Inventory [4], a nationwide geospatial database developed through the Earth Mapping Resources Initiative (Earth MRI). The inventory contains 1,498 mine-waste features represented by paired point and polygon geometries and grouped into 343 sites distributed across 23 states. Included features comprise tailings impoundments, waste-rock piles, mine dumps, slag deposits, leach residues, stockpiles, settling ponds, and related mining and processing wastes. Features in the inventory are generally larger than approximately 2,000 m² and include associated metadata such as commodity, deposit type, and site characteristics.",
+   "list": false
+  },
+  {
+   "type": "h2",
+   "num": "2.2.",
+   "text": "Geochemical samples"
+  },
+  {
+   "type": "p",
+   "runs": [
+    {
+     "t": "Geochemical data were obtained from the national geochemical compilation of Granitto et al. [6], which contains 1,524,014 rock, soil, sediment, mineral, and related samples analyzed between 1962 and 2023. The database includes approximately 59.8 million analytical determinations generated using 108 analytical methods, each assigned a “best value” ranking to identify the preferred result when multiple determinations are available for the same element [7]. To focus on bulk geochemical compositions representative of natural materials, we excluded 10,273 mineral-separate and other non-bulk samples, along with 91 samples identified as concentrates. The resulting dataset contains 1,513,650 samples used in subsequent analyses.",
+     "b": false,
+     "i": false
+    }
+   ],
+   "text": "Geochemical data were obtained from the national geochemical compilation of Granitto et al. [6], which contains 1,524,014 rock, soil, sediment, mineral, and related samples analyzed between 1962 and 2023. The database includes approximately 59.8 million analytical determinations generated using 108 analytical methods, each assigned a “best value” ranking to identify the preferred result when multiple determinations are available for the same element [7]. To focus on bulk geochemical compositions representative of natural materials, we excluded 10,273 mineral-separate and other non-bulk samples, along with 91 samples identified as concentrates. The resulting dataset contains 1,513,650 samples used in subsequent analyses.",
+   "list": false
+  },
+  {
+   "type": "h2",
+   "num": "2.3.",
+   "text": "Background geochemical reference values"
+  },
+  {
+   "type": "p",
+   "runs": [
+    {
+     "t": "Elemental enrichment was evaluated relative to representative U.S. background concentrations. Background values were derived primarily from the median concentrations of 21,479 soil samples collected as part of the USGS ",
+     "b": false,
+     "i": false
+    },
+    {
+     "t": "Geochemical Landscapes of the Conterminous United States",
+     "b": false,
+     "i": true
+    },
+    {
+     "t": " project [8], which are included within the national geochemical database. For elements not analyzed or rarely detected in that survey, upper continental crust abundance estimates from Rudnick and Gao [9] were used as reference values. The background value and source used for each element are listed in Appendix Table A1.",
+     "b": false,
+     "i": false
+    }
+   ],
+   "text": "Elemental enrichment was evaluated relative to representative U.S. background concentrations. Background values were derived primarily from the median concentrations of 21,479 soil samples collected as part of the USGS Geochemical Landscapes of the Conterminous United States project [8], which are included within the national geochemical database. For elements not analyzed or rarely detected in that survey, upper continental crust abundance estimates from Rudnick and Gao [9] were used as reference values. The background value and source used for each element are listed in Appendix Table A1.",
+   "list": false
+  },
+  {
+   "type": "h2",
+   "num": "2.4.",
+   "text": "Critical minerals and hazard benchmarks"
+  },
+  {
+   "type": "p",
+   "runs": [
+    {
+     "t": "The critical-mineral element set was based on the 2025 U.S. Critical Minerals List [10]. Of the 60 listed commodities, 58 can be represented directly by measurable chemical elements. Non-elemental commodities, including graphite and metallurgical coal, were not evaluated. Commodity-based minerals were represented by their principal constituent elements, including Barite (Ba), Fluorspar (F), Phosphate (P), and Potash (K). Environmental hazard screening was based on the U.S. Environmental Protection Agency (EPA) Regional Screening Levels (RSLs) for residential soils (target hazard quotient = 1; November 2024 summary table; Appendix Table A2) [11]. These benchmark concentrations were used to evaluate the relative potential for elevated heavy-metal and trace-element hazards in geochemical samples associated with mine-waste features. For arsenic, the noncancer screening level (35 mg/kg) was used for ranking, and the cancer-based level (0.68 mg/kg) was evaluated as a sensitivity case (Section 4.6). The data sources, versions, and their roles in the workflow are summarized in Table 1.",
+     "b": false,
+     "i": false
+    }
+   ],
+   "text": "The critical-mineral element set was based on the 2025 U.S. Critical Minerals List [10]. Of the 60 listed commodities, 58 can be represented directly by measurable chemical elements. Non-elemental commodities, including graphite and metallurgical coal, were not evaluated. Commodity-based minerals were represented by their principal constituent elements, including Barite (Ba), Fluorspar (F), Phosphate (P), and Potash (K). Environmental hazard screening was based on the U.S. Environmental Protection Agency (EPA) Regional Screening Levels (RSLs) for residential soils (target hazard quotient = 1; November 2024 summary table; Appendix Table A2) [11]. These benchmark concentrations were used to evaluate the relative potential for elevated heavy-metal and trace-element hazards in geochemical samples associated with mine-waste features. For arsenic, the noncancer screening level (35 mg/kg) was used for ranking, and the cancer-based level (0.68 mg/kg) was evaluated as a sensitivity case (Section 4.6). The data sources, versions, and their roles in the workflow are summarized in Table 1.",
+   "list": false
+  },
+  {
+   "type": "caption",
+   "runs": [
+    {
+     "t": "Table 1. ",
+     "b": true,
+     "i": false
+    },
+    {
+     "t": "Data sources used in this study.",
+     "b": false,
+     "i": false
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Source",
+     "Version",
+     "Content used",
+     "Role",
+     "Reference"
+    ],
+    [
+     "National Mine Waste Inventory",
+     "v2.0, Oct 2026",
+     "1,498 features, 343 sites, 23 states",
+     "Screening units",
+     "[4]"
+    ],
+    [
+     "USGS geochemical data, 1962 to 2023",
+     "2026 release",
+     "1,513,650 eligible bulk samples",
+     "Element concentrations",
+     "[6]"
+    ],
+    [
+     "Best-value method ranking",
+     "AGDB3",
+     "Rank of each analytical method",
+     "Selection of one value per element",
+     "[7]"
+    ],
+    [
+     "Geochemical Landscapes soils",
+     "Within source above",
+     "21,479 soil samples",
+     "Background (primary)",
+     "[8]"
+    ],
+    [
+     "Upper continental crust",
+     "2nd ed.",
+     "24 element abundances",
+     "Background where soil data are lacking",
+     "[9]"
+    ],
+    [
+     "EPA Regional Screening Levels",
+     "Nov 2024",
+     "Resident soil, THQ = 1",
+     "Hazard benchmarks",
+     "[11]"
+    ],
+    [
+     "Final 2025 List of Critical Minerals",
+     "Nov 7, 2025",
+     "60 minerals (58 as elements)",
+     "Critical element set",
+     "[10]"
+    ]
+   ]
+  },
+  {
+   "type": "h1",
+   "num": "3.",
+   "text": "Methods"
+  },
+  {
+   "type": "p",
+   "runs": [
+    {
+     "t": "The screening workflow consists of four steps: spatial linkage of samples to mine-waste features, selection of analytical values, calculation of two screening indices, and classification of features and sites (Fig. 1).",
+     "b": false,
+     "i": false
+    }
+   ],
+   "text": "The screening workflow consists of four steps: spatial linkage of samples to mine-waste features, selection of analytical values, calculation of two screening indices, and classification of features and sites (Fig. 1).",
+   "list": false
+  },
+  {
+   "type": "image",
+   "src": "media/image1.png"
+  },
+  {
+   "type": "caption",
+   "runs": [
+    {
+     "t": "Fig. 1. ",
+     "b": true,
+     "i": false
+    },
+    {
+     "t": "Screening workflow linking National Mine Waste Inventory (NMWI) features to public geochemical samples. CMI, Critical Mineral Index; HHI, Heavy-Metal Hazard Index; RSL, EPA Regional Screening Level.",
+     "b": false,
+     "i": false
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "num": "3.1.",
+   "text": "Spatial linkage"
+  },
+  {
+   "type": "p",
+   "runs": [
+    {
+     "t": "For each NMWI feature, the distance from every eligible geochemical sample to the feature polygon was computed in an equal-area projection (EPSG:5070 for the conterminous United States and EPSG:3338 for Alaska), with a distance of zero assigned to samples inside the polygon. Samples inside or within 1 km of the polygon edge were assigned to Tier 1, and samples 1 to 2 km away to Tier 2. Each feature was scored from its Tier 1 samples when any were available and otherwise from its Tier 2 samples. Samples whose recorded source was a mine dump, tailings, slag, waste, or mill material were flagged as on-waste samples.",
+     "b": false,
+     "i": false
+    }
+   ],
+   "text": "For each NMWI feature, the distance from every eligible geochemical sample to the feature polygon was computed in an equal-area projection (EPSG:5070 for the conterminous United States and EPSG:3338 for Alaska), with a distance of zero assigned to samples inside the polygon. Samples inside or within 1 km of the polygon edge were assigned to Tier 1, and samples 1 to 2 km away to Tier 2. Each feature was scored from its Tier 1 samples when any were available and otherwise from its Tier 2 samples. Samples whose recorded source was a mine dump, tailings, slag, waste, or mill material were flagged as on-waste samples.",
+   "list": false
+  },
+  {
+   "type": "h2",
+   "num": "3.2.",
+   "text": "Selection of analytical values"
+  },
+  {
+   "type": "p",
+   "runs": [
+    {
+     "t": "Where a sample had several determinations of the same element, the single best-ranked value was retained, with total-digestion methods preferred over partial methods and lower rank numbers preferred within each group [7]. All results were converted to mg/kg. Nondetects were set to half the reported detection limit and flagged, and values reported above an upper limit were treated as lower bounds. For each feature and element, the median across the selected samples was used as the representative concentration.",
+     "b": false,
+     "i": false
+    }
+   ],
+   "text": "Where a sample had several determinations of the same element, the single best-ranked value was retained, with total-digestion methods preferred over partial methods and lower rank numbers preferred within each group [7]. All results were converted to mg/kg. Nondetects were set to half the reported detection limit and flagged, and values reported above an upper limit were treated as lower bounds. For each feature and element, the median across the selected samples was used as the representative concentration.",
+   "list": false
+  },
+  {
+   "type": "h2",
+   "num": "3.3.",
+   "text": "Critical Mineral Index"
+  },
+  {
+   "type": "p",
+   "runs": [
+    {
+     "t": "For each critical element, an enrichment factor (EF) was calculated as the feature median divided by the background concentration (Section 2.3; Appendix Table A1). The Critical Mineral Index (CMI) is the sum of the five largest positive log10 EF values for a feature, with each element capped at 3 (a 1,000-fold enrichment), giving a range of 0 to 15. Limiting the sum to five elements reduces bias toward samples analyzed by multi-element methods. Elements whose feature median was itself a nondetect (50% or more nondetects) contributed no enrichment, because half a detection limit can exceed crustal abundance by orders of magnitude for elements such as tellurium, rhenium, and the platinum-group elements.",
+     "b": false,
+     "i": false
+    }
+   ],
+   "text": "For each critical element, an enrichment factor (EF) was calculated as the feature median divided by the background concentration (Section 2.3; Appendix Table A1). The Critical Mineral Index (CMI) is the sum of the five largest positive log10 EF values for a feature, with each element capped at 3 (a 1,000-fold enrichment), giving a range of 0 to 15. Limiting the sum to five elements reduces bias toward samples analyzed by multi-element methods. Elements whose feature median was itself a nondetect (50% or more nondetects) contributed no enrichment, because half a detection limit can exceed crustal abundance by orders of magnitude for elements such as tellurium, rhenium, and the platinum-group elements.",
+   "list": false
+  },
+  {
+   "type": "h2",
+   "num": "3.4.",
+   "text": "Heavy-Metal Hazard Index"
+  },
+  {
+   "type": "p",
+   "runs": [
+    {
+     "t": "For 18 metals (As, Pb, Cd, Hg, Sb, Tl, Cu, Zn, Ni, Se, Ba, Be, Co, Mn, Ag, V, Mo, and U), a hazard ratio was calculated as the feature median divided by the EPA residential soil screening level (Appendix Table A2). The Heavy-Metal Hazard Index (HHI) is the sum of these ratios; an HHI of 1 corresponds to one screening level reached. Medians that were nondetects were excluded. For arsenic, the noncancer screening level (35 mg/kg) was used because the cancer-based level (0.68 mg/kg) lies below typical U.S. soil concentrations (background median 5.6 mg/kg) and would otherwise dominate the index; the cancer-based level was evaluated as a sensitivity case (Section 4.6). Chromium was not scored because the database reports total chromium, whereas screening levels are specific to its oxidation state.",
+     "b": false,
+     "i": false
+    }
+   ],
+   "text": "For 18 metals (As, Pb, Cd, Hg, Sb, Tl, Cu, Zn, Ni, Se, Ba, Be, Co, Mn, Ag, V, Mo, and U), a hazard ratio was calculated as the feature median divided by the EPA residential soil screening level (Appendix Table A2). The Heavy-Metal Hazard Index (HHI) is the sum of these ratios; an HHI of 1 corresponds to one screening level reached. Medians that were nondetects were excluded. For arsenic, the noncancer screening level (35 mg/kg) was used because the cancer-based level (0.68 mg/kg) lies below typical U.S. soil concentrations (background median 5.6 mg/kg) and would otherwise dominate the index; the cancer-based level was evaluated as a sensitivity case (Section 4.6). Chromium was not scored because the database reports total chromium, whereas screening levels are specific to its oxidation state.",
+   "list": false
+  },
+  {
+   "type": "h2",
+   "num": "3.5.",
+   "text": "Priority classes and confidence grades"
+  },
+  {
+   "type": "p",
+   "runs": [
+    {
+     "t": "Features in the upper third of scored features for both indices were classified as Dual priority (CMI ≥ 5.63 and HHI ≥ 6.46). Features in the upper third for only one index were classified as Resource or Hazard priority, the remaining scored features as Lower priority, and features with no sample within 2 km as Unsampled. Each feature also received a confidence grade reflecting the amount and type of supporting data, and each site was assigned the class of its highest-scoring feature (Table 2).",
+     "b": false,
+     "i": false
+    }
+   ],
+   "text": "Features in the upper third of scored features for both indices were classified as Dual priority (CMI ≥ 5.63 and HHI ≥ 6.46). Features in the upper third for only one index were classified as Resource or Hazard priority, the remaining scored features as Lower priority, and features with no sample within 2 km as Unsampled. Each feature also received a confidence grade reflecting the amount and type of supporting data, and each site was assigned the class of its highest-scoring feature (Table 2).",
+   "list": false
+  },
+  {
+   "type": "caption",
+   "runs": [
+    {
+     "t": "Table 2. ",
+     "b": true,
+     "i": false
+    },
+    {
+     "t": "Index definitions, priority classes, and confidence grades.",
+     "b": false,
+     "i": false
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Term",
+     "Definition"
+    ],
+    [
+     "Enrichment factor (EF)",
+     "Feature median concentration divided by background concentration"
+    ],
+    [
+     "Critical Mineral Index (CMI)",
+     "Sum of the five largest values of max(0, log10 EF) over critical elements, each capped at 3; range 0 to 15"
+    ],
+    [
+     "Hazard ratio",
+     "Feature median concentration divided by the EPA residential soil screening level"
+    ],
+    [
+     "Heavy-Metal Hazard Index (HHI)",
+     "Sum of hazard ratios over 18 metals with a detected median"
+    ],
+    [
+     "Dual",
+     "Upper third on both indices (CMI ≥ 5.63; HHI ≥ 6.46)"
+    ],
+    [
+     "Resource / Hazard",
+     "Upper third on the CMI only / on the HHI only"
+    ],
+    [
+     "Lower",
+     "Scored, but in the upper third of neither index"
+    ],
+    [
+     "Unsampled",
+     "No eligible sample within 2 km"
+    ],
+    [
+     "Confidence A",
+     "At least 5 samples within 1 km, including at least one on-waste sample"
+    ],
+    [
+     "Confidence B",
+     "At least 3 samples within 1 km"
+    ],
+    [
+     "Confidence C",
+     "Fewer than 3 samples within 1 km, or samples 1 to 2 km away only"
+    ],
+    [
+     "Confidence U",
+     "No sample within 2 km"
+    ]
+   ]
+  },
+  {
+   "type": "h2",
+   "num": "3.6.",
+   "text": "Validation, sensitivity, and verification"
+  },
+  {
+   "type": "p",
+   "runs": [
+    {
+     "t": "As an internal check, features whose NMWI commodity field lists a metal were tested for five-fold or greater enrichment of that metal nearby. Sensitivity was evaluated by substituting the cancer-based arsenic screening level, by using each element's maximum rather than median concentration, and by removing from the CMI the 13 elements that appear on both the critical-mineral and hazard lists. In addition, 14 feature-element results, covering known sites, extreme values, and randomly selected features, were recomputed by hand from the raw laboratory records (Appendix Table A3). The full workflow is scripted and can be reproduced from the public sources (see Data and code availability).",
+     "b": false,
+     "i": false
+    }
+   ],
+   "text": "As an internal check, features whose NMWI commodity field lists a metal were tested for five-fold or greater enrichment of that metal nearby. Sensitivity was evaluated by substituting the cancer-based arsenic screening level, by using each element's maximum rather than median concentration, and by removing from the CMI the 13 elements that appear on both the critical-mineral and hazard lists. In addition, 14 feature-element results, covering known sites, extreme values, and randomly selected features, were recomputed by hand from the raw laboratory records (Appendix Table A3). The full workflow is scripted and can be reproduced from the public sources (see Data and code availability).",
+   "list": false
+  },
+  {
+   "type": "h1",
+   "num": "4.",
+   "text": "Results"
+  },
+  {
+   "type": "h2",
+   "num": "4.1.",
+   "text": "Geochemical coverage of mine-waste features"
+  },
+  {
+   "type": "p",
+   "runs": [
+    {
+     "t": "The geospatial linkage successfully connected most NMWI features with nearby public geochemical observations. Of the 1,498 mine-waste features evaluated, 1,046 (69.8%) had at least one geochemical sample within 1 km and 1,324 (88.4%) had at least one sample within 2 km (Fig. 2). Only 174 features (11.6%) lacked a public geochemical sample within the search distance (Appendix Table A4). The final linkage incorporated 19,053 unique geochemical samples. Confidence grades assigned to linked features included 209 grade-A features, 600 grade-B features, and 515 grade-C features. Although most features were associated with nearby geochemical information, only 343 features had samples explicitly recorded as originating from mine waste materials.",
+     "b": false,
+     "i": false
+    }
+   ],
+   "text": "The geospatial linkage successfully connected most NMWI features with nearby public geochemical observations. Of the 1,498 mine-waste features evaluated, 1,046 (69.8%) had at least one geochemical sample within 1 km and 1,324 (88.4%) had at least one sample within 2 km (Fig. 2). Only 174 features (11.6%) lacked a public geochemical sample within the search distance (Appendix Table A4). The final linkage incorporated 19,053 unique geochemical samples. Confidence grades assigned to linked features included 209 grade-A features, 600 grade-B features, and 515 grade-C features. Although most features were associated with nearby geochemical information, only 343 features had samples explicitly recorded as originating from mine waste materials.",
+   "list": false
+  },
+  {
+   "type": "image",
+   "src": "media/image2.png"
+  },
+  {
+   "type": "caption",
+   "runs": [
+    {
+     "t": "Fig. 2. ",
+     "b": true,
+     "i": false
+    },
+    {
+     "t": "Geochemical sample coverage of NMWI v2.0 features by state, by distance from each feature polygon to the nearest eligible sample. Values at bar ends are the number of features per state.",
+     "b": false,
+     "i": false
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "num": "4.2.",
+   "text": "Validation using known mine commodities"
+  },
+  {
+   "type": "p",
+   "runs": [
+    {
+     "t": "To evaluate whether the linkage captured meaningful mining-related geochemical signatures, we compared nearby geochemical enrichments with commodities recorded in the NMWI. Of the 1,066 features for which at least one reported commodity was measured, 851 (79.8%) exhibited five-fold or greater enrichment above background for at least one listed commodity metal. This high validation rate indicates that the screening framework successfully identifies geochemical signals associated with known mineralization and mining activity.",
+     "b": false,
+     "i": false
+    }
+   ],
+   "text": "To evaluate whether the linkage captured meaningful mining-related geochemical signatures, we compared nearby geochemical enrichments with commodities recorded in the NMWI. Of the 1,066 features for which at least one reported commodity was measured, 851 (79.8%) exhibited five-fold or greater enrichment above background for at least one listed commodity metal. This high validation rate indicates that the screening framework successfully identifies geochemical signals associated with known mineralization and mining activity.",
+   "list": false
+  },
+  {
+   "type": "h2",
+   "num": "4.3.",
+   "text": "National screening rankings"
+  },
+  {
+   "type": "p",
+   "runs": [
+    {
+     "t": "Application of the Critical Mineral Index (CMI) and Heavy-Metal Hazard Index (HHI) identified numerous sites with elevated resource potential, environmental hazard, and both. A total of 325 features representing 84 sites across 18 states ranked within the upper third of both indices and were classified as Dual priority sites (Fig. 3). An additional 119 features were classified as primarily Resource targets and 119 as primarily Hazard targets. The two indices are strongly correlated (Spearman ρ = 0.797; Fig. 4), reflecting the fact that several environmentally significant elements, including Arsenic, Lead, Antimony, Zinc, and Copper, are also among the most enriched critical or strategic metals. The highest-ranked sites are concentrated in major porphyry, polymetallic vein, and replacement districts of the western United States (e.g., in Montana, Utah, Nevada, Arizona, and Idaho).",
+     "b": false,
+     "i": false
+    }
+   ],
+   "text": "Application of the Critical Mineral Index (CMI) and Heavy-Metal Hazard Index (HHI) identified numerous sites with elevated resource potential, environmental hazard, and both. A total of 325 features representing 84 sites across 18 states ranked within the upper third of both indices and were classified as Dual priority sites (Fig. 3). An additional 119 features were classified as primarily Resource targets and 119 as primarily Hazard targets. The two indices are strongly correlated (Spearman ρ = 0.797; Fig. 4), reflecting the fact that several environmentally significant elements, including Arsenic, Lead, Antimony, Zinc, and Copper, are also among the most enriched critical or strategic metals. The highest-ranked sites are concentrated in major porphyry, polymetallic vein, and replacement districts of the western United States (e.g., in Montana, Utah, Nevada, Arizona, and Idaho).",
+   "list": false
+  },
+  {
+   "type": "image",
+   "src": "media/image3.png"
+  },
+  {
+   "type": "caption",
+   "runs": [
+    {
+     "t": "Fig. 3. ",
+     "b": true,
+     "i": false
+    },
+    {
+     "t": "Screening priority class of NMWI v2.0 features. Dual, upper third on both indices; Resource or Hazard, upper third on one index; hollow circles, no public geochemical sample within 2 km. Alaska is shown as an inset (not to scale).",
+     "b": false,
+     "i": false
+    }
+   ]
+  },
+  {
+   "type": "image",
+   "src": "media/image4.png"
+  },
+  {
+   "type": "caption",
+   "runs": [
+    {
+     "t": "Fig. 4. ",
+     "b": true,
+     "i": false
+    },
+    {
+     "t": "Critical Mineral Index versus Heavy-Metal Hazard Index (log10) for 1,324 scored features. Dashed lines mark the upper-third cutoffs (CMI = 5.63; HHI = 6.46). Selected sites are labeled.",
+     "b": false,
+     "i": false
+    }
+   ]
+  },
+  {
+   "type": "p",
+   "runs": [
+    {
+     "t": "Among the highest-ranked sites with confidence grade A or B (Table 3), Eureka Mills (Utah) ranks first, combining strong Tellurium, Lead, Silver, and Indium enrichment with one of the highest hazard indices, driven by Lead, Cadmium, and Thallium. The Berkeley Pit (Montana) shares the highest Critical Mineral Index with Continental Mine (Montana), with enrichment in Tellurium, Copper, Tungsten, Arsenic, and Antimony. The single highest hazard index belongs to a mine dump at Jack Waite (Idaho), driven by Lead. Other important sites include Butte Reduction Works (Montana), Tybo and Treasure Hill (Nevada), Red Dog (Alaska), Burgin and Bingham Canyon (Utah), and Ray (Arizona). These sites consistently show strong enrichment in multiple critical minerals with elevated heavy metal concentrations. Some well-known mining districts behaved as expected during qualitative evaluation. Stibnite, Idaho, was characterized by strong Antimony and Tungsten enrichment, Bingham Canyon, Utah, by Copper-dominated enrichment with associated Bismuth and Indium, and Red Dog, Alaska, by Zinc-, Silver-, and Lead-rich signatures accompanied by elevated Cadmium and Thallium. Tar Creek, Oklahoma, exhibited substantial Zinc enrichment together with elevated Indium, Germanium, and Gallium and among the highest Cadmium hazard ratios in the dataset.",
+     "b": false,
+     "i": false
+    }
+   ],
+   "text": "Among the highest-ranked sites with confidence grade A or B (Table 3), Eureka Mills (Utah) ranks first, combining strong Tellurium, Lead, Silver, and Indium enrichment with one of the highest hazard indices, driven by Lead, Cadmium, and Thallium. The Berkeley Pit (Montana) shares the highest Critical Mineral Index with Continental Mine (Montana), with enrichment in Tellurium, Copper, Tungsten, Arsenic, and Antimony. The single highest hazard index belongs to a mine dump at Jack Waite (Idaho), driven by Lead. Other important sites include Butte Reduction Works (Montana), Tybo and Treasure Hill (Nevada), Red Dog (Alaska), Burgin and Bingham Canyon (Utah), and Ray (Arizona). These sites consistently show strong enrichment in multiple critical minerals with elevated heavy metal concentrations. Some well-known mining districts behaved as expected during qualitative evaluation. Stibnite, Idaho, was characterized by strong Antimony and Tungsten enrichment, Bingham Canyon, Utah, by Copper-dominated enrichment with associated Bismuth and Indium, and Red Dog, Alaska, by Zinc-, Silver-, and Lead-rich signatures accompanied by elevated Cadmium and Thallium. Tar Creek, Oklahoma, exhibited substantial Zinc enrichment together with elevated Indium, Germanium, and Gallium and among the highest Cadmium hazard ratios in the dataset.",
+   "list": false
+  },
+  {
+   "type": "caption",
+   "runs": [
+    {
+     "t": "Table 3. ",
+     "b": true,
+     "i": false
+    },
+    {
+     "t": "Highest-ranked sites with confidence grade A or B. Enrichment factors (x) are feature medians relative to background; hazard ratios (x) are feature medians relative to EPA residential soil screening levels (arsenic, noncancer level). HHI, sum of hazard ratios; Conf., confidence grade; Rank, overall site rank among all scored sites.",
+     "b": false,
+     "i": false
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Rank",
+     "Site",
+     "State",
+     "Conf.",
+     "CMI",
+     "HHI",
+     "Top critical-element enrichment",
+     "Top hazard ratios"
+    ],
+    [
+     "1",
+     "Eureka Mills",
+     "UT",
+     "B",
+     "14.7",
+     "970",
+     "Te 30000x; Pb 9620x; Ag 9434x; In 2125x; Zn 469x",
+     "Pb 885x; Cd 56x; Tl 26x; Zn 1.3x; Ag 1.3x"
+    ],
+    [
+     "3",
+     "Berkeley Pit",
+     "MT",
+     "B",
+     "15.0",
+     "439",
+     "Te 23950x; Cu 4503x; W 2500x; As 2304x; Sb 2025x",
+     "As 369x; Sb 40x; Cu 25x; V 2.6x; Tl 1.3x"
+    ],
+    [
+     "5",
+     "Butte Reduction Works",
+     "MT",
+     "B",
+     "13.7",
+     "355",
+     "Pb 2848x; Zn 1421x; Ag 1330x; Re 505x; Te 102x",
+     "Pb 262x; Cd 73x; Mn 14x; Zn 4.0x; As 1.1x"
+    ],
+    [
+     "6",
+     "Tybo",
+     "NV",
+     "B",
+     "13.4",
+     "386",
+     "Ag 1887x; As 1786x; Pb 815x; Sb 246x; Bi 118x",
+     "As 286x; Pb 75x; Cd 18x; Sb 4.8x; Mn 1.1x"
+    ],
+    [
+     "7",
+     "Continental Mine",
+     "MT",
+     "B",
+     "14.6",
+     "148",
+     "Cu 7147x; Ag 3755x; Bi 888x; Te 782x; As 640x",
+     "As 102x; Cu 39x; Pb 2.6x; Sb 1.1x"
+    ],
+    [
+     "8",
+     "Treasure Hill",
+     "NV",
+     "A",
+     "13.5",
+     "154",
+     "Ag 14151x; Sb 2508x; Pb 986x; In 435x; Sn 71x",
+     "Pb 91x; Sb 49x; As 11x; Ag 1.9x"
+    ],
+    [
+     "10",
+     "Red Dog",
+     "AK",
+     "A",
+     "13.2",
+     "176",
+     "Zn 1056x; Ag 774x; Pb 472x; Sb 273x; Bi 147x",
+     "Cd 92x; Pb 43x; Tl 26x; Sb 5.4x; Zn 2.9x"
+    ],
+    [
+     "11",
+     "Ely Valley",
+     "NV",
+     "B",
+     "12.8",
+     "247",
+     "Pb 1902x; Zn 469x; Ag 425x; W 238x; Bi 136x",
+     "Pb 175x; Cd 52x; As 18x; Zn 1.3x"
+    ],
+    [
+     "11",
+     "Mission Complex",
+     "AZ",
+     "B",
+     "12.6",
+     "270",
+     "Pb 2717x; Ag 377x; Cu 319x; Bi 304x; Zn 105x",
+     "Pb 250x; Cd 14x; Cu 1.8x; Co 1.3x; Mn 1.2x"
+    ],
+    [
+     "13",
+     "Burgin",
+     "UT",
+     "B",
+     "13.1",
+     "185",
+     "In 3450x; Pb 1087x; As 357x; Ag 302x; Zn 109x",
+     "Pb 100x; As 57x; Cd 14x; Tl 11x; Mn 2.8x"
+    ],
+    [
+     "17",
+     "Bingham",
+     "UT",
+     "A",
+     "12.6",
+     "124",
+     "Cu 976x; As 340x; Bi 321x; Pb 244x; In 144x",
+     "As 54x; Pb 22x; Mo 17x; Tl 13x; Cu 5.4x"
+    ],
+    [
+     "18",
+     "Magmont",
+     "MO",
+     "B",
+     "9.8",
+     "357",
+     "Pb 3804x; Ag 566x; Cu 41x; Co 18x; Ni 16x",
+     "Pb 350x; Co 6.5x"
+    ],
+    [
+     "19",
+     "Pittsmont Mine",
+     "MT",
+     "B",
+     "13.9",
+     "66.7",
+     "Te 2920x; W 2038x; Ag 679x; Sb 416x; Pb 295x",
+     "Pb 27x; As 18x; Sb 8.2x; Mn 5.9x; Cd 2.5x"
+    ],
+    [
+     "20",
+     "Resolution Copper",
+     "AZ",
+     "B",
+     "14.0",
+     "63.5",
+     "Cu 9941x; Ag 6642x; Bi 4035x; Te 2485x; Sb 108x",
+     "Cu 55x; As 3.7x; Sb 2.1x"
+    ],
+    [
+     "21",
+     "Ray",
+     "AZ",
+     "A",
+     "14.3",
+     "56.4",
+     "Bi 7191x; Ag 2708x; Cu 2321x; In 502x; Sb 369x",
+     "As 15x; Pb 14x; Cu 13x; Sb 7.3x; Cd 2.5x"
+    ]
+   ]
+  },
+  {
+   "type": "h2",
+   "num": "4.4.",
+   "text": "Critical mineral enrichment patterns"
+  },
+  {
+   "type": "p",
+   "runs": [
+    {
+     "t": "Critical-mineral enrichment is widespread across mine-waste features. The elements most frequently exhibiting median concentrations at least five times greater than background values were lead (425 features), silver (418), copper (414), zinc (400), arsenic (266), antimony (228), indium (216), tellurium (182), tungsten (154), and tin (146) (Fig. 5). These results indicate that many historic mine wastes contain elevated concentrations of metals currently considered strategically important for domestic supply chains and advanced technologies.",
+     "b": false,
+     "i": false
+    }
+   ],
+   "text": "Critical-mineral enrichment is widespread across mine-waste features. The elements most frequently exhibiting median concentrations at least five times greater than background values were lead (425 features), silver (418), copper (414), zinc (400), arsenic (266), antimony (228), indium (216), tellurium (182), tungsten (154), and tin (146) (Fig. 5). These results indicate that many historic mine wastes contain elevated concentrations of metals currently considered strategically important for domestic supply chains and advanced technologies.",
+   "list": false
+  },
+  {
+   "type": "image",
+   "src": "media/image5.png"
+  },
+  {
+   "type": "caption",
+   "runs": [
+    {
+     "t": "Fig. 5. ",
+     "b": true,
+     "i": false
+    },
+    {
+     "t": "Critical elements most often enriched five-fold or more above background in scored features (top 20 elements).",
+     "b": false,
+     "i": false
+    }
+   ]
+  },
+  {
+   "type": "h2",
+   "num": "4.5.",
+   "text": "Geochemical sampling gaps"
+  },
+  {
+   "type": "p",
+   "runs": [
+    {
+     "t": "Despite broad national coverage, important data gaps remain. A total of 174 NMWI features lacked public geochemical samples within 2 km. These unsampled features are concentrated in Virginia, Kansas, Arizona, Oregon, and New York (Fig. 2; Appendix Table A4). Several of the largest unsampled features occur at major mining operations, including the Chino tailings facilities in New Mexico; the Morenci, Safford, Bisbee, and Ajo (New Cornelia) copper districts in Arizona; a large phosphate settling pond in North Carolina; and iron tailings facilities in New York (Table 4). Because these features are large, well-defined, and currently lack nearby public geochemical information, they represent high-priority targets for future characterization and sampling efforts.",
+     "b": false,
+     "i": false
+    }
+   ],
+   "text": "Despite broad national coverage, important data gaps remain. A total of 174 NMWI features lacked public geochemical samples within 2 km. These unsampled features are concentrated in Virginia, Kansas, Arizona, Oregon, and New York (Fig. 2; Appendix Table A4). Several of the largest unsampled features occur at major mining operations, including the Chino tailings facilities in New Mexico; the Morenci, Safford, Bisbee, and Ajo (New Cornelia) copper districts in Arizona; a large phosphate settling pond in North Carolina; and iron tailings facilities in New York (Table 4). Because these features are large, well-defined, and currently lack nearby public geochemical information, they represent high-priority targets for future characterization and sampling efforts.",
+   "list": false
+  },
+  {
+   "type": "caption",
+   "runs": [
+    {
+     "t": "Table 4. ",
+     "b": true,
+     "i": false
+    },
+    {
+     "t": "Largest NMWI features with no public geochemical sample within 2 km.",
+     "b": false,
+     "i": false
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Feature ID",
+     "Site",
+     "State",
+     "Feature type",
+     "Area (km²)",
+     "Commodity"
+    ],
+    [
+     "NM000003-005",
+     "Chino",
+     "NM",
+     "Tailings - pond",
+     "3.62",
+     "copper (2); gold (2); molybdenum (2); silver (2)"
+    ],
+    [
+     "AZ000008-005",
+     "Morenci",
+     "AZ",
+     "Tailings - pond",
+     "3.33",
+     "copper; molybdenum"
+    ],
+    [
+     "AZ000008-019",
+     "Morenci",
+     "AZ",
+     "Tailings - pond",
+     "3.22",
+     "copper (1); molybdenum (1)"
+    ],
+    [
+     "NC000001-010",
+     "Nutrien Aurora",
+     "NC",
+     "Settling pond",
+     "3.16",
+     "phosphate rock (1)"
+    ],
+    [
+     "AZ000016-006",
+     "Safford",
+     "AZ",
+     "Waste rock stockpile",
+     "3.15",
+     "copper; sulfuric acid"
+    ],
+    [
+     "AZ000011-001",
+     "Bisbee",
+     "AZ",
+     "Tailings - pond",
+     "2.78",
+     "copper (2); gold (2); lead (2); manganese (2); silver (2); sulfuric acid (2); zinc (2)"
+    ],
+    [
+     "AZ000013-001",
+     "New Cornelia Mine",
+     "AZ",
+     "Tailings - pond",
+     "2.56",
+     "copper (1); gold (1); molybdenum (1); silver (1)"
+    ],
+    [
+     "NY000001-001",
+     "Benson",
+     "NY",
+     "Tailings - pond",
+     "2.47",
+     "iron"
+    ],
+    [
+     "AZ000016-003",
+     "Safford",
+     "AZ",
+     "Leach pile - heap",
+     "2.12",
+     "copper; sulfuric acid"
+    ],
+    [
+     "AZ000008-001",
+     "Morenci",
+     "AZ",
+     "Tailings - pond",
+     "1.99",
+     "copper; molybdenum"
+    ]
+   ]
+  },
+  {
+   "type": "h2",
+   "num": "4.6.",
+   "text": "Sensitivity analysis"
+  },
+  {
+   "type": "p",
+   "runs": [
+    {
+     "t": "Sensitivity testing demonstrates that index rankings are broadly robust to changes in methodological assumptions. Arsenic dominates the HHI when the EPA cancer-based residential screening level (0.68 mg/kg) is used, accounting for a median of 84.1% of each feature's hazard index; with the noncancer level adopted here (35 mg/kg), its median share falls to 9.3%. The two arsenic benchmarks give a Spearman rank correlation of 0.925 between hazard indices, and 58 of the top 100 hazard-ranked features are shared (Table 5). Alternative index formulations also yielded generally consistent results. Using maximum instead of median concentrations produced a CMI rank correlation of 0.729, while removing metals shared between the critical-mineral and hazard indices reduced the correlation to 0.598. Even when arsenic was excluded from the hazard assessment, 693 scored features retained at least one metal with median concentrations exceeding applicable screening levels, and 338 features contained median lead concentrations of 200 mg/kg or greater. These results indicate that elevated hazard rankings are not solely driven by arsenic and reflect broader patterns of metal enrichment associated with historic mine wastes.",
+     "b": false,
+     "i": false
+    }
+   ],
+   "text": "Sensitivity testing demonstrates that index rankings are broadly robust to changes in methodological assumptions. Arsenic dominates the HHI when the EPA cancer-based residential screening level (0.68 mg/kg) is used, accounting for a median of 84.1% of each feature's hazard index; with the noncancer level adopted here (35 mg/kg), its median share falls to 9.3%. The two arsenic benchmarks give a Spearman rank correlation of 0.925 between hazard indices, and 58 of the top 100 hazard-ranked features are shared (Table 5). Alternative index formulations also yielded generally consistent results. Using maximum instead of median concentrations produced a CMI rank correlation of 0.729, while removing metals shared between the critical-mineral and hazard indices reduced the correlation to 0.598. Even when arsenic was excluded from the hazard assessment, 693 scored features retained at least one metal with median concentrations exceeding applicable screening levels, and 338 features contained median lead concentrations of 200 mg/kg or greater. These results indicate that elevated hazard rankings are not solely driven by arsenic and reflect broader patterns of metal enrichment associated with historic mine wastes.",
+   "list": false
+  },
+  {
+   "type": "caption",
+   "runs": [
+    {
+     "t": "Table 5. ",
+     "b": true,
+     "i": false
+    },
+    {
+     "t": "Sensitivity of the screening indices to methodological choices.",
+     "b": false,
+     "i": false
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Test",
+     "Comparison",
+     "Result",
+     "Note"
+    ],
+    [
+     "Default (this study)",
+     "Arsenic RSL 35 mg/kg (noncancer); median per element; all 58 critical elements",
+     "-",
+     "-"
+    ],
+    [
+     "Cancer-based arsenic RSL (0.68 mg/kg)",
+     "HHI rank vs default",
+     "0.925",
+     "58 of top 100 shared"
+    ],
+    [
+     "Arsenic share of HHI",
+     "Median across features",
+     "9.3% (default)",
+     "84.1% (cancer RSL)"
+    ],
+    [
+     "Maximum instead of median",
+     "CMI rank vs default",
+     "0.729",
+     "-"
+    ],
+    [
+     "Remove 13 shared critical/hazard metals",
+     "CMI rank vs default",
+     "0.598",
+     "-"
+    ],
+    [
+     "CMI vs HHI",
+     "Rank correlation across scored features",
+     "0.797",
+     "-"
+    ],
+    [
+     "Hazard without arsenic",
+     "Features with >= 1 metal median above its RSL",
+     "693",
+     "338 with Pb >= 200 mg/kg"
+    ]
+   ]
+  },
+  {
+   "type": "h1",
+   "num": "5.",
+   "text": "Discussion"
+  },
+  {
+   "type": "p",
+   "runs": [
+    {
+     "t": "This study demonstrates how two large publicly available datasets can be integrated into a transparent, reproducible framework for prioritizing mine-waste characterization on the national scale. The framework generates a ranked and auditable screening tool that helps identify where limited sampling and characterization resources may be most effectively deployed. Its primary value is triage: distinguishing mine-waste features with evidence of critical-mineral enrichment, elevated environmental hazard, both conditions simultaneously, and no nearby geochemical information.",
+     "b": false,
+     "i": false
+    }
+   ],
+   "text": "This study demonstrates how two large publicly available datasets can be integrated into a transparent, reproducible framework for prioritizing mine-waste characterization on the national scale. The framework generates a ranked and auditable screening tool that helps identify where limited sampling and characterization resources may be most effectively deployed. Its primary value is triage: distinguishing mine-waste features with evidence of critical-mineral enrichment, elevated environmental hazard, both conditions simultaneously, and no nearby geochemical information.",
+   "list": false
+  },
+  {
+   "type": "p",
+   "runs": [
+    {
+     "t": "The results indicate that the highest-ranked sites are concentrated in well-known mineral districts where critical elements commonly occur as byproducts of historical mining and processing. Several of the enrichments identified by the screening framework are consistent with previous studies documenting the occurrence of critical minerals in mine wastes and mining-impacted environments. For example, Tellurium enrichment associated with copper mining districts and germanium enrichment in zinc-rich systems have been reported in earlier investigations [3] and are reflected in the patterns identified here. The agreement between known commodity signatures and observed geochemical enrichments further supports the effectiveness of the spatial-linkage approach as a first-order screening tool.",
+     "b": false,
+     "i": false
+    }
+   ],
+   "text": "The results indicate that the highest-ranked sites are concentrated in well-known mineral districts where critical elements commonly occur as byproducts of historical mining and processing. Several of the enrichments identified by the screening framework are consistent with previous studies documenting the occurrence of critical minerals in mine wastes and mining-impacted environments. For example, Tellurium enrichment associated with copper mining districts and germanium enrichment in zinc-rich systems have been reported in earlier investigations [3] and are reflected in the patterns identified here. The agreement between known commodity signatures and observed geochemical enrichments further supports the effectiveness of the spatial-linkage approach as a first-order screening tool.",
+   "list": false
+  },
+  {
+   "type": "p",
+   "runs": [
+    {
+     "t": "The Dual-priority class is important from a resource-management perspective. Sites that exhibit both elevated critical-mineral potential and elevated heavy-metal hazard may offer opportunities where resource recovery and environmental remediation can be pursued simultaneously. Recovery of valuable elements from mine waste could help offset remediation costs while reducing the long-term environmental risks associated with legacy mining materials. Accordingly, these sites may warrant priority consideration for detailed geochemical characterization, metallurgical testing, and environmental assessment.",
+     "b": false,
+     "i": false
+    }
+   ],
+   "text": "The Dual-priority class is important from a resource-management perspective. Sites that exhibit both elevated critical-mineral potential and elevated heavy-metal hazard may offer opportunities where resource recovery and environmental remediation can be pursued simultaneously. Recovery of valuable elements from mine waste could help offset remediation costs while reducing the long-term environmental risks associated with legacy mining materials. Accordingly, these sites may warrant priority consideration for detailed geochemical characterization, metallurgical testing, and environmental assessment.",
+   "list": false
+  },
+  {
+   "type": "p",
+   "runs": [
+    {
+     "t": "Equally important are the sites for which no nearby public geochemical information exists. The 174 unsampled features identified in this study include several of the largest tailings and leach facilities in the inventory, especially within major copper-producing districts of the southwestern United States. For these sites, the publicly available record provides little or no information regarding critical-mineral enrichment, resource potential, or environmental hazard. As a result, they represent high-value targets for future field sampling and analytical programs. Addressing these data gaps would improve both resource evaluation and environmental risk assessments while strengthening future versions of national mine-waste screening efforts.",
+     "b": false,
+     "i": false
+    }
+   ],
+   "text": "Equally important are the sites for which no nearby public geochemical information exists. The 174 unsampled features identified in this study include several of the largest tailings and leach facilities in the inventory, especially within major copper-producing districts of the southwestern United States. For these sites, the publicly available record provides little or no information regarding critical-mineral enrichment, resource potential, or environmental hazard. As a result, they represent high-value targets for future field sampling and analytical programs. Addressing these data gaps would improve both resource evaluation and environmental risk assessments while strengthening future versions of national mine-waste screening efforts.",
+   "list": false
+  },
+  {
+   "type": "p",
+   "runs": [
+    {
+     "t": "Overall, the framework is intended to support decision-making rather than replace site-specific investigations. The rankings identify features that merit additional study, but they do not constitute resource estimates, economic assessments, or formal risk evaluations. Instead, they provide a transparent foundation for prioritizing future work under Earth MRI and related critical-mineral and environmental characterization programs.",
+     "b": false,
+     "i": false
+    }
+   ],
+   "text": "Overall, the framework is intended to support decision-making rather than replace site-specific investigations. The rankings identify features that merit additional study, but they do not constitute resource estimates, economic assessments, or formal risk evaluations. Instead, they provide a transparent foundation for prioritizing future work under Earth MRI and related critical-mineral and environmental characterization programs.",
+   "list": false
+  },
+  {
+   "type": "h2",
+   "num": "5.1.",
+   "text": "Limitations"
+  },
+  {
+   "type": "p",
+   "runs": [
+    {
+     "t": "The proposed framework is intended as a screening tool and has important limitations. First, proximity does not guarantee source attribution; most linked geochemical samples were collected near mine-waste features rather than directly from the waste itself, and may reflect mineralized host rocks, soils, sediments, or ore materials. Second, many samples predate waste emplacement, modification, or reclamation. Third, analytical data span more than six decades and includes methods with varying detection limits and reporting practices. Some feature scores rest on only one or two samples for a given element; these are retained but flagged by the confidence grade (Table 2). Fourth, enrichment is evaluated relative to national background values rather than local baselines, so naturally mineralized districts may appear anomalous even in the absence of mining impacts. Fifth, the indices evaluate elemental enrichment only and do not account for recoverability, mineralogy, tonnage, metallurgy, or economic factors. Sixth, EPA soil screening levels are used solely as a consistent hazard benchmark; exceedances indicate the need for further evaluation rather than confirmed environmental risk. Finally, geographic coverage is limited to states currently represented in NMWI Version 2.0, and results will evolve as additional inventories and geochemical data become available.",
+     "b": false,
+     "i": false
+    }
+   ],
+   "text": "The proposed framework is intended as a screening tool and has important limitations. First, proximity does not guarantee source attribution; most linked geochemical samples were collected near mine-waste features rather than directly from the waste itself, and may reflect mineralized host rocks, soils, sediments, or ore materials. Second, many samples predate waste emplacement, modification, or reclamation. Third, analytical data span more than six decades and includes methods with varying detection limits and reporting practices. Some feature scores rest on only one or two samples for a given element; these are retained but flagged by the confidence grade (Table 2). Fourth, enrichment is evaluated relative to national background values rather than local baselines, so naturally mineralized districts may appear anomalous even in the absence of mining impacts. Fifth, the indices evaluate elemental enrichment only and do not account for recoverability, mineralogy, tonnage, metallurgy, or economic factors. Sixth, EPA soil screening levels are used solely as a consistent hazard benchmark; exceedances indicate the need for further evaluation rather than confirmed environmental risk. Finally, geographic coverage is limited to states currently represented in NMWI Version 2.0, and results will evolve as additional inventories and geochemical data become available.",
+   "list": false
+  },
+  {
+   "type": "h2",
+   "num": "5.2.",
+   "text": "Future work"
+  },
+  {
+   "type": "p",
+   "runs": [
+    {
+     "t": "Future improvements will focus on expanding both data coverage and analytical capability. As new versions of the National Mine Waste Inventory become available, the screening framework can be rerun to incorporate additional states and mine-waste features. Planned enhancements include development of an on-waste-only index based exclusively on samples collected directly from mine-waste materials, integration of newly released state geological survey datasets, and incorporation of tonnage-weighted contained-metal estimates where sufficient inventory and resource information exists. These additions will improve the accuracy of site prioritization and strengthen the framework's utility for critical-mineral assessment, resource recovery, and environmental management.",
+     "b": false,
+     "i": false
+    }
+   ],
+   "text": "Future improvements will focus on expanding both data coverage and analytical capability. As new versions of the National Mine Waste Inventory become available, the screening framework can be rerun to incorporate additional states and mine-waste features. Planned enhancements include development of an on-waste-only index based exclusively on samples collected directly from mine-waste materials, integration of newly released state geological survey datasets, and incorporation of tonnage-weighted contained-metal estimates where sufficient inventory and resource information exists. These additions will improve the accuracy of site prioritization and strengthen the framework's utility for critical-mineral assessment, resource recovery, and environmental management.",
+   "list": false
+  },
+  {
+   "type": "h1",
+   "num": "6.",
+   "text": "Conclusions"
+  },
+  {
+   "type": "p",
+   "runs": [
+    {
+     "t": "This study provides the first national-scale screening assessment of critical-mineral potential and environmental hazard across U.S. mine-waste features. Geochemical evidence was identified for 88.4% of inventoried features, and validation against known mine commodities recovered expected mining signatures at 79.8% of testable sites, demonstrating the effectiveness of the spatial-linkage approach. The resulting screening framework distinguishes sites with potential critical-mineral opportunity, elevated environmental hazard, both conditions simultaneously, or insufficient public data. In total, 84 sites exhibited strong signals for both critical-mineral enrichment and heavy-metal hazard, highlighting locations where resource recovery and environmental remediation may be jointly considered. Conversely, 174 features lacked nearby public geochemical information, revealing important data gaps and clear priorities for future sampling and characterization efforts.",
+     "b": false,
+     "i": false
+    }
+   ],
+   "text": "This study provides the first national-scale screening assessment of critical-mineral potential and environmental hazard across U.S. mine-waste features. Geochemical evidence was identified for 88.4% of inventoried features, and validation against known mine commodities recovered expected mining signatures at 79.8% of testable sites, demonstrating the effectiveness of the spatial-linkage approach. The resulting screening framework distinguishes sites with potential critical-mineral opportunity, elevated environmental hazard, both conditions simultaneously, or insufficient public data. In total, 84 sites exhibited strong signals for both critical-mineral enrichment and heavy-metal hazard, highlighting locations where resource recovery and environmental remediation may be jointly considered. Conversely, 174 features lacked nearby public geochemical information, revealing important data gaps and clear priorities for future sampling and characterization efforts.",
+   "list": false
+  },
+  {
+   "type": "p",
+   "runs": [
+    {
+     "t": "The ranked database, geochemical indicators, and interactive atlas provide a transparent, reproducible, and openly accessible foundation for prioritizing mine-waste investigations under the Earth Mapping Resources Initiative (Earth MRI). Although the results are intended for screening rather than resource estimation or risk assessment, they offer a practical starting point for directing future fieldwork, critical-mineral evaluations, and environmental studies across the United States.",
+     "b": false,
+     "i": false
+    }
+   ],
+   "text": "The ranked database, geochemical indicators, and interactive atlas provide a transparent, reproducible, and openly accessible foundation for prioritizing mine-waste investigations under the Earth Mapping Resources Initiative (Earth MRI). Although the results are intended for screening rather than resource estimation or risk assessment, they offer a practical starting point for directing future fieldwork, critical-mineral evaluations, and environmental studies across the United States.",
+   "list": false
+  },
+  {
+   "type": "h0",
+   "text": "Data and code availability"
+  },
+  {
+   "type": "p",
+   "runs": [
+    {
+     "t": "The ranked feature and site tables, per-element values, code, and atlas are available at https://github.com/bkdanso/mine-waste-screening-atlas and archived on Zenodo at https://doi.org/10.5281/zenodo.23986699. Data are released under CC BY 4.0 and code under the MIT License. All inputs are public U.S. government data.",
+     "b": false,
+     "i": false
+    }
+   ],
+   "text": "The ranked feature and site tables, per-element values, code, and atlas are available at https://github.com/bkdanso/mine-waste-screening-atlas and archived on Zenodo at https://doi.org/10.5281/zenodo.23986699. Data are released under CC BY 4.0 and code under the MIT License. All inputs are public U.S. government data.",
+   "list": false
+  },
+  {
+   "type": "h0",
+   "text": "Use of AI Tools"
+  },
+  {
+   "type": "p",
+   "runs": [
+    {
+     "t": "An artificial intelligence assistant (Claude, Anthropic) was used to assist with code development and workflow design. The author made all analytical decisions, validated the results against the source data, prepared the manuscript, and assumes full responsibility for the content of this study.",
+     "b": false,
+     "i": true
+    }
+   ],
+   "text": "An artificial intelligence assistant (Claude, Anthropic) was used to assist with code development and workflow design. The author made all analytical decisions, validated the results against the source data, prepared the manuscript, and assumes full responsibility for the content of this study.",
+   "list": false
+  },
+  {
+   "type": "h0",
+   "text": "Competing interests"
+  },
+  {
+   "type": "p",
+   "runs": [
+    {
+     "t": "The author declares no competing interests.",
+     "b": false,
+     "i": true
+    }
+   ],
+   "text": "The author declares no competing interests.",
+   "list": false
+  },
+  {
+   "type": "h0",
+   "text": "REFERENCES"
+  },
+  {
+   "type": "h0",
+   "text": "APPENDIX"
+  },
+  {
+   "type": "caption",
+   "runs": [
+    {
+     "t": "Table A1. ",
+     "b": true,
+     "i": false
+    },
+    {
+     "t": "Critical minerals on the Final 2025 List of Critical Minerals [10], the element used to represent each, and the background concentration used to calculate enrichment factors. Soil, median of USGS Geochemical Landscapes soil samples [8]; UCC, upper continental crust [9]; Soil (upper bound), median dominated by nondetects, so enrichment is conservative.",
+     "b": false,
+     "i": false
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Critical mineral",
+     "Element",
+     "Background (mg/kg)",
+     "Background source"
+    ],
+    [
+     "Aluminum",
+     "Al",
+     "53,800",
+     "Soil"
+    ],
+    [
+     "Antimony",
+     "Sb",
+     "0.61",
+     "Soil"
+    ],
+    [
+     "Arsenic",
+     "As",
+     "5.6",
+     "Soil"
+    ],
+    [
+     "Barite",
+     "Ba",
+     "555",
+     "Soil"
+    ],
+    [
+     "Beryllium",
+     "Be",
+     "1.4",
+     "Soil"
+    ],
+    [
+     "Bismuth",
+     "Bi",
+     "0.17",
+     "Soil"
+    ],
+    [
+     "Boron",
+     "B",
+     "17",
+     "UCC"
+    ],
+    [
+     "Cerium",
+     "Ce",
+     "52.9",
+     "Soil"
+    ],
+    [
+     "Cesium",
+     "Cs",
+     "4.9",
+     "UCC"
+    ],
+    [
+     "Chromium",
+     "Cr",
+     "34",
+     "Soil"
+    ],
+    [
+     "Cobalt",
+     "Co",
+     "8.5",
+     "Soil"
+    ],
+    [
+     "Copper",
+     "Cu",
+     "17",
+     "Soil"
+    ],
+    [
+     "Dysprosium",
+     "Dy",
+     "3.9",
+     "UCC"
+    ],
+    [
+     "Erbium",
+     "Er",
+     "2.3",
+     "UCC"
+    ],
+    [
+     "Europium",
+     "Eu",
+     "1",
+     "UCC"
+    ],
+    [
+     "Fluorspar",
+     "F",
+     "557",
+     "UCC"
+    ],
+    [
+     "Gadolinium",
+     "Gd",
+     "4",
+     "UCC"
+    ],
+    [
+     "Gallium",
+     "Ga",
+     "12.6",
+     "Soil"
+    ],
+    [
+     "Germanium",
+     "Ge",
+     "1.4",
+     "UCC"
+    ],
+    [
+     "Graphite",
+     "-",
+     "-",
+     "Not measurable as an element"
+    ],
+    [
+     "Hafnium",
+     "Hf",
+     "5.3",
+     "UCC"
+    ],
+    [
+     "Holmium",
+     "Ho",
+     "0.83",
+     "UCC"
+    ],
+    [
+     "Indium",
+     "In",
+     "0.04",
+     "Soil"
+    ],
+    [
+     "Iridium",
+     "Ir",
+     "2.2e-05",
+     "UCC"
+    ],
+    [
+     "Lanthanum",
+     "La",
+     "26.5",
+     "Soil"
+    ],
+    [
+     "Lead",
+     "Pb",
+     "18.4",
+     "Soil"
+    ],
+    [
+     "Lithium",
+     "Li",
+     "21",
+     "Soil"
+    ],
+    [
+     "Lutetium",
+     "Lu",
+     "0.31",
+     "UCC"
+    ],
+    [
+     "Magnesium",
+     "Mg",
+     "5,600",
+     "Soil"
+    ],
+    [
+     "Manganese",
+     "Mn",
+     "507",
+     "Soil"
+    ],
+    [
+     "Metallurgical coal",
+     "-",
+     "-",
+     "Not measurable as an element"
+    ],
+    [
+     "Neodymium",
+     "Nd",
+     "27",
+     "UCC"
+    ],
+    [
+     "Nickel",
+     "Ni",
+     "16.3",
+     "Soil"
+    ],
+    [
+     "Niobium",
+     "Nb",
+     "8.9",
+     "Soil"
+    ],
+    [
+     "Palladium",
+     "Pd",
+     "0.00052",
+     "UCC"
+    ],
+    [
+     "Phosphate",
+     "P",
+     "560",
+     "Soil"
+    ],
+    [
+     "Platinum",
+     "Pt",
+     "0.0005",
+     "UCC"
+    ],
+    [
+     "Potash",
+     "K",
+     "15,600",
+     "Soil"
+    ],
+    [
+     "Praseodymium",
+     "Pr",
+     "7.1",
+     "UCC"
+    ],
+    [
+     "Rhenium",
+     "Re",
+     "0.000198",
+     "UCC"
+    ],
+    [
+     "Rhodium",
+     "Rh",
+     "-",
+     "Not scored"
+    ],
+    [
+     "Rubidium",
+     "Rb",
+     "68.3",
+     "Soil"
+    ],
+    [
+     "Ruthenium",
+     "Ru",
+     "0.00034",
+     "UCC"
+    ],
+    [
+     "Samarium",
+     "Sm",
+     "4.7",
+     "UCC"
+    ],
+    [
+     "Scandium",
+     "Sc",
+     "7.2",
+     "Soil"
+    ],
+    [
+     "Silicon",
+     "Si",
+     "271,600",
+     "Soil"
+    ],
+    [
+     "Silver",
+     "Ag",
+     "0.053",
+     "UCC"
+    ],
+    [
+     "Tantalum",
+     "Ta",
+     "0.9",
+     "UCC"
+    ],
+    [
+     "Tellurium",
+     "Te",
+     "0.05",
+     "Soil (upper bound)"
+    ],
+    [
+     "Terbium",
+     "Tb",
+     "0.7",
+     "UCC"
+    ],
+    [
+     "Thulium",
+     "Tm",
+     "0.3",
+     "UCC"
+    ],
+    [
+     "Tin",
+     "Sn",
+     "1.4",
+     "Soil"
+    ],
+    [
+     "Titanium",
+     "Ti",
+     "2,500",
+     "Soil"
+    ],
+    [
+     "Tungsten",
+     "W",
+     "0.8",
+     "Soil"
+    ],
+    [
+     "Uranium",
+     "U",
+     "2.1",
+     "Soil"
+    ],
+    [
+     "Vanadium",
+     "V",
+     "64",
+     "Soil"
+    ],
+    [
+     "Ytterbium",
+     "Yb",
+     "1.96",
+     "UCC"
+    ],
+    [
+     "Yttrium",
+     "Y",
+     "15.7",
+     "Soil"
+    ],
+    [
+     "Zinc",
+     "Zn",
+     "64",
+     "Soil"
+    ],
+    [
+     "Zirconium",
+     "Zr",
+     "130",
+     "Soil"
+    ]
+   ]
+  },
+  {
+   "type": "caption",
+   "runs": [
+    {
+     "t": "Table A2. ",
+     "b": true,
+     "i": false
+    },
+    {
+     "t": "Hazard metals and EPA residential soil screening levels (THQ = 1; November 2024 summary table) [11] used in the Heavy-Metal Hazard Index.",
+     "b": false,
+     "i": false
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Element",
+     "EPA analyte",
+     "RSL used (mg/kg)",
+     "Basis",
+     "Alternative"
+    ],
+    [
+     "As",
+     "Arsenic, Inorganic",
+     "35",
+     "noncancer (child, THQ 1)",
+     "0.68 (cancer, sensitivity)"
+    ],
+    [
+     "Pb",
+     "Lead and Compounds",
+     "200",
+     "IEUBK guidance",
+     "-"
+    ],
+    [
+     "Cd",
+     "Cadmium (Diet)",
+     "7.1",
+     "noncancer",
+     "-"
+    ],
+    [
+     "Hg",
+     "Mercuric Chloride (and other Mercury salts)",
+     "23",
+     "noncancer",
+     "-"
+    ],
+    [
+     "Sb",
+     "Antimony (metallic)",
+     "31",
+     "noncancer",
+     "-"
+    ],
+    [
+     "Tl",
+     "Thallium (Soluble Salts)",
+     "0.78",
+     "noncancer",
+     "-"
+    ],
+    [
+     "Cu",
+     "Copper",
+     "3100",
+     "noncancer",
+     "-"
+    ],
+    [
+     "Zn",
+     "Zinc and Compounds",
+     "23000",
+     "noncancer",
+     "-"
+    ],
+    [
+     "Ni",
+     "Nickel Soluble Salts",
+     "1400",
+     "noncancer",
+     "-"
+    ],
+    [
+     "Se",
+     "Selenium",
+     "390",
+     "noncancer",
+     "-"
+    ],
+    [
+     "Ba",
+     "Barium",
+     "15000",
+     "noncancer",
+     "-"
+    ],
+    [
+     "Be",
+     "Beryllium and compounds",
+     "160",
+     "noncancer",
+     "-"
+    ],
+    [
+     "Co",
+     "Cobalt",
+     "23",
+     "noncancer",
+     "-"
+    ],
+    [
+     "Mn",
+     "Manganese (Non-diet)",
+     "1800",
+     "noncancer",
+     "-"
+    ],
+    [
+     "Ag",
+     "Silver",
+     "390",
+     "noncancer",
+     "-"
+    ],
+    [
+     "V",
+     "Vanadium and Compounds",
+     "390",
+     "noncancer",
+     "-"
+    ],
+    [
+     "Mo",
+     "Molybdenum",
+     "390",
+     "noncancer",
+     "-"
+    ],
+    [
+     "U",
+     "Uranium",
+     "16",
+     "noncancer",
+     "-"
+    ]
+   ]
+  },
+  {
+   "type": "caption",
+   "runs": [
+    {
+     "t": "Table A3. ",
+     "b": true,
+     "i": false
+    },
+    {
+     "t": "Hand-verified spot checks. Each feature median was recomputed from the raw laboratory records (best-ranked value per sample, nondetects at half the detection limit) and matched the published value. Checks were selected on 31 October 2026, before the arsenic benchmark was finalized; feature medians do not depend on the benchmark. Random checks were drawn with seed 42.",
+     "b": false,
+     "i": false
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "Check",
+     "Type",
+     "Feature ID",
+     "Site",
+     "Element",
+     "Samples",
+     "Median (mg/kg)"
+    ],
+    [
+     "1",
+     "known",
+     "OK000001-003",
+     "Tar Creek",
+     "Cd",
+     "2",
+     "6,145"
+    ],
+    [
+     "2",
+     "known",
+     "OK000001-003",
+     "Tar Creek",
+     "Ge",
+     "2",
+     "50.5"
+    ],
+    [
+     "3",
+     "known",
+     "ID000071-001",
+     "Stibnite",
+     "Sb",
+     "124",
+     "1,500"
+    ],
+    [
+     "4",
+     "known",
+     "AK000001-006",
+     "Red Dog",
+     "Zn",
+     "74",
+     "67,600"
+    ],
+    [
+     "5",
+     "known",
+     "UT000002-003",
+     "Bingham",
+     "Cu",
+     "10",
+     "16,600"
+    ],
+    [
+     "6",
+     "extreme, highest CMI",
+     "MT000005-005",
+     "Berkeley Pit",
+     "Te",
+     "2",
+     "1,197.5"
+    ],
+    [
+     "7",
+     "extreme, highest HHI (cancer-based As)",
+     "MT000005-005",
+     "Berkeley Pit",
+     "As",
+     "4",
+     "12,900"
+    ],
+    [
+     "8",
+     "extreme, lowest HHI",
+     "NM000009-001",
+     "HB Mine",
+     "Pb",
+     "1",
+     "5"
+    ],
+    [
+     "9",
+     "extreme, largest EF overall",
+     "AZ000017-010",
+     "Silver Bell",
+     "Bi",
+     "2",
+     "15,001.6"
+    ],
+    [
+     "10",
+     "random (seed 42)",
+     "ID000017-001",
+     "Golden Chest",
+     "Ag",
+     "9",
+     "2.5"
+    ],
+    [
+     "11",
+     "random (seed 42)",
+     "NV000009-002",
+     "Minnesota Mine",
+     "Cu",
+     "7",
+     "500"
+    ],
+    [
+     "12",
+     "random (seed 42)",
+     "AZ000024-002",
+     "Moss",
+     "Ag",
+     "11",
+     "7"
+    ],
+    [
+     "13",
+     "random (seed 42)",
+     "AZ000005-001",
+     "Sierrita-Esperanza",
+     "Re",
+     "2",
+     "0.157"
+    ],
+    [
+     "14",
+     "random (seed 42)",
+     "NM000002-002",
+     "Continental Mine",
+     "In",
+     "5",
+     "3.2"
+    ]
+   ]
+  },
+  {
+   "type": "caption",
+   "runs": [
+    {
+     "t": "Table A4. ",
+     "b": true,
+     "i": false
+    },
+    {
+     "t": "Feature counts, geochemical coverage, and priority classes by state.",
+     "b": false,
+     "i": false
+    }
+   ]
+  },
+  {
+   "type": "table",
+   "rows": [
+    [
+     "State",
+     "Features",
+     "Sites",
+     "Sample within 1 km",
+     "Unsampled",
+     "Dual",
+     "Resource",
+     "Hazard"
+    ],
+    [
+     "AK",
+     "27",
+     "1",
+     "25",
+     "0",
+     "25",
+     "0",
+     "0"
+    ],
+    [
+     "AZ",
+     "197",
+     "41",
+     "155",
+     "16",
+     "24",
+     "48",
+     "0"
+    ],
+    [
+     "CA",
+     "11",
+     "2",
+     "11",
+     "0",
+     "3",
+     "4",
+     "0"
+    ],
+    [
+     "CO",
+     "17",
+     "13",
+     "16",
+     "0",
+     "3",
+     "0",
+     "1"
+    ],
+    [
+     "ID",
+     "174",
+     "71",
+     "170",
+     "0",
+     "24",
+     "0",
+     "9"
+    ],
+    [
+     "IL",
+     "2",
+     "1",
+     "2",
+     "0",
+     "2",
+     "0",
+     "0"
+    ],
+    [
+     "KS",
+     "179",
+     "8",
+     "86",
+     "31",
+     "27",
+     "0",
+     "32"
+    ],
+    [
+     "KY",
+     "25",
+     "7",
+     "6",
+     "9",
+     "0",
+     "3",
+     "0"
+    ],
+    [
+     "MI",
+     "35",
+     "17",
+     "18",
+     "2",
+     "0",
+     "2",
+     "2"
+    ],
+    [
+     "MO",
+     "26",
+     "11",
+     "17",
+     "0",
+     "9",
+     "2",
+     "0"
+    ],
+    [
+     "MT",
+     "79",
+     "29",
+     "55",
+     "4",
+     "31",
+     "4",
+     "11"
+    ],
+    [
+     "NC",
+     "69",
+     "25",
+     "49",
+     "11",
+     "1",
+     "6",
+     "0"
+    ],
+    [
+     "NM",
+     "67",
+     "14",
+     "51",
+     "6",
+     "3",
+     "12",
+     "0"
+    ],
+    [
+     "NV",
+     "191",
+     "32",
+     "171",
+     "1",
+     "67",
+     "12",
+     "13"
+    ],
+    [
+     "NY",
+     "47",
+     "9",
+     "25",
+     "14",
+     "11",
+     "2",
+     "0"
+    ],
+    [
+     "OK",
+     "110",
+     "2",
+     "77",
+     "8",
+     "23",
+     "0",
+     "47"
+    ],
+    [
+     "OR",
+     "19",
+     "5",
+     "2",
+     "16",
+     "0",
+     "0",
+     "0"
+    ],
+    [
+     "SD",
+     "42",
+     "5",
+     "13",
+     "8",
+     "25",
+     "0",
+     "2"
+    ],
+    [
+     "UT",
+     "67",
+     "21",
+     "62",
+     "3",
+     "40",
+     "4",
+     "2"
+    ],
+    [
+     "VA",
+     "102",
+     "24",
+     "25",
+     "44",
+     "0",
+     "17",
+     "0"
+    ],
+    [
+     "WA",
+     "4",
+     "1",
+     "4",
+     "0",
+     "4",
+     "0",
+     "0"
+    ],
+    [
+     "WI",
+     "1",
+     "1",
+     "0",
+     "1",
+     "0",
+     "0",
+     "0"
+    ],
+    [
+     "WY",
+     "7",
+     "3",
+     "6",
+     "0",
+     "3",
+     "3",
+     "0"
+    ],
+    [
+     "Total",
+     "1498",
+     "343",
+     "1046",
+     "174",
+     "325",
+     "119",
+     "119"
+    ]
+   ]
+  }
+ ],
+ "refs": [
+  "Bernd G. Lottermoser. Mine Wastes: Characterization, Treatment and Environmental Impacts. Springer, Berlin, 3rd edition, 2010. doi:10.1007/978-3-642-12419-8.",
+  "Sait Kursunoglu. A review on the recovery of critical metals from mine and mineral processing tailings: Recent advances. J. Sustain. Metall., 11(3):2023–2050, 2025. doi:10.1007/s40831-025-01126-y.",
+  "Nadine M. Piatak, Sarah Jane White, Sarah M. Hayes, and Robert R. Seal II. Critical minerals in mine waste. U.S. Geological Survey Fact Sheet 2025–3026, 2025. doi:10.3133/fs20253026.",
+  "U.S. Geological Survey. National Mine Waste Inventory (ver. 2.0, October 2026). U.S. Geological Survey data release, 2026. doi:10.5066/P148EEUA.",
+  "Sukhpreet Singh, Pankaj Maurya, Amit Karmakar, Prakash Kumar Maurya, Nidhi Pandey, Sandeep Kumar, and Tanish Gupta. Mining tailings as a frontier for sustainable nanomaterials: advancing circular economy and environmental innovation. Environ. Geochem. Health, 47(7):265, 2025. doi:10.1007/s10653-025-02566-x.",
+  "Matthew Granitto, Margaret A. Goldman, Keith A. Labay, Carma A. San Juan, Jaime S. Azain, and Toni R. Rozinek. Geochemical data for rock, sediment, soil, and mineral samples, United States and territories, 1962 to 2023. U.S. Geological Survey data release, 2026. doi:10.5066/P1FXE9GK.",
+  "Matthew Granitto, Bronwen Wang, Nora B. Shew, Susan M. Karl, Keith A. Labay, Melanie B. Werdon, Susan S. Seitz, and John E. Hoppe. Alaska Geochemical Database Version 3.0 (AGDB3) including “best value” data compilations for rock, sediment, soil, mineral, and concentrate sample media. U.S. Geological Survey Data Series 1117, 2019. doi:10.3133/ds1117.",
+  "David B. Smith, William F. Cannon, Laurel G. Woodruff, Federico Solano, James E. Kilburn, and David L. Fey. Geochemical and mineralogical data for soils of the conterminous United States. U.S. Geological Survey Data Series 801, 2013. doi:10.3133/ds801.",
+  "Roberta L. Rudnick and Shan Gao. Composition of the continental crust. In Heinrich D. Holland and Karl K. Turekian, editors, Treatise on Geochemistry, volume 4, pages 1–51. Elsevier, Oxford, 2nd edition, 2014. doi:10.1016/B978-0-08-095975-7.00301-6.",
+  "U.S. Department of the Interior. Final 2025 List of Critical Minerals. Federal Register, FR Doc. 2025-19813, November 7, 2025.",
+  "U.S. Environmental Protection Agency. Regional Screening Levels (RSLs) for chemical contaminants at Superfund sites, November 2024 tables, 2024. https://www.epa.gov/risk/regional-screening-levels-rsls-generic-tables."
+ ]
+}

@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mine Waste Screening Atlas</title>
+<meta name="description" content="Ranked screening of U.S. mine waste features for critical mineral enrichment and heavy-metal hazard, from public USGS data.">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>
+:root{--bg:#fcfcfb;--panel:#ffffff;--ink:#0b0b0b;--ink2:#52514e;--muted:#8a8984;--line:#e4e3df;
+--dual:#1baf7a;--res:#2a78d6;--haz:#eb6834;--low:#b9b8b2;--draft:#b42318;--draftbg:#fdecea;color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1a1a19;--panel:#232322;--ink:#f0efec;--ink2:#c3c2b7;--muted:#8f8e88;--line:#3a3a38;
+--dual:#199e70;--res:#3987e5;--haz:#d95926;--low:#6b6a66;--draft:#ffb4ab;--draftbg:#3b1d1a;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#1a1a19;--panel:#232322;--ink:#f0efec;--ink2:#c3c2b7;--muted:#8f8e88;--line:#3a3a38;
+--dual:#199e70;--res:#3987e5;--haz:#d95926;--low:#6b6a66;--draft:#ffb4ab;--draftbg:#3b1d1a;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+header,main,footer{max-width:1200px;margin:0 auto;padding:0 16px}
+.draft{background:var(--draftbg);color:var(--draft);font-weight:600;padding:8px 16px;text-align:center;font-size:14px}
+h1{font-size:26px;margin:20px 0 4px;letter-spacing:-.01em}
+.lede{color:var(--ink2);margin:0 0 16px;max-width:820px}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin:0 0 16px}
+.tile{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:10px 12px}
+.tile b{display:block;font-size:22px;font-variant-numeric:tabular-nums}
+.tile span{color:var(--ink2);font-size:13px}
+.filters{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0 0 10px}
+.filters select,.filters input{font:inherit;font-size:14px;padding:6px 8px;border:1px solid var(--line);border-radius:6px;background:var(--panel);color:var(--ink)}
+.filters input{flex:1 1 200px;min-width:0}
+#map{height:520px;border:1px solid var(--line);border-radius:8px;background:var(--panel)}
+.legend{display:flex;flex-wrap:wrap;gap:14px;margin:8px 0 18px;font-size:13px;color:var(--ink2)}
+.legend i{display:inline-block;width:11px;height:11px;border-radius:50%;margin-right:6px;vertical-align:-1px}
+.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:8px;background:var(--panel)}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th,td{padding:7px 10px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}
+th{position:sticky;top:0;background:var(--panel);cursor:pointer;color:var(--ink2);font-weight:600}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+tr:hover td{background:color-mix(in srgb,var(--res) 8%,transparent)}
+.pill{display:inline-block;padding:1px 8px;border-radius:10px;font-size:12px;border:1px solid var(--line)}
+.pill i{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:5px}
+h2{font-size:18px;margin:26px 0 8px}
+.small{color:var(--ink2);font-size:13px}
+footer{padding:24px 16px 40px;color:var(--ink2);font-size:13px}
+a{color:var(--res)}
+.leaflet-popup-content{font-size:13px;line-height:1.45}
+.leaflet-container{font:inherit}
+@media (max-width:640px){#map{height:380px}h1{font-size:21px}}
+</style>
+</head>
+<body>
+<div class="draft" id="draftbar">DRAFT: results not yet verified by the author. Do not cite.</div>
+<header>
+<h1>U.S. Mine Waste Critical Mineral Screening Atlas</h1>
+<p class="lede">Which mapped mine waste piles already have nearby public lab samples showing critical-mineral enrichment, heavy-metal hazard, or both, and which have no data at all? Each dot is one feature from the USGS National Mine Waste Inventory (v2.0, October 2026), scored from USGS geochemical samples within 2 km. A screening tool for deciding where to sample first, not a resource estimate or a risk assessment.</p>
+</header>
+<main>
+<div class="tiles" id="tiles"></div>
+<div class="filters">
+<label class="small" for="fpri">Priority</label><select id="fpri"><option value="">All</option></select>
+<label class="small" for="fst">State</label><select id="fst"><option value="">All</option></select>
+<label class="small" for="fconf">Confidence</label><select id="fconf"><option value="">All</option></select>
+<input id="q" type="search" placeholder="Search site, mine, district, or element (e.g. Ge)">
+</div>
+<div id="map" role="region" aria-label="Map of mine waste features"></div>
+<div class="legend" id="legend"></div>
+<h2>Ranked features <span class="small" id="count"></span></h2>
+<div class="tablewrap"><table id="tbl"><thead></thead><tbody></tbody></table></div>
+<p class="small">Showing up to 300 rows; use filters to narrow. Download the full tables: <a href="data/nmwi_screening_features.csv">features (CSV)</a>, <a href="data/nmwi_screening_sites.csv">sites (CSV)</a>, <a href="data/feature_element_long.csv">every element value (CSV)</a>.</p>
+<h2>How to read the scores</h2>
+<p class="small"><b>Critical Mineral Index (CMI)</b>: how far nearby samples exceed typical U.S. soil for elements on the 2025 U.S. critical minerals list; sum of the five largest log10 enrichment factors, each capped at 1000x (range 0 to 15). <b>Heavy-metal Hazard Index (HHI)</b>: sum of each metal's median divided by its EPA residential soil screening level (November 2024 table); 1 means one screening level reached. <b>Priority</b>: Dual = top third on both; Resource or Hazard = top third on one. <b>Confidence</b>: A = 5+ samples within 1 km including one taken on mine waste; B = 3+ within 1 km; C = fewer, or only 1 to 2 km away; U = none within 2 km. Exceeding a screening level means "look closer", not "unsafe". Samples near a pile may be ore or host rock rather than the waste itself.</p>
+</main>
+<footer>
+<p>Sources: U.S. Geological Survey (2026) National Mine Waste Inventory v2.0, <a href="https://doi.org/10.5066/P148EEUA">doi:10.5066/P148EEUA</a>; Granitto and others (2026) geochemical data 1962 to 2023, <a href="https://doi.org/10.5066/P1FXE9GK">doi:10.5066/P1FXE9GK</a>; U.S. EPA Regional Screening Levels (Nov 2024); Final 2025 List of Critical Minerals (90 FR, Nov 7, 2025).</p>
+<p>Built by __AUTHOR__ (<a href="https://orcid.org/__ORCID__">ORCID __ORCID__</a>). Version __VERSION__, __DATE__. Data CC BY 4.0, code MIT. <a href="https://github.com/__GITHUB__/__REPO__">Code and methods</a>. Dataset DOI: __DOI__.</p>
+</footer>
+<script>
+const D = __DATA__;
+const META = __META__;
+const COLV = {Dual:'--dual',Resource:'--res',Hazard:'--haz',Lower:'--low',Unsampled:'--muted'};
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const col = p => css(COLV[p]);
+const PRI = ['Dual','Resource','Hazard','Lower','Unsampled'];
+const fmt = (v,d=1) => v==null||v===''||Number.isNaN(v) ? '-' : Number(v).toFixed(d);
+if (!META.draft) document.getElementById('draftbar')?.remove();
+
+const tiles = [[META.features,'mine waste features'],[META.scored,'with samples within 2 km'],
+  [META.dual_sites,'sites high on both scores'],[META.unsampled,'features with no nearby data']];
+document.getElementById('tiles').innerHTML = tiles.map(([v,l])=>`<div class="tile"><b>${v.toLocaleString()}</b><span>${l}</span></div>`).join('');
+const opt = (id, vals) => document.getElementById(id).insertAdjacentHTML('beforeend', vals.map(v=>`<option>${v}</option>`).join(''));
+opt('fpri', PRI); opt('fst', [...new Set(D.map(d=>d.State))].sort()); opt('fconf', ['A','B','C','U']);
+document.getElementById('legend').innerHTML = PRI.map(p=>{const n=D.filter(d=>d.priority===p).length;
+  return p==='Unsampled' ? `<span><i style="border:2px solid ${col(p)};background:none"></i>${p} (${n})</span>`
+                         : `<span><i style="background:${col(p)}"></i>${p} (${n})</span>`}).join('');
+
+const map = L.map('map',{scrollWheelZoom:false, worldCopyJump:true}).setView([47,-112],3);
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+  {attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors', maxZoom:18}).addTo(map);
+const layer = L.layerGroup().addTo(map);
+const esc = s => String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function popup(d){return `<b>${esc(d.Site_Name)}</b> (${esc(d.State)})<br>${esc(d.Ftr_Name||d.Ftr_ID)}: ${esc(d.Ftr_Type)}<br>
+Priority <b>${d.priority}</b>, confidence <b>${d.confidence}</b><br>
+CMI ${fmt(d.CMI)} | HHI ${d.HHI==null?'-':Number(d.HHI).toPrecision(3)} | samples ${d.n_samples}<br>
+<span class="small">Critical: ${esc(d.top_critical||'-')}<br>Hazard (x screening level): ${esc(d.top_hazard||'-')}<br>
+Commodity: ${esc(d.Commodity||'-')}<br>ID ${esc(d.Ftr_ID)}</span>`}
+
+let sortKey='screening_rank', sortAsc=true;
+const COLS=[['screening_rank','Rank',0],['Site_Name','Site'],['State','St'],['Ftr_Type','Type'],['priority','Priority'],['confidence','Conf'],
+ ['CMI','CMI',1],['HHI','HHI',3],['n_samples','Samples',0],['top_critical','Top critical elements'],['top_hazard','Top hazard metals']];
+document.querySelector('#tbl thead').innerHTML='<tr>'+COLS.map(([k,l])=>`<th data-k="${k}" scope="col">${l}</th>`).join('')+'</tr>';
+document.querySelectorAll('#tbl th').forEach(th=>th.onclick=()=>{const k=th.dataset.k; sortAsc = sortKey===k ? !sortAsc : (k==='screening_rank'); sortKey=k; draw();});
+
+function filtered(){const p=fpri.value,s=fst.value,c=fconf.value,q=document.getElementById('q').value.trim().toLowerCase();
+ return D.filter(d=>(!p||d.priority===p)&&(!s||d.State===s)&&(!c||d.confidence===c)&&
+  (!q||[d.Site_Name,d.Mine_Name,d.Mine_Dist,d.Ftr_Name,d.Commodity,d.top_critical,d.top_hazard,d.Ftr_ID].join(' ').toLowerCase().includes(q)));}
+function draw(){const rows=filtered(); layer.clearLayers();
+ rows.slice().sort((a,b)=>PRI.indexOf(b.priority)-PRI.indexOf(a.priority)).forEach(d=>{
+   const u=d.priority==='Unsampled';
+   L.circleMarker([d.Latitude,d.Longitude],{radius:d.priority==='Dual'?7:5,color:u?col('Unsampled'):css('--bg'),weight:u?2:1,
+     fillColor:col(d.priority),fillOpacity:u?0:0.95}).bindPopup(popup(d)).bindTooltip(`${esc(d.Site_Name)}: ${d.priority}`).addTo(layer);});
+ const s=rows.slice().sort((a,b)=>{let x=a[sortKey],y=b[sortKey]; if(x==null)return 1; if(y==null)return -1;
+   return (typeof x==='number'? x-y : String(x).localeCompare(String(y)))*(sortAsc?1:-1)});
+ document.getElementById('count').textContent=`(${rows.length.toLocaleString()} match)`;
+ document.querySelector('#tbl tbody').innerHTML=s.slice(0,300).map(d=>'<tr>'+COLS.map(([k,,dp])=>{
+   if(k==='priority')return `<td><span class="pill"><i style="background:${col(d.priority)}"></i>${d.priority}</span></td>`;
+   if(dp!==undefined)return `<td class="num">${k==='HHI'?(d.HHI==null?'-':Number(d.HHI).toPrecision(3)):(dp===0?(d[k]??'-'):fmt(d[k],dp))}</td>`;
+   return `<td>${esc(d[k]??'-')}</td>`}).join('')+'</tr>').join('');}
+['fpri','fst','fconf','q'].forEach(id=>document.getElementById(id).addEventListener('input',draw));
+matchMedia('(prefers-color-scheme: dark)').addEventListener('change',draw);
+draw();
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+species,ucc_ppm,note
+Ag,0.053,Rudnick and Gao (2014) upper continental crust; cross-checked 2026-10-31 against georefdatar 0.6.5 (CRAN) digital table
+Ge,1.4,cross-checked
+Cs,4.9,cross-checked
+Nd,27,cross-checked
+Pr,7.1,cross-checked
+Sm,4.7,cross-checked
+Eu,1.0,cross-checked
+Gd,4.0,cross-checked
+Tb,0.7,cross-checked
+Dy,3.9,cross-checked
+Ho,0.83,cross-checked
+Er,2.3,cross-checked
+Tm,0.30,cross-checked
+Yb,1.96,cross-checked
+Lu,0.31,cross-checked
+Hf,5.3,cross-checked
+Ta,0.9,cross-checked
+B,17,cross-checked
+F,557,cross-checked
+Re,0.000198,0.198 ppb
+Ir,0.000022,0.022 ppb
+Pt,0.0005,0.5 ppb
+Pd,0.00052,0.52 ppb
+Ru,0.00034,0.34 ppb

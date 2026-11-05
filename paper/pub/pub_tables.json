@@ -1,0 +1,1140 @@
+{
+ "t3": [
+  [
+   1,
+   "Eureka Mills",
+   "UT",
+   "B",
+   "14.7",
+   "970",
+   "Te 30000x; Pb 9620x; Ag 9434x; In 2125x; Zn 469x",
+   "Pb 885x; Cd 56x; Tl 26x; Zn 1.3x; Ag 1.3x"
+  ],
+  [
+   3,
+   "Berkeley Pit",
+   "MT",
+   "B",
+   "15.0",
+   "439",
+   "Te 23950x; Cu 4503x; W 2500x; As 2304x; Sb 2025x",
+   "As 369x; Sb 40x; Cu 25x; V 2.6x; Tl 1.3x"
+  ],
+  [
+   5,
+   "Butte Reduction Works",
+   "MT",
+   "B",
+   "13.7",
+   "355",
+   "Pb 2848x; Zn 1421x; Ag 1330x; Re 505x; Te 102x",
+   "Pb 262x; Cd 73x; Mn 14x; Zn 4.0x; As 1.1x"
+  ],
+  [
+   6,
+   "Tybo",
+   "NV",
+   "B",
+   "13.4",
+   "386",
+   "Ag 1887x; As 1786x; Pb 815x; Sb 246x; Bi 118x",
+   "As 286x; Pb 75x; Cd 18x; Sb 4.8x; Mn 1.1x"
+  ],
+  [
+   7,
+   "Continental Mine",
+   "MT",
+   "B",
+   "14.6",
+   "148",
+   "Cu 7147x; Ag 3755x; Bi 888x; Te 782x; As 640x",
+   "As 102x; Cu 39x; Pb 2.6x; Sb 1.1x"
+  ],
+  [
+   8,
+   "Treasure Hill",
+   "NV",
+   "A",
+   "13.5",
+   "154",
+   "Ag 14151x; Sb 2508x; Pb 986x; In 435x; Sn 71x",
+   "Pb 91x; Sb 49x; As 11x; Ag 1.9x"
+  ],
+  [
+   10,
+   "Red Dog",
+   "AK",
+   "A",
+   "13.2",
+   "176",
+   "Zn 1056x; Ag 774x; Pb 472x; Sb 273x; Bi 147x",
+   "Cd 92x; Pb 43x; Tl 26x; Sb 5.4x; Zn 2.9x"
+  ],
+  [
+   11,
+   "Ely Valley",
+   "NV",
+   "B",
+   "12.8",
+   "247",
+   "Pb 1902x; Zn 469x; Ag 425x; W 238x; Bi 136x",
+   "Pb 175x; Cd 52x; As 18x; Zn 1.3x"
+  ],
+  [
+   11,
+   "Mission Complex",
+   "AZ",
+   "B",
+   "12.6",
+   "270",
+   "Pb 2717x; Ag 377x; Cu 319x; Bi 304x; Zn 105x",
+   "Pb 250x; Cd 14x; Cu 1.8x; Co 1.3x; Mn 1.2x"
+  ],
+  [
+   13,
+   "Burgin",
+   "UT",
+   "B",
+   "13.1",
+   "185",
+   "In 3450x; Pb 1087x; As 357x; Ag 302x; Zn 109x",
+   "Pb 100x; As 57x; Cd 14x; Tl 11x; Mn 2.8x"
+  ],
+  [
+   17,
+   "Bingham",
+   "UT",
+   "A",
+   "12.6",
+   "124",
+   "Cu 976x; As 340x; Bi 321x; Pb 244x; In 144x",
+   "As 54x; Pb 22x; Mo 17x; Tl 13x; Cu 5.4x"
+  ],
+  [
+   18,
+   "Magmont",
+   "MO",
+   "B",
+   "9.8",
+   "357",
+   "Pb 3804x; Ag 566x; Cu 41x; Co 18x; Ni 16x",
+   "Pb 350x; Co 6.5x"
+  ],
+  [
+   19,
+   "Pittsmont Mine",
+   "MT",
+   "B",
+   "13.9",
+   "66.7",
+   "Te 2920x; W 2038x; Ag 679x; Sb 416x; Pb 295x",
+   "Pb 27x; As 18x; Sb 8.2x; Mn 5.9x; Cd 2.5x"
+  ],
+  [
+   20,
+   "Resolution Copper",
+   "AZ",
+   "B",
+   "14.0",
+   "63.5",
+   "Cu 9941x; Ag 6642x; Bi 4035x; Te 2485x; Sb 108x",
+   "Cu 55x; As 3.7x; Sb 2.1x"
+  ],
+  [
+   21,
+   "Ray",
+   "AZ",
+   "A",
+   "14.3",
+   "56.4",
+   "Bi 7191x; Ag 2708x; Cu 2321x; In 502x; Sb 369x",
+   "As 15x; Pb 14x; Cu 13x; Sb 7.3x; Cd 2.5x"
+  ]
+ ],
+ "t4": [
+  [
+   "NM000003-005",
+   "Chino",
+   "NM",
+   "Tailings - pond",
+   "3.62",
+   "copper (2); gold (2); molybdenum (2); silver (2)"
+  ],
+  [
+   "AZ000008-005",
+   "Morenci",
+   "AZ",
+   "Tailings - pond",
+   "3.33",
+   "copper; molybdenum"
+  ],
+  [
+   "AZ000008-019",
+   "Morenci",
+   "AZ",
+   "Tailings - pond",
+   "3.22",
+   "copper (1); molybdenum (1)"
+  ],
+  [
+   "NC000001-010",
+   "Nutrien Aurora",
+   "NC",
+   "Settling pond",
+   "3.16",
+   "phosphate rock (1)"
+  ],
+  [
+   "AZ000016-006",
+   "Safford",
+   "AZ",
+   "Waste rock stockpile",
+   "3.15",
+   "copper; sulfuric acid"
+  ],
+  [
+   "AZ000011-001",
+   "Bisbee",
+   "AZ",
+   "Tailings - pond",
+   "2.78",
+   "copper (2); gold (2); lead (2); manganese (2); silver (2); sulfuric acid (2); zinc (2)"
+  ],
+  [
+   "AZ000013-001",
+   "New Cornelia Mine",
+   "AZ",
+   "Tailings - pond",
+   "2.56",
+   "copper (1); gold (1); molybdenum (1); silver (1)"
+  ],
+  [
+   "NY000001-001",
+   "Benson",
+   "NY",
+   "Tailings - pond",
+   "2.47",
+   "iron"
+  ],
+  [
+   "AZ000016-003",
+   "Safford",
+   "AZ",
+   "Leach pile - heap",
+   "2.12",
+   "copper; sulfuric acid"
+  ],
+  [
+   "AZ000008-001",
+   "Morenci",
+   "AZ",
+   "Tailings - pond",
+   "1.99",
+   "copper; molybdenum"
+  ]
+ ],
+ "t5": [
+  [
+   "Default (this study)",
+   "Arsenic RSL 35 mg/kg (noncancer); median per element; all 58 critical elements",
+   "-",
+   "-"
+  ],
+  [
+   "Cancer-based arsenic RSL (0.68 mg/kg)",
+   "HHI rank vs default",
+   "0.925",
+   "58 of top 100 shared"
+  ],
+  [
+   "Arsenic share of HHI",
+   "Median across features",
+   "9.3% (default)",
+   "84.1% (cancer RSL)"
+  ],
+  [
+   "Maximum instead of median",
+   "CMI rank vs default",
+   "0.729",
+   "-"
+  ],
+  [
+   "Remove 13 shared critical/hazard metals",
+   "CMI rank vs default",
+   "0.598",
+   "-"
+  ],
+  [
+   "CMI vs HHI",
+   "Rank correlation across scored features",
+   "0.797",
+   "-"
+  ],
+  [
+   "Hazard without arsenic",
+   "Features with >= 1 metal median above its RSL",
+   "693",
+   "338 with Pb >= 200 mg/kg"
+  ]
+ ],
+ "a1": [
+  [
+   "Aluminum",
+   "Al",
+   "53,800",
+   "Soil"
+  ],
+  [
+   "Antimony",
+   "Sb",
+   "0.61",
+   "Soil"
+  ],
+  [
+   "Arsenic",
+   "As",
+   "5.6",
+   "Soil"
+  ],
+  [
+   "Barite",
+   "Ba",
+   "555",
+   "Soil"
+  ],
+  [
+   "Beryllium",
+   "Be",
+   "1.4",
+   "Soil"
+  ],
+  [
+   "Bismuth",
+   "Bi",
+   "0.17",
+   "Soil"
+  ],
+  [
+   "Boron",
+   "B",
+   "17",
+   "UCC"
+  ],
+  [
+   "Cerium",
+   "Ce",
+   "52.9",
+   "Soil"
+  ],
+  [
+   "Cesium",
+   "Cs",
+   "4.9",
+   "UCC"
+  ],
+  [
+   "Chromium",
+   "Cr",
+   "34",
+   "Soil"
+  ],
+  [
+   "Cobalt",
+   "Co",
+   "8.5",
+   "Soil"
+  ],
+  [
+   "Copper",
+   "Cu",
+   "17",
+   "Soil"
+  ],
+  [
+   "Dysprosium",
+   "Dy",
+   "3.9",
+   "UCC"
+  ],
+  [
+   "Erbium",
+   "Er",
+   "2.3",
+   "UCC"
+  ],
+  [
+   "Europium",
+   "Eu",
+   "1",
+   "UCC"
+  ],
+  [
+   "Fluorspar",
+   "F",
+   "557",
+   "UCC"
+  ],
+  [
+   "Gadolinium",
+   "Gd",
+   "4",
+   "UCC"
+  ],
+  [
+   "Gallium",
+   "Ga",
+   "12.6",
+   "Soil"
+  ],
+  [
+   "Germanium",
+   "Ge",
+   "1.4",
+   "UCC"
+  ],
+  [
+   "Graphite",
+   "-",
+   "-",
+   "Not measurable as an element"
+  ],
+  [
+   "Hafnium",
+   "Hf",
+   "5.3",
+   "UCC"
+  ],
+  [
+   "Holmium",
+   "Ho",
+   "0.83",
+   "UCC"
+  ],
+  [
+   "Indium",
+   "In",
+   "0.04",
+   "Soil"
+  ],
+  [
+   "Iridium",
+   "Ir",
+   "2.2e-05",
+   "UCC"
+  ],
+  [
+   "Lanthanum",
+   "La",
+   "26.5",
+   "Soil"
+  ],
+  [
+   "Lead",
+   "Pb",
+   "18.4",
+   "Soil"
+  ],
+  [
+   "Lithium",
+   "Li",
+   "21",
+   "Soil"
+  ],
+  [
+   "Lutetium",
+   "Lu",
+   "0.31",
+   "UCC"
+  ],
+  [
+   "Magnesium",
+   "Mg",
+   "5,600",
+   "Soil"
+  ],
+  [
+   "Manganese",
+   "Mn",
+   "507",
+   "Soil"
+  ],
+  [
+   "Metallurgical coal",
+   "-",
+   "-",
+   "Not measurable as an element"
+  ],
+  [
+   "Neodymium",
+   "Nd",
+   "27",
+   "UCC"
+  ],
+  [
+   "Nickel",
+   "Ni",
+   "16.3",
+   "Soil"
+  ],
+  [
+   "Niobium",
+   "Nb",
+   "8.9",
+   "Soil"
+  ],
+  [
+   "Palladium",
+   "Pd",
+   "0.00052",
+   "UCC"
+  ],
+  [
+   "Phosphate",
+   "P",
+   "560",
+   "Soil"
+  ],
+  [
+   "Platinum",
+   "Pt",
+   "0.0005",
+   "UCC"
+  ],
+  [
+   "Potash",
+   "K",
+   "15,600",
+   "Soil"
+  ],
+  [
+   "Praseodymium",
+   "Pr",
+   "7.1",
+   "UCC"
+  ],
+  [
+   "Rhenium",
+   "Re",
+   "0.000198",
+   "UCC"
+  ],
+  [
+   "Rhodium",
+   "Rh",
+   "-",
+   "Not scored"
+  ],
+  [
+   "Rubidium",
+   "Rb",
+   "68.3",
+   "Soil"
+  ],
+  [
+   "Ruthenium",
+   "Ru",
+   "0.00034",
+   "UCC"
+  ],
+  [
+   "Samarium",
+   "Sm",
+   "4.7",
+   "UCC"
+  ],
+  [
+   "Scandium",
+   "Sc",
+   "7.2",
+   "Soil"
+  ],
+  [
+   "Silicon",
+   "Si",
+   "271,600",
+   "Soil"
+  ],
+  [
+   "Silver",
+   "Ag",
+   "0.053",
+   "UCC"
+  ],
+  [
+   "Tantalum",
+   "Ta",
+   "0.9",
+   "UCC"
+  ],
+  [
+   "Tellurium",
+   "Te",
+   "0.05",
+   "Soil (upper bound)"
+  ],
+  [
+   "Terbium",
+   "Tb",
+   "0.7",
+   "UCC"
+  ],
+  [
+   "Thulium",
+   "Tm",
+   "0.3",
+   "UCC"
+  ],
+  [
+   "Tin",
+   "Sn",
+   "1.4",
+   "Soil"
+  ],
+  [
+   "Titanium",
+   "Ti",
+   "2,500",
+   "Soil"
+  ],
+  [
+   "Tungsten",
+   "W",
+   "0.8",
+   "Soil"
+  ],
+  [
+   "Uranium",
+   "U",
+   "2.1",
+   "Soil"
+  ],
+  [
+   "Vanadium",
+   "V",
+   "64",
+   "Soil"
+  ],
+  [
+   "Ytterbium",
+   "Yb",
+   "1.96",
+   "UCC"
+  ],
+  [
+   "Yttrium",
+   "Y",
+   "15.7",
+   "Soil"
+  ],
+  [
+   "Zinc",
+   "Zn",
+   "64",
+   "Soil"
+  ],
+  [
+   "Zirconium",
+   "Zr",
+   "130",
+   "Soil"
+  ]
+ ],
+ "a2": [
+  [
+   "As",
+   "Arsenic, Inorganic",
+   "35",
+   "noncancer (child, THQ 1)",
+   "0.68 (cancer, sensitivity)"
+  ],
+  [
+   "Pb",
+   "Lead and Compounds",
+   "200",
+   "IEUBK guidance",
+   "-"
+  ],
+  [
+   "Cd",
+   "Cadmium (Diet)",
+   "7.1",
+   "noncancer",
+   "-"
+  ],
+  [
+   "Hg",
+   "Mercuric Chloride (and other Mercury salts)",
+   "23",
+   "noncancer",
+   "-"
+  ],
+  [
+   "Sb",
+   "Antimony (metallic)",
+   "31",
+   "noncancer",
+   "-"
+  ],
+  [
+   "Tl",
+   "Thallium (Soluble Salts)",
+   "0.78",
+   "noncancer",
+   "-"
+  ],
+  [
+   "Cu",
+   "Copper",
+   "3100",
+   "noncancer",
+   "-"
+  ],
+  [
+   "Zn",
+   "Zinc and Compounds",
+   "23000",
+   "noncancer",
+   "-"
+  ],
+  [
+   "Ni",
+   "Nickel Soluble Salts",
+   "1400",
+   "noncancer",
+   "-"
+  ],
+  [
+   "Se",
+   "Selenium",
+   "390",
+   "noncancer",
+   "-"
+  ],
+  [
+   "Ba",
+   "Barium",
+   "15000",
+   "noncancer",
+   "-"
+  ],
+  [
+   "Be",
+   "Beryllium and compounds",
+   "160",
+   "noncancer",
+   "-"
+  ],
+  [
+   "Co",
+   "Cobalt",
+   "23",
+   "noncancer",
+   "-"
+  ],
+  [
+   "Mn",
+   "Manganese (Non-diet)",
+   "1800",
+   "noncancer",
+   "-"
+  ],
+  [
+   "Ag",
+   "Silver",
+   "390",
+   "noncancer",
+   "-"
+  ],
+  [
+   "V",
+   "Vanadium and Compounds",
+   "390",
+   "noncancer",
+   "-"
+  ],
+  [
+   "Mo",
+   "Molybdenum",
+   "390",
+   "noncancer",
+   "-"
+  ],
+  [
+   "U",
+   "Uranium",
+   "16",
+   "noncancer",
+   "-"
+  ]
+ ],
+ "a3": [
+  [
+   1,
+   "known",
+   "OK000001-003",
+   "Tar Creek",
+   "Cd",
+   2,
+   "6,145"
+  ],
+  [
+   2,
+   "known",
+   "OK000001-003",
+   "Tar Creek",
+   "Ge",
+   2,
+   "50.5"
+  ],
+  [
+   3,
+   "known",
+   "ID000071-001",
+   "Stibnite",
+   "Sb",
+   124,
+   "1,500"
+  ],
+  [
+   4,
+   "known",
+   "AK000001-006",
+   "Red Dog",
+   "Zn",
+   74,
+   "67,600"
+  ],
+  [
+   5,
+   "known",
+   "UT000002-003",
+   "Bingham",
+   "Cu",
+   10,
+   "16,600"
+  ],
+  [
+   6,
+   "extreme, highest CMI",
+   "MT000005-005",
+   "Berkeley Pit",
+   "Te",
+   2,
+   "1,197.5"
+  ],
+  [
+   7,
+   "extreme, highest HHI (cancer-based As)",
+   "MT000005-005",
+   "Berkeley Pit",
+   "As",
+   4,
+   "12,900"
+  ],
+  [
+   8,
+   "extreme, lowest HHI",
+   "NM000009-001",
+   "HB Mine",
+   "Pb",
+   1,
+   "5"
+  ],
+  [
+   9,
+   "extreme, largest EF overall",
+   "AZ000017-010",
+   "Silver Bell",
+   "Bi",
+   2,
+   "15,001.6"
+  ],
+  [
+   10,
+   "random (seed 42)",
+   "ID000017-001",
+   "Golden Chest",
+   "Ag",
+   9,
+   "2.5"
+  ],
+  [
+   11,
+   "random (seed 42)",
+   "NV000009-002",
+   "Minnesota Mine",
+   "Cu",
+   7,
+   "500"
+  ],
+  [
+   12,
+   "random (seed 42)",
+   "AZ000024-002",
+   "Moss",
+   "Ag",
+   11,
+   "7"
+  ],
+  [
+   13,
+   "random (seed 42)",
+   "AZ000005-001",
+   "Sierrita-Esperanza",
+   "Re",
+   2,
+   "0.157"
+  ],
+  [
+   14,
+   "random (seed 42)",
+   "NM000002-002",
+   "Continental Mine",
+   "In",
+   5,
+   "3.2"
+  ]
+ ],
+ "a4": [
+  [
+   "AK",
+   27,
+   1,
+   25,
+   0,
+   25,
+   0,
+   0
+  ],
+  [
+   "AZ",
+   197,
+   41,
+   155,
+   16,
+   24,
+   48,
+   0
+  ],
+  [
+   "CA",
+   11,
+   2,
+   11,
+   0,
+   3,
+   4,
+   0
+  ],
+  [
+   "CO",
+   17,
+   13,
+   16,
+   0,
+   3,
+   0,
+   1
+  ],
+  [
+   "ID",
+   174,
+   71,
+   170,
+   0,
+   24,
+   0,
+   9
+  ],
+  [
+   "IL",
+   2,
+   1,
+   2,
+   0,
+   2,
+   0,
+   0
+  ],
+  [
+   "KS",
+   179,
+   8,
+   86,
+   31,
+   27,
+   0,
+   32
+  ],
+  [
+   "KY",
+   25,
+   7,
+   6,
+   9,
+   0,
+   3,
+   0
+  ],
+  [
+   "MI",
+   35,
+   17,
+   18,
+   2,
+   0,
+   2,
+   2
+  ],
+  [
+   "MO",
+   26,
+   11,
+   17,
+   0,
+   9,
+   2,
+   0
+  ],
+  [
+   "MT",
+   79,
+   29,
+   55,
+   4,
+   31,
+   4,
+   11
+  ],
+  [
+   "NC",
+   69,
+   25,
+   49,
+   11,
+   1,
+   6,
+   0
+  ],
+  [
+   "NM",
+   67,
+   14,
+   51,
+   6,
+   3,
+   12,
+   0
+  ],
+  [
+   "NV",
+   191,
+   32,
+   171,
+   1,
+   67,
+   12,
+   13
+  ],
+  [
+   "NY",
+   47,
+   9,
+   25,
+   14,
+   11,
+   2,
+   0
+  ],
+  [
+   "OK",
+   110,
+   2,
+   77,
+   8,
+   23,
+   0,
+   47
+  ],
+  [
+   "OR",
+   19,
+   5,
+   2,
+   16,
+   0,
+   0,
+   0
+  ],
+  [
+   "SD",
+   42,
+   5,
+   13,
+   8,
+   25,
+   0,
+   2
+  ],
+  [
+   "UT",
+   67,
+   21,
+   62,
+   3,
+   40,
+   4,
+   2
+  ],
+  [
+   "VA",
+   102,
+   24,
+   25,
+   44,
+   0,
+   17,
+   0
+  ],
+  [
+   "WA",
+   4,
+   1,
+   4,
+   0,
+   4,
+   0,
+   0
+  ],
+  [
+   "WI",
+   1,
+   1,
+   0,
+   1,
+   0,
+   0,
+   0
+  ],
+  [
+   "WY",
+   7,
+   3,
+   6,
+   0,
+   3,
+   3,
+   0
+  ],
+  [
+   "Total",
+   1498,
+   343,
+   1046,
+   174,
+   325,
+   119,
+   119
+  ]
+ ]
+}

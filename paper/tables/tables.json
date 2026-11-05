@@ -1,0 +1,253 @@
+{
+  "top_sites_AB": [
+    {
+      "rank": 1,
+      "site": "Eureka Mills",
+      "state": "UT",
+      "conf": "B",
+      "cmi": 14.7,
+      "hhi": "970",
+      "crit": "Te 30000x; Pb 9620x; Ag 9434x; In 2125x; Zn 469x",
+      "haz": "Pb 885x; Cd 56x; Tl 26x; Zn 1.3x; Ag 1.3x"
+    },
+    {
+      "rank": 3,
+      "site": "Berkley Pit",
+      "state": "MT",
+      "conf": "B",
+      "cmi": 15.0,
+      "hhi": "439",
+      "crit": "Te 23950x; Cu 4503x; W 2500x; As 2304x; Sb 2025x",
+      "haz": "As 369x; Sb 40x; Cu 25x; V 2.6x; Tl 1.3x"
+    },
+    {
+      "rank": 5,
+      "site": "Butte Reduction Works",
+      "state": "MT",
+      "conf": "B",
+      "cmi": 13.7,
+      "hhi": "355",
+      "crit": "Pb 2848x; Zn 1421x; Ag 1330x; Re 505x; Te 102x",
+      "haz": "Pb 262x; Cd 73x; Mn 14x; Zn 4.0x; As 1.1x"
+    },
+    {
+      "rank": 6,
+      "site": "Tybo",
+      "state": "NV",
+      "conf": "B",
+      "cmi": 13.4,
+      "hhi": "386",
+      "crit": "Ag 1887x; As 1786x; Pb 815x; Sb 246x; Bi 118x",
+      "haz": "As 286x; Pb 75x; Cd 18x; Sb 4.8x; Mn 1.1x"
+    },
+    {
+      "rank": 7,
+      "site": "Continental Mine",
+      "state": "MT",
+      "conf": "B",
+      "cmi": 14.6,
+      "hhi": "148",
+      "crit": "Cu 7147x; Ag 3755x; Bi 888x; Te 782x; As 640x",
+      "haz": "As 102x; Cu 39x; Pb 2.6x; Sb 1.1x"
+    },
+    {
+      "rank": 8,
+      "site": "Treasure Hill",
+      "state": "NV",
+      "conf": "A",
+      "cmi": 13.5,
+      "hhi": "154",
+      "crit": "Ag 14151x; Sb 2508x; Pb 986x; In 435x; Sn 71x",
+      "haz": "Pb 91x; Sb 49x; As 11x; Ag 1.9x"
+    },
+    {
+      "rank": 10,
+      "site": "Red Dog",
+      "state": "AK",
+      "conf": "A",
+      "cmi": 13.2,
+      "hhi": "176",
+      "crit": "Zn 1056x; Ag 774x; Pb 472x; Sb 273x; Bi 147x",
+      "haz": "Cd 92x; Pb 43x; Tl 26x; Sb 5.4x; Zn 2.9x"
+    },
+    {
+      "rank": 11,
+      "site": "Ely Valley",
+      "state": "NV",
+      "conf": "B",
+      "cmi": 12.8,
+      "hhi": "247",
+      "crit": "Pb 1902x; Zn 469x; Ag 425x; W 238x; Bi 136x",
+      "haz": "Pb 175x; Cd 52x; As 18x; Zn 1.3x"
+    },
+    {
+      "rank": 11,
+      "site": "Mission Complex",
+      "state": "AZ",
+      "conf": "B",
+      "cmi": 12.6,
+      "hhi": "270",
+      "crit": "Pb 2717x; Ag 377x; Cu 319x; Bi 304x; Zn 105x",
+      "haz": "Pb 250x; Cd 14x; Cu 1.8x; Co 1.3x; Mn 1.2x"
+    },
+    {
+      "rank": 13,
+      "site": "Burgin",
+      "state": "UT",
+      "conf": "B",
+      "cmi": 13.1,
+      "hhi": "185",
+      "crit": "In 3450x; Pb 1087x; As 357x; Ag 302x; Zn 109x",
+      "haz": "Pb 100x; As 57x; Cd 14x; Tl 11x; Mn 2.8x"
+    },
+    {
+      "rank": 17,
+      "site": "Bingham",
+      "state": "UT",
+      "conf": "A",
+      "cmi": 12.6,
+      "hhi": "124",
+      "crit": "Cu 976x; As 340x; Bi 321x; Pb 244x; In 144x",
+      "haz": "As 54x; Pb 22x; Mo 17x; Tl 13x; Cu 5.4x"
+    },
+    {
+      "rank": 18,
+      "site": "Magmont",
+      "state": "MO",
+      "conf": "B",
+      "cmi": 9.8,
+      "hhi": "357",
+      "crit": "Pb 3804x; Ag 566x; Cu 41x; Co 18x; Ni 16x",
+      "haz": "Pb 350x; Co 6.5x"
+    },
+    {
+      "rank": 19,
+      "site": "Pittsmont Mine",
+      "state": "MT",
+      "conf": "B",
+      "cmi": 13.9,
+      "hhi": "66.7",
+      "crit": "Te 2920x; W 2038x; Ag 679x; Sb 416x; Pb 295x",
+      "haz": "Pb 27x; As 18x; Sb 8.2x; Mn 5.9x; Cd 2.5x"
+    },
+    {
+      "rank": 20,
+      "site": "Resolution Copper",
+      "state": "AZ",
+      "conf": "B",
+      "cmi": 14.0,
+      "hhi": "63.5",
+      "crit": "Cu 9941x; Ag 6642x; Bi 4035x; Te 2485x; Sb 108x",
+      "haz": "Cu 55x; As 3.7x; Sb 2.1x"
+    },
+    {
+      "rank": 21,
+      "site": "Ray",
+      "state": "AZ",
+      "conf": "A",
+      "cmi": 14.3,
+      "hhi": "56.4",
+      "crit": "Bi 7191x; Ag 2708x; Cu 2321x; In 502x; Sb 369x",
+      "haz": "As 15x; Pb 14x; Cu 13x; Sb 7.3x; Cd 2.5x"
+    }
+  ],
+  "largest_unsampled": [
+    {
+      "id": "NM000003-005",
+      "site": "Chino",
+      "state": "NM",
+      "type": "Tailings - pond",
+      "area": 3.62,
+      "commodity": "copper (2); gold (2); molybdenum (2); silver (2)"
+    },
+    {
+      "id": "AZ000008-005",
+      "site": "Morenci",
+      "state": "AZ",
+      "type": "Tailings - pond",
+      "area": 3.33,
+      "commodity": "copper; molybdenum"
+    },
+    {
+      "id": "AZ000008-019",
+      "site": "Morenci",
+      "state": "AZ",
+      "type": "Tailings - pond",
+      "area": 3.22,
+      "commodity": "copper (1); molybdenum (1)"
+    },
+    {
+      "id": "NC000001-010",
+      "site": "Nutrien Aurora",
+      "state": "NC",
+      "type": "Settling pond",
+      "area": 3.16,
+      "commodity": "phosphate rock (1)"
+    },
+    {
+      "id": "AZ000016-006",
+      "site": "Safford",
+      "state": "AZ",
+      "type": "Waste rock stockpile",
+      "area": 3.15,
+      "commodity": "copper; sulfuric acid"
+    },
+    {
+      "id": "AZ000011-001",
+      "site": "Bisbee",
+      "state": "AZ",
+      "type": "Tailings - pond",
+      "area": 2.78,
+      "commodity": "copper (2); gold (2); lead (2); manganese (2); silver (2); sulfuric acid (2); zinc (2)"
+    },
+    {
+      "id": "AZ000013-001",
+      "site": "New Cornelia Mine",
+      "state": "AZ",
+      "type": "Tailings - pond",
+      "area": 2.56,
+      "commodity": "copper (1); gold (1); molybdenum (1); silver (1)"
+    },
+    {
+      "id": "NY000001-001",
+      "site": "Benson",
+      "state": "NY",
+      "type": "Tailings - pond",
+      "area": 2.47,
+      "commodity": "iron"
+    },
+    {
+      "id": "AZ000016-003",
+      "site": "Safford",
+      "state": "AZ",
+      "type": "Leach pile - heap",
+      "area": 2.12,
+      "commodity": "copper; sulfuric acid"
+    },
+    {
+      "id": "AZ000008-001",
+      "site": "Morenci",
+      "state": "AZ",
+      "type": "Tailings - pond",
+      "area": 1.99,
+      "commodity": "copper; molybdenum"
+    }
+  ],
+  "elements_ef5": {
+    "Pb": 425,
+    "Ag": 418,
+    "Cu": 414,
+    "Zn": 400,
+    "As": 266,
+    "Sb": 228,
+    "In": 216,
+    "Te": 182,
+    "W": 154,
+    "Sn": 146
+  },
+  "bg_source_counts": {
+    "USGS soil (Geochemical Landscapes) median": 47,
+    "Upper continental crust (Rudnick and Gao 2014)": 24,
+    "USGS soil median, mostly nondetect (upper bound; EF conservative)": 1
+  }
+}

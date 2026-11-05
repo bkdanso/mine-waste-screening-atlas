@@ -1,0 +1,61 @@
+mineral,species,note
+Aluminum,Al,
+Antimony,Sb,
+Arsenic,As,
+Barite,Ba,proxy: barium
+Beryllium,Be,
+Bismuth,Bi,
+Boron,B,
+Cerium,Ce,rare earth
+Cesium,Cs,
+Chromium,Cr,
+Cobalt,Co,
+Copper,Cu,
+Dysprosium,Dy,rare earth
+Erbium,Er,rare earth
+Europium,Eu,rare earth
+Fluorspar,F,proxy: fluorine
+Gadolinium,Gd,rare earth
+Gallium,Ga,
+Germanium,Ge,
+Graphite,,not measurable as an element in source data
+Hafnium,Hf,
+Holmium,Ho,rare earth
+Indium,In,
+Iridium,Ir,
+Lanthanum,La,rare earth
+Lead,Pb,
+Lithium,Li,
+Lutetium,Lu,rare earth
+Magnesium,Mg,
+Manganese,Mn,
+Metallurgical coal,,not measurable as an element in source data
+Neodymium,Nd,rare earth
+Nickel,Ni,
+Niobium,Nb,
+Palladium,Pd,
+Phosphate,P,proxy: phosphorus
+Platinum,Pt,
+Potash,K,proxy: potassium
+Praseodymium,Pr,rare earth
+Rhenium,Re,
+Rhodium,Rh,
+Rubidium,Rb,
+Ruthenium,Ru,
+Samarium,Sm,rare earth
+Scandium,Sc,
+Silicon,Si,
+Silver,Ag,
+Tantalum,Ta,
+Tellurium,Te,
+Terbium,Tb,rare earth
+Thulium,Tm,rare earth
+Tin,Sn,
+Titanium,Ti,
+Tungsten,W,
+Uranium,U,
+Vanadium,V,
+Ytterbium,Yb,rare earth
+Yttrium,Y,
+Zinc,Zn,
+Zirconium,Zr,

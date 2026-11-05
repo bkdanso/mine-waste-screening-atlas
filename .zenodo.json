@@ -1,0 +1,43 @@
+{
+  "title": "A National Screening Framework for Critical Mineral Potential and Heavy-Metal Hazard in U.S. Mine Waste: Dataset and Atlas (v0.1.0)",
+  "upload_type": "dataset",
+  "description": "Screening dataset and interactive atlas ranking the 1,498 features of the USGS National Mine Waste Inventory v2.0 (October 2026) for critical-mineral enrichment and heavy-metal hazard, using public USGS geochemical samples (Granitto and others, 2026) within 2 km of each feature, U.S. soil background, EPA residential soil screening levels, and the Final 2025 U.S. List of Critical Minerals. Includes per-feature and per-site ranked tables, per-element enrichment and hazard values, quality report, code, and manuscript. Screening tool only; not a resource estimate or risk assessment.",
+  "creators": [
+    {
+      "name": "Danso, Bezali Kwame",
+      "orcid": "0009-0006-1201-4129",
+      "affiliation": "Independent Researcher, East Lansing, Michigan, USA"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "version": "0.1.0",
+  "keywords": [
+    "mine waste",
+    "tailings",
+    "critical minerals",
+    "geochemistry",
+    "Earth MRI",
+    "heavy metals",
+    "National Mine Waste Inventory",
+    "screening"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5066/P148EEUA",
+      "relation": "isDerivedFrom",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5066/P1FXE9GK",
+      "relation": "isDerivedFrom",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://github.com/bkdanso/mine-waste-screening-atlas",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "publication_date": "2026-11-05",
+  "access_right": "open"
+}

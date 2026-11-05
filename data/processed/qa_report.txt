@@ -1,0 +1,80 @@
+QA REPORT: U.S. Mine Waste Critical Mineral Screening Atlas
+========================================================================
+
+1. ROW COUNTS
+  nmwi_points                             1,498
+  nmwi_polygons                           1,498
+  nmwi_unique_ftr_id                      1,498
+  nmwi_sites                                343
+  nmwi_states                                23
+  geochem_samples_total               1,524,014
+  geochem_excluded_class                 10,273
+  geochem_excluded_concentrate               91
+  geochem_samples_eligible            1,513,650
+  link_pairs                             85,172
+  linked_samples_unique                  19,053
+  chem_rows_linked_best                 725,001
+  linked_samples_with_chem               19,053
+  background_samples                     21,479
+  background_species                         55
+  output feature rows                     1,498  (expect 1,498)
+  output site rows                          343  (expect 343)
+
+2. MATCH RATES
+  features with >=1 sample within 1 km : 1,046 (69.8%)
+  features with >=1 sample within 2 km : 1,324 (88.4%)
+  features with no sample within 2 km  : 174 (11.6%)
+  unsampled features by state         : VA 44, KS 31, AZ 16, OR 16, NY 14, NC 11, KY 9, SD 8, OK 8, NM 6, MT 4, UT 3, MI 2, NV 1, WI 1
+  confidence grades                    : {'B': 600, 'C': 515, 'A': 209, 'U': 174}
+  features with >=1 on-waste sample <=2 km: 343
+
+3. RANGE AND SANITY CHECKS
+  CMI            min         0  median      4.21  max        15  missing 0
+  CMI_nonhazard  min         0  median       2.2  max      13.5  missing 0
+  log10_HHI      min     -1.42  median     0.463  max      3.17  missing 0
+  n_exceed       min         0  median         1  max         8  missing 0
+  n_samples      min         1  median         6  max       973  missing 0
+  nearest_m      min         0  median       326  max  1.99e+03  missing 0
+  element values hitting the 1000x enrichment cap: 328 of 61,988
+  critical element medians set aside as nondetect: 15,033 (top: {'W': 848, 'Ag': 838, 'Bi': 810, 'Sn': 796, 'Ta': 721, 'Sb': 634})
+
+4. VALIDATION: DOES THE SCORE FIND THE METAL EACH MINE PRODUCED?
+  features with a listed metal commodity measured nearby: 1,066
+  ... at least one commodity metal enriched >=5x over background: 851 (79.8%)
+
+5. SENSITIVITY TESTS
+  V3 default arsenic RSL = noncancer 35 mg/kg (author decision). Alternative cancer 0.68 mg/kg: Spearman rho of HHI = 0.925; top-100 overlap = 58
+  median share of HHI contributed by arsenic: default 9.3%; with cancer RSL 84.1%
+  CMI vs CMI without the 13 hazard-list metals: Spearman rho = 0.598
+  V2 median vs maximum value per element: Spearman rho of CMI = 0.729
+  CMI vs HHI correlation across scored features: Spearman rho = 0.797
+
+6. NAMED SPOT CHECKS (author verifies by hand; see docs/VERIFY_CHECKLIST.md)
+  Tar Creek    site OK000001 rank 23  priority Dual  conf C
+      top critical: Zn 7254x; In 105x; Ge 36x; Te 32x; Ga 16x
+      top hazard  : Cd 865x; Zn 20x; Hg 1.0x
+  Stibnite     site ID000071 rank 26  priority Dual  conf A
+      top critical: Sb 2459x; As 268x; Re 177x; W 125x; Ag 38x
+      top hazard  : Sb 48x; As 43x
+  Red Dog      site AK000001 rank 10  priority Dual  conf A
+      top critical: Zn 1056x; Ag 774x; Pb 472x; Sb 273x; Bi 147x
+      top hazard  : Cd 92x; Pb 43x; Tl 26x; Sb 5.4x; Zn 2.9x
+  Bingham      site UT000002 rank 17  priority Dual  conf A
+      top critical: Cu 976x; As 340x; Bi 321x; Pb 244x; In 144x
+      top hazard  : As 54x; Pb 22x; Mo 17x; Tl 13x; Cu 5.4x
+  Berkley Pit  site MT000005 rank 3  priority Dual  conf B
+      top critical: Te 23950x; Cu 4503x; W 2500x; As 2304x; Sb 2025x
+      top hazard  : As 369x; Sb 40x; Cu 25x; V 2.6x; Tl 1.3x
+  largest unsampled features (sampling gaps):
+      NM000003-005 Chino (NM) Tailings - pond, 3.62 km2
+      AZ000008-005 Morenci (AZ) Tailings - pond, 3.33 km2
+      AZ000008-019 Morenci (AZ) Tailings - pond, 3.22 km2
+      NC000001-010 Nutrien Aurora (NC) Settling pond, 3.16 km2
+      AZ000016-006 Safford (AZ) Waste rock stockpile, 3.15 km2
+
+7. THRESHOLD COUNTS QUOTED IN DOCUMENTS
+  priority (features): {'Lower': 761, 'Dual': 325, 'Unsampled': 174, 'Hazard': 119, 'Resource': 119}
+  priority (sites)   : {'Lower': 192, 'Dual': 84, 'Resource': 30, 'Unsampled': 24, 'Hazard': 13}
+  CMI cut (top third) = 5.631; log10 HHI cut = 0.808
+  scored features with >=1 metal over its RSL (excluding As): 693
+  scored features with median Pb >= 200 mg/kg (RSL): 338

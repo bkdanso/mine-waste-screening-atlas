@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this dataset or atlas, please cite it as below."
+type: dataset
+title: "A National Screening Framework for Critical Mineral Potential and Heavy-Metal Hazard in U.S. Mine Waste: Dataset and Atlas"
+version: "0.1.0"
+date-released: "2026-11-05"
+authors:
+  - family-names: "Danso"
+    given-names: "Bezali Kwame"
+    orcid: "https://orcid.org/0009-0006-1201-4129"
+    affiliation: "Independent Researcher, East Lansing, Michigan, USA"
+license: CC-BY-4.0
+repository-code: "https://github.com/bkdanso/mine-waste-screening-atlas"
+url: "https://bkdanso.github.io/mine-waste-screening-atlas/atlas/"
+doi: "10.5281/zenodo.23986699"
+abstract: "Screening of the 1,498 features in the USGS National Mine Waste Inventory v2.0 for critical-mineral enrichment and heavy-metal hazard using public USGS geochemical samples within 2 km."
+keywords:
+  - mine waste
+  - tailings
+  - critical minerals
+  - geochemistry
+  - Earth MRI
+  - heavy metals
+references:
+  - type: dataset
+    title: "National mine waste inventory (ver. 2.0, October 2026)"
+    authors: [{name: "U.S. Geological Survey"}]
+    doi: "10.5066/P148EEUA"
+  - type: dataset
+    title: "Geochemical data for rock, sediment, soil, and mineral samples, United States and territories, 1962 to 2023"
+    authors: [{family-names: Granitto, given-names: M.}]
+    doi: "10.5066/P1FXE9GK"

@@ -1,0 +1,15 @@
+check,kind,Ftr_ID,site,state,element,tier_used,n_samples_with_element,table_median_ppm,background_ppm,table_EF,table_HQ,lat,lon
+1,known,OK000001-003,Tar Creek,OK,Cd,1,2,6145,0.2,30725,865.493,36.9646,-94.8638
+2,known,OK000001-003,Tar Creek,OK,Ge,1,2,50.5,1.4,36.0714,,36.9646,-94.8638
+3,known,ID000071-001,Stibnite,ID,Sb,1,124,1500,0.61,2459.02,48.3871,44.8983,-115.337
+4,known,AK000001-006,Red Dog,AK,Zn,1,74,67600,64,1056.25,2.93913,68.0614,-162.837
+5,known,UT000002-003,Bingham,UT,Cu,1,10,16600,17,976.471,5.35484,40.7226,-112.212
+6,extreme: highest CMI,MT000005-005,Berkley Pit,MT,Te,1,2,1197.5,0.05,23950,,46.0263,-112.488
+7,extreme: highest HHI (cancer As),MT000005-005,Berkley Pit,MT,As,1,4,12900,5.6,2303.57,368.571,46.0263,-112.488
+8,extreme: lowest HHI,NM000009-001,HB Mine,NM,Pb,1,1,5,18.4,,,32.5934,-103.976
+9,extreme: largest EF overall,AZ000017-010,Silver Bell,AZ,Bi,1,2,15001.6,0.17,88244.7,,32.4103,-111.549
+10,random (seed 42),ID000017-001,Golden Chest,ID,Ag,1,9,2.5,0.053,47.1698,0.00641026,47.6218,-115.825
+11,random (seed 42),NV000009-002,Minnesota Mine,NV,Cu,1,7,500,17,29.4118,0.16129,39.0671,-119.34
+12,random (seed 42),AZ000024-002,Moss,AZ,Ag,1,11,7,0.053,132.075,0.0179487,35.0947,-114.439
+13,random (seed 42),AZ000005-001,Sierrita-Esperanza,AZ,Re,1,2,0.1565,0.000198,790.404,,31.8641,-111.071
+14,random (seed 42),NM000002-002,Continental Mine,NM,In,1,5,3.2,0.04,80,,32.836,-108.09
